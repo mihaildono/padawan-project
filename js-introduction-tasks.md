@@ -68,7 +68,7 @@ input -> array(exclude), array(arr)
 output -> arr
 
 -----------------------------
-Zip!
+Zip! // Use only two arrays as beginner challenge
 Implement a function, called zip which takes a various number of arguments - all lists.
 
 The function returns a new list, which merges together the values of each of the arrays with the values at the corresponding position.
@@ -84,8 +84,14 @@ var zip = function() {
 Example:
 
 console.log(zip([1, 2, 3], [4, 5, 6]));
-// [ [1, 4], [2, 4], [3, 6] ]
+// [ [1, 4], [2, 5], [3, 6] ]
 
-console.log(zip([1, 2, 3], [4, 5, 6], [7, 8, 9]));
-// [ [1, 4, 7], [2, 4, 8], [3, 6, 9] ]
+sub-tasks:
+1. take same index of both arrays
+2. loop through arrays
+
+
+input -> arr1(array), arr2(array)
+output -> merge from arrays(array[arrays])
+
 -----------------------------
