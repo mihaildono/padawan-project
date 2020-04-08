@@ -1,5 +1,9 @@
 This is to be done with a mentor
 
+* Install Nodejs
+  https://nodejs.org/en/
+  - type node in terminal to open REPL
+
 Data structures:
  * Array: arr = [69, 31, 56, 76, 22] // TOTO Joker -> 0, 1, 2...
   - arr[0] => 69
