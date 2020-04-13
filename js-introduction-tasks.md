@@ -18,9 +18,8 @@ The function returns true if element is present in arr. Otherwise - false
 
 sub-tasks
 
-1. Loop(обхождане)
 2. if(element !== arr[i]) return false -> not all elements present // arr[i] === element
-3. return true else
+3. else return true
 
 input -> number(integer), arr(array)
 output -> boolean
@@ -38,9 +37,7 @@ The function returns a list of integers, staring with from and finishing with to
 For example range(1,10) would give us the [1,2,3,4,5,6,7,8,9,10] list.
 
 sub-tasks:
-1. starting point(from)
-2. ending point(to)
-3. loop
+1. loop starting point(from) ending point(to)
 
 input -> from(integer), to(integer)
 output -> array
@@ -60,8 +57,7 @@ For example:
 console.log(without([5,6], [1,2,3,4,5,6]); // [1,2,3,4]
 
 sub-tasks:
-1. loop through exclude
-2. exclude loop inside arr
+1. compare element form exclude with arr
 3. if element is different add to result else skip
 
 input -> array(exclude), array(arr)
@@ -87,7 +83,7 @@ console.log(zip([1, 2, 3], [4, 5, 6]));
 // [ [1, 4], [2, 5], [3, 6] ]
 
 sub-tasks:
-1. take same index of both arrays
+1. take same index of both arrays and push to result as array
 2. loop through arrays
 
 
