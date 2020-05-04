@@ -2,10 +2,6 @@ const contains = (number, arr) => {
     let result = false
 
     arr.forEach(element => {
-    console.log(number)
-    console.log(element)
-    console.log(number === element)
-    console.log('Number is', number)
         if (number === element) {
             result = true
         }
@@ -13,6 +9,10 @@ const contains = (number, arr) => {
 
     return result
 };
+
+const contains = function (element, arr) {
+    return arr.includes(element)
+}
 
 contains(1, [1, 2, 3, 4]) => true
 contains(1, [2, 3, 4]) => false
@@ -27,6 +27,10 @@ const range = (from, to) => {
 
     return result
 };
+
+var range = function (from, to) {
+    return Array.from({ length: to - from + 1 }, (_, i) => i + 1)
+}
 
 -----------------------------
 
@@ -47,6 +51,10 @@ const without = (exclude, arr) => {
     return result
 }
 
+var without = function (exclude, arr) {
+    return arr.filter(x => !exclude.includes(x))
+}
+
 -----------------------------
 
 const zip = (arr1, arr2) => {
@@ -57,3 +65,5 @@ const zip = (arr1, arr2) => {
 
     return result
 }
+
+var zip = (...args) => args[0].map((_, index) => args.map(arr => arr[index]))
