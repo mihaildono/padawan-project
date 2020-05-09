@@ -1,7 +1,7 @@
 1. Virtual DOM
 - collection of js object that map out the real DOM
 
-JSX
+2. JSX
 onClick -> listener for events
 <CustomElement onClick={onClickFunction}>hello</CustomElement> => {
     name: 'Custom Element', type: react-element, children: {
@@ -15,11 +15,13 @@ element.addListener(onClickFunction) or smt
 
 Used for SPA applicaitons as ajax abstraction
 
-Lifecycle of a component:
+3. Lifecycle of a component:
 Mount -> initialize state
 CheckProps -> check if props exist
 render -> display data
 Update -> modify state
 Unmount -> close component -> remove timers
 
-Babel/Webpack
+4. Babel/Webpack
+
+5. Explain Redux
