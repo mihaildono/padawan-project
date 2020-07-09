@@ -20,3 +20,6 @@ Student and mentor motivation is free. Do not start it, if you intend not to fin
 This project will always be free.
 
 Please try to improve the documents as much as possible, and share your experiences via PRs or email at: mihailgeorgiev94@gmail.com
+
+## TODO:
+Add contents with links for each chapter
