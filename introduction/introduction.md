@@ -14,27 +14,6 @@ $ node
 ```sh
 $ node path/to/file/file.js
 ```
-# Vocabulary
-* Declaration
-This is where you intially define a piece of code.
-* Implementation
-How the piece of code is implemented(written down)
-* Iterate
-Go through all items of a collection
-* Primitives
-Most basic piece of informational building block eg.: 1, 'George'
-* Variable
-Storage for information
-* Paramater
-A variable which is not being defined by the function, but passed to from another piece of code
-* Block({})
-This encloses definitions of variables. If we have variable `i = 10` in one block, in another it would equal `undefined`, unless redefined
-* Data structure
-A set of structured data of primitives
-
-# Common pitfalls
-* Always return something
-* index in a for loop, does not actually take an item, but rather points towars the current item
 
 # Functions
 Functions are a collection of code that we want to reuse.
@@ -44,8 +23,11 @@ There are two ways to define a function:
 2. function <name>(<params>) {}
 
 Throughout the project the student will use the first way.
-`const` is a language keyword which means we `define` a new `variable`. Then we have the function name, followed by `=` and the `paramaters` enclosed in parantheses. Finally we have the special syntax `=>`: this is called an arrow function. The `{}` is a `block` scope.
-This is a sample function which sums two numbers:
+`const` is a language keyword which means we `define` a new `variable`. Then we
+have the function name, followed by `=` and the `paramaters` enclosed in
+parantheses. Finally we have the special syntax `=>`: this is called an arrow
+function. The `{}` is a `block` scope.
+This is a sample function which sums two numbers():
 ```js
 const add = (a, b) => {
     return a + b
@@ -53,8 +35,12 @@ const add = (a, b) => {
 
 add(5, 6) => 11
 ```
+The example file in this directory contains the same code, to run it use:
+```sh
+$ node example.js
+```
 To exercise the syntax we can write down a few simple functions:
-1. Celsius to Fahrenheir converter
+1. Celsius to Fahrenheit converter
 2. Character multiplicator by 10:
 Input: 'a'
 Output: 'aaaaaaaaaa'
@@ -77,12 +63,12 @@ if (name === 'Foo') {
 }
 ```
 
-Excersises:
+Exercises:
 1. Check if a number is even or not
 2. Check if word begins with 'F'
 
 # Debugging
-1. put keyword `debugger` in code
+1. put keyword `debugger` in code and execute the file(works for server applications).
 2. put `console.log()`
 3. Execute single expressions in console using `node` or press F12 in browser to open console.
 
@@ -124,7 +110,7 @@ Exercises:
 Run through the following [exercises][exArr]
 
 # Object
-Some times we want to access a specific value in a data structure, and not just store elements in a random unorganized way like arrays. This is where objects come in. Here we define a `key` and a `value`. Behind every `key` we can select, there is a `value` that we can access:
+Sometimes we want to access a specific value in a data structure, and not just store elements in a random unorganized way like arrays. This is where objects come in. Here we define a `key` and a `value`. Behind every `key` we can select, there is a `value` that we can access:
 obj = { <key1>: <value1>, <key2>: <value2> }
 ```js
 const people = { 'George': 'male', 'Maria': 'female' }
@@ -144,6 +130,30 @@ obj.values // ['male', 'female', 'female']
 ```
 
 Run through the following [exercises][exObj]
+
+# Common pitfalls
+* Always return something
+* Index in a for loop, does not actually take an item, but rather points towards
+  the current item
+* Map is very confusing when first switched form for loop. Repetition is key!
+
+# Vocabulary
+* Declaration
+This is where you intially define a piece of code.
+* Implementation
+How a piece of code is implemented(written down)
+* Iterate
+Go through all items of a collection
+* Primitives
+Most basic piece of informational building block eg.: 1, 'George'
+* Variable
+Storage element for information
+* Paramater
+A variable which is not being defined by the function, but passed to from another piece of code
+* Block({})
+This encloses definitions of variables. If we have variable `const i = 10` in one block, in another it would equal `undefined`, unless redefined
+* Data structure
+A set of structured data of primitives
 
 [node]: https://nodejs.org/en/
 [vscode]: https://code.visualstudio.com/
