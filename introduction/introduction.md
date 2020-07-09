@@ -116,16 +116,16 @@ obj = { <key1>: <value1>, <key2>: <value2> }
 const people = { 'George': 'male', 'Maria': 'female' }
 people['George'] // male
 people['Maria'] // female
-people['Stefan'] // undefined
-people['Stefan'] = male
-people['Stefan'] // male
-people['Stefan'] = female
-people['Stefan'] // female
+people['Alex'] // undefined
+people['Alex'] = male
+people['Alex'] // male
+people['Alex'] = female
+people['Alex'] // female
 ```
 To get all the keys or values in an array of an object we can use `.keys` and `.values`
 
 ```js
-obj.keys // ['George', 'Maria', 'Stefan']
+obj.keys // ['George', 'Maria', 'Alex']
 obj.values // ['male', 'female', 'female']
 ```
 
