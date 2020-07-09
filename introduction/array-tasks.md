@@ -91,3 +91,5 @@ input -> arr1(array), arr2(array)
 output -> merge from arrays(array[arrays])
 
 -----------------------------
+
+3. Implement map, filter, reduce
