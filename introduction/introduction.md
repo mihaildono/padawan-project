@@ -143,7 +143,10 @@ obj.keys // ['George', 'Maria', 'Stefan']
 obj.values // ['male', 'female', 'female']
 ```
 
+Run through the following [exercises][exObj]
+
 [node]: https://nodejs.org/en/
 [vscode]: https://code.visualstudio.com/
 [repl]: https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop
 [exArr]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/introduction/introduction-tasks.md
+[exObj]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/introduction/introduction-tasks-part-two.md
