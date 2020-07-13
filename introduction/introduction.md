@@ -136,6 +136,8 @@ Run through the following [exercises][exObj]
 * Index in a for loop, does not actually take an item, but rather points towards
   the current item
 * Map is very confusing when first switched form for loop. Repetition is key!
+* Keys for objects and Indexes for arrays, can be used with variables that
+  evaluate to a string/number
 
 # Vocabulary
 * Declaration

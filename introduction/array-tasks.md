@@ -5,7 +5,7 @@ The first iteration of solving the tasks should be done by the mentor, where he 
 1. Learn how to split tasks into sub-tasks
 2. Start with returning what the output is
 
-## Contains
+## contains
 Find element in a list.
 The function returns true if element is present in arr. Otherwise - false
 
@@ -18,7 +18,7 @@ console.log(contains(69, numbers)) // true
 console.log(contains(666, numbers)) // false
 ```
 
-## Range
+## range
 Return a list of integers, staring with from and finishing with to inclusive.
 
 ```js
@@ -28,7 +28,7 @@ console.log(range(1, 10)) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 console.log(range(5, 9)) // [5, 6, 7, 8, 9]
 ```
 
-## Without
+## without
 arr and exclude are lists. The function should return a new list, removing all elements from exclude in arr.
 
 ```js
