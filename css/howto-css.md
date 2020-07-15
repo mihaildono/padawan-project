@@ -122,7 +122,7 @@ Have fun!
 [1]: http://recurse.com
 [2]: https://piratefsh.github.io/assets/images/howtocss/how-to-css_sketch.png
 [3]: https://piratefsh.github.io/assets/images/howtocss/how-to-css_blocks.png
-[4]:
+[4]: https://piratefsh.github.io/assets/images/howtocss/how-to-css_semantic%20tags.png
 [5]: http://codepen.io/piratefsh/pen/EPLwVr/
 [6]: http://codepen.io/piratefsh
 [7]: http://codepen.io
