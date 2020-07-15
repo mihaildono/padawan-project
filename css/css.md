@@ -41,4 +41,14 @@ The following attributes will be learner and should be used:
 
 1. Clone google landing page with profile dropdown
 
+The user sees a web page thinks nothing more. Sometimes he curses at annoying
+ads or some intrusive headers and moves on with his life. From this lesson
+onward you are granted the power to see through `simeple` images of a page, but
+to shape them as you see fit. Head over to `google.com` and press `F12`. In the
+`elements` section you can see the whole layout and styles of each element. You
+can freely modify anything as you see fit!
+
+### Bonus
+Find a page with an ad that blocks the view and remove it, to see the contents.
+
 [css]: https://piratefsh.github.io/how-to/2016/01/27/how-to-think-in-css.html
