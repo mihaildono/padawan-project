@@ -1,3 +1,13 @@
+## Introduction
+
+Usually an application is a combination of different building blocks. This
+course is focused on front-end development, however in order to become good at
+this, one must also delve into the back-end as well.
+
+In this chapter we will learn about the MERN(MongoDB, Express JS, React JS and
+Node JS) stack and basics of back-end development: endpoints, databases, queries and
+deployment.
+
 REST
 
 get /items -> get all items
