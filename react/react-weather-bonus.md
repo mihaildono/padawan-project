@@ -1,3 +1,5 @@
+This is a real interview task for senior front-end developer.
+
 Related screens are in react-weather-bonus.png
 
 Requirements
@@ -78,11 +80,7 @@ to be modular, extensible and following applicable architectural best practices.
 “map” new image-color combinations to weather types (for the “Initial state” of the screen).
 
 Extra Details
-● You will get access to the design assets separately.
 ● You should be able to get all the relevant data from the OpenWeatherMap API, using the “Current
 Weather” and “5 day / 3 hour” API calls.
 ● Please use the JSON output of the APIs.
 ● Please use a git repository and use a working process as you would normally do in day-to-day work.
-● Please keep a timesheet and log how much time you spent for various task-related activities
-(including research, reading docs, etc.)
-● Feel free to ask any and all questions to better understand the requirements.
