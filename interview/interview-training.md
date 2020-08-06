@@ -1,43 +1,60 @@
-Declarations:
-    const => will not change variable
-    let => will change(mutable)
+Interviews contrary to popular belief are not about the technical capabilities
+of the interviewee, but rather how the interviewer will like him. In most jobs
+in the market almost everyone will pass the technical test, which means that
+candidates are filtered based on their likability by the employer. So it is very
+important that the student of this program, also develop his social skills in
+order to secure his place in his dream job. A popular saying in the dev
+community is that a good developer write codes for people, and not just
+machines. Anyone can create a working system, what is important is how this
+system is being managed in time, considering all the people working on it and
+the business that drives it.
 
+## 3 step interview process
+1. HR interview
+   - You will get general information about the company and the role. You may or
+     may not discuss salary and conditions. There may be work experience
+     questions and overview of the CV.
+   - Here is important just to lead a normal conversation and not give off any
+     red flags. Show motivation and willingness to work.
+2. Technical interview/task
+   - Algorithmic task
+   - Small task(eg. todo app)
+   - JS language related questions
+   - Computer Science related questions
+     - program architecture
+     - databases
+     - patterns
+     - testing
 
+## CV
+A good CV must not exceed 1 page, and preferably to be single column.
+Never use standard European format or similar, because it looks unattractive.
+Sample CV template sites are [EnchanCV][enchancv] and
+[VisualCV][visualcv]. There are also example CVs there, which can serve as a
+reference.
 
-
+## Here are some example language specific questions
 What are the differences between var, let and const?
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 What is closure?
 
 What is prototype?
 
 What is hoisting?
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 What are high order functions?
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-How does a Function expression differ from Function declarations?
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 What is the difference between callbacks, promises and async await
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-What happens if you assign a variable without a keyword?
-x = 1
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What happens if you assign a variable without a keyword? `x = 1`
 
 What will be the output and why of the two statements:
 
 console.log(1 + +"2");
 console.log("1" +  2);
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-What will be the output:
+## [Cheatsheet][cheatsheet]
 
-const middle = [1, 2, 3];
-const arr = [0, ...middle, 4];
-console.log(arr)
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-https://www.cyanhall.com/posts/notes/8.javascript-cheatsheet/
 Destructuring Assignment:
 
 let [first, last] = ['first name', 'last name']
@@ -242,3 +259,7 @@ xhr.onreadystatechange = e => {
     //
   })
 }
+
+[enchancv]: https://enhancv.com/
+[visualcv]: https://www.visualcv.com/
+[cheatsheet]: https://www.cyanhall.com/posts/notes/8.javascript-cheatsheet/

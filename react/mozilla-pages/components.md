@@ -1,4 +1,3 @@
-
 [Source](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_components "Permalink to Componentizing our React app - Learn web development | MDN")
 
 # Componentizing our React app - Learn web development | MDN
