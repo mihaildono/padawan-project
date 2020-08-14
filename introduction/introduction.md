@@ -1,5 +1,12 @@
 # Introduction
-The computer thinks in a logical way. Humans do not. The biggest challenges for a developer who is just starting out is learnign basic algorithmic thinking and the related vocabulary. The introduction part of JS is split into two parts - arrays and objects, as those are the basic data structures of the language. There will be sample explanations, but mentors are encouraged to give their own.
+The computer thinks in a logical way. Humans do not. The biggest challenges for
+a developer who is just starting out is learnign basic algorithmic thinking and
+the related vocabulary. The introduction part of JS is split into two parts -
+arrays and objects, as those are the basic data structures of the
+language. There will be sample explanations, but mentors are encouraged to give
+their own.
+
+*Using internet is not advised in this section
 
 # Prerequisites
 * [Install][node] NodeJS
@@ -15,7 +22,7 @@ $ node
 $ node path/to/file/file.js
 ```
 
-# Functions
+## Functions
 Functions are a collection of code that we want to reuse.
 There are two ways to define a function:
 
@@ -26,26 +33,26 @@ Throughout the project the student will use the first way.
 `const` is a language keyword which means we `define` a new `variable`. Then we
 have the function name, followed by `=` and the `paramaters` enclosed in
 parantheses. Finally we have the special syntax `=>`: this is called an arrow
-function. The `{}` is a `block` scope.
+function. The `{}` defines a `block` scope.
 This is a sample function which sums two numbers():
 ```js
 const add = (a, b) => {
     return a + b
 }
 
-add(5, 6) => 11
+add(5, 6) // 11
 ```
 The example file in this directory contains the same code, to run it use:
 ```sh
 $ node example.js
 ```
-To exercise the syntax we can write down a few simple functions:
+####### Exercises
 1. Celsius to Fahrenheit converter
 2. Character multiplicator by 10:
 Input: 'a'
 Output: 'aaaaaaaaaa'
 
-# Conditional Statements:
+## Conditional Statements:
 Some times we want to split the flow of out application depending on the result of an expression. We do this with the keywords `if` and `else`.
 ```js
 If (true) {
@@ -63,16 +70,16 @@ if (name === 'Foo') {
 }
 ```
 
-Exercises:
+####### Exercises
 1. Check if a number is even or not
 2. Check if word begins with 'F'
 
-# Debugging
+## Debugging
 1. put keyword `debugger` in code and execute the file(works for server applications).
 2. put `console.log()`
 3. Execute single expressions in console using `node` or press F12 in browser to open console.
 
-# Arrays
+## Array
 Unordered list of primitive values. We use it when we do not want a specific element, but just to bundle similar items into one place. Array is denoted by the symbols `[]`
 
 Lottary example: [69, 31, 56, 76, 22] -> We want all the numbers, but do not care for the individual
@@ -109,7 +116,7 @@ Exercises:
 
 Run through the following [exercises][exArr]
 
-# Object
+## Object
 Sometimes we want to access a specific value in a data structure, and not just store elements in a random unorganized way like arrays. This is where objects come in. Here we define a `key` and a `value`. Behind every `key` we can select, there is a `value` that we can access:
 obj = { <key1>: <value1>, <key2>: <value2> }
 ```js
@@ -131,7 +138,11 @@ obj.values // ['male', 'female', 'female']
 
 Run through the following [exercises][exObj]
 
-# Common pitfalls
+## Final Exercise
+
+Complete the [final][final] exercise and earn the badge "Mastermind".
+
+### Common pitfalls
 * Always return something
 * Index in a for loop, does not actually take an item, but rather points towards
   the current item
@@ -139,7 +150,7 @@ Run through the following [exercises][exObj]
 * Keys for objects and Indexes for arrays, can be used with variables that
   evaluate to a string/number
 
-# Vocabulary
+### Vocabulary
 * Declaration
 This is where you intially define a piece of code.
 * Implementation
@@ -162,3 +173,4 @@ A set of structured data of primitives
 [repl]: https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop
 [exArr]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/introduction/introduction-tasks.md
 [exObj]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/introduction/introduction-tasks-part-two.md
+[final]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/introduction/snake-task.md
