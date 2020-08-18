@@ -26,7 +26,9 @@ understand more and more of it. For now read through the best
 ## Classes and Objects
 In programming, there is a pattern of grouping common code and creating
 instances of it, that share common methods, but can have different
-attributes. To create the "schema" of a an object, we use the `class`
+attributes. This is called Object Oriented Programming(OOP). There are several more principles to it, but this should suffice. In
+the future, we will actually try to stick to a more `functional` style of
+programming. To create the "schema" of a an object, we use the `class`
 keyword. Attributes are declared in the `constructor` method. And to finally to
 create a new instance we use the `new` keyword. Let's create a sample "schema"
 for a human:

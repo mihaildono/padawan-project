@@ -1,3 +1,6 @@
+Whoa hey there! You found a secret! Solve the following challenges for the
+"señor" badge.
+
 This is a real interview task for senior front-end developer.
 
 Related screens are in react-weather-bonus.png

@@ -24,12 +24,15 @@ Absolute student and mentor motivation is necessary. Do not start it, if you int
 ## Additional notes
 This project will always be free.
 
+All the necessary reading materials also have markdown version in their
+respective folder under `cached`, in case a site goes down.
+
 Please try to improve the documents as much as possible, and share your experiences via PRs or email at: mihailgeorgiev94@gmail.com
 
 ## TODO:
 Add contents with links for each chapter
 Picture of padawan insignia
-Implement a reward system(masterming badge, algorithmic excellence(introduction,
-hidden), TBD testing snake, Sneko in snake). When all introduction badged are
-earned, earn badge "Padawan". When all badges are earned, earn badge "Jedi" //
+Implement a reward system(cable guy mern, Orient express mern, showoff badge in react, Señor - reeact weather, masterming badge, algorithmic excellence(introduction,
+hidden), TBD testing snake, Sneko in snake, tinkerer in css, css trial). When all introduction badged are
+earned, earn badge "Padawan". "Ascendent" for second chapter. When all badges are earned, earn badge "Jedi" //
 appropriate names for badges

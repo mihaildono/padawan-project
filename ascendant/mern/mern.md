@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 Usually an application is a combination of different building blocks. This
 course is focused on front-end development, however in order to become good at
@@ -16,15 +16,19 @@ This time the endpoint is `/friends`. Each endpoint send different data for the
 client to interpret. That being said, a few things happen under the hood. First
 we query data from the database. The database is a system which manages input
 and output of data. After that we serialize the data in a format that can be
-used to be send over http (usually json).
+used to be send over the desired protocol(json).
 
-1. Create basic express backend that supports the endpoints for the react app.
+1. Create a basic express backend that supports the endpoints for the todo react
+app.
 
 An example [tutorial][tutorial] that can be followed.
 
-3. Deploy to aws
+2. Deploy to aws
+
+Complete the tasks to earn the badge "Orient express"
 
 ## BONUS
-Create a babel and webpack config, which transpiles ES6 and lints using airbnb rules
+Create a babel and webpack config, which transpiles ES6 and lints using airbnb
+rules to earn the badge "Cable guy"
 
 [tutorial]: https://www.youtube.com/watch?v=PBTYxXADG_k&list=PLillGF-RfqbbiTGgA77tGO426V3hRF9iE

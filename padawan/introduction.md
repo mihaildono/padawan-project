@@ -138,7 +138,7 @@ obj.values // ['male', 'female', 'female']
 
 Run through the following [exercises][exObj]
 
-## Final Exercise
+## Mastermind Trial
 
 Complete the [final][final] exercise and earn the badge "Mastermind".
 
