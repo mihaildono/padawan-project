@@ -49,7 +49,7 @@ The example file in this directory contains the same code, to run it use:
 ```sh
 $ node example.js
 ```
-####### Exercises
+###### Exercises
 1. Celsius to Fahrenheit converter
 2. Character multiplicator by 10:
 Input: 'a'
@@ -73,7 +73,7 @@ if (name === 'Foo') {
 }
 ```
 
-####### Exercises
+###### Exercises
 1. Check if a number is even or not
 2. Check if word begins with 'F'
 
@@ -114,7 +114,7 @@ for (i = 0; i < 5; i++) {
 
 The construct starts with keyword `for`, then we have 3 parts: start of iteration `i = 0`, then when to stop `i < 5`, and finally how to increment it `i++`(this is the same as to write `i = i + 1`). With this, in the enclosing `block`, we get a variable `i`, which will change it's value 5 times -> 0, 1, 2, 3, 4. Notice that in the brackets `[]`, we can write not only numbers, but also variables, that evaluate to numbers. **IMPORTANT** `for loop` changes the value of `i`, if we want to take the current value of the array we must use `arr[i]`.
 
-Exercises:
+###### Exercises
 1. Create an array with 5 values and console log each value
 2. Console log the previous array in reverse order
 

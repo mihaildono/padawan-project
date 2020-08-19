@@ -6,7 +6,7 @@ const students = [{
   "name" : "George",
   "course" : "JavaScript"
 }, {
-  "name" : "Elena",
+n  "name" : "Elena",
   "course" : "Python"
 }, {
   "name" : "Masen",

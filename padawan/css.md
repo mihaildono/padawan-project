@@ -1,13 +1,4 @@
 # Introduction
-A webpage is constructed of 3 main elements:
-1. CSS(Cascading Style Sheets)
-2. HTML(HyperText Markup Language)
-3. JS(Javascript)
-
-HTML is responsible for the layout of the page.
-CSS is responsible for styling of the layout.
-JS is responsible for what happens when the user interacts with the page.
-
 Previously we learned how create some kind simple of logical behavior, now
 we will learn how to visually create static webpages.
 
@@ -43,17 +34,14 @@ p {
 ```
 
 ## Developer tools
-
-The user sees a web page thinks nothing more. Sometimes he curses at annoying
-ads or some intrusive headers and moves on with his life. From this lesson
-onward you are granted the power to see through 'simple' images of a page, but
+The user sees a web page and thinks nothing more. From this lesson
+onward you are granted the power to see through 'simple' images of a page and
 to shape them as you see fit. Head over to `https://google.com` and press
 `F12`. This opens the developer tools, where you can see and interact with
 relevant information. In the `elements` section you can see the whole layout and
 styles of each element. You can freely modify anything as you see fit!
 
 ## CSS Trial
-
 Clone google landing page, along with the profile dropdown.
 The student must work his way around how to create a html page and how to
 include css in it. To create the layout use `flexbox`.

@@ -1,3 +1,4 @@
+# Introduction
 Previously, we learned about the `individual` elements that make a
 web page. Time to bring them together. Now we will learn about
 `React`. `React` is a library, that makes building SPAs(Single Page
@@ -10,8 +11,7 @@ possible to absorb the needed knowledge for the task.
 
 Complete the following [tutorial][tutorial].
 
-### Trial
-
+## Trial
 1. TODO list
 List all of the created todos in a list.
 You should be able to add, remove and update a task.
@@ -30,11 +30,12 @@ Create a function that sorts by random employee attribute(salary, name...) every
 Combine Todo and Employee in new app with Home as a landing page - use
 ReactRouter
 
-### Final Trial
-
+## Final Trial
 Implement the snake game with canvas and react!
 
 Continuing the previous project, we will use the same js engine from the
 previous chapter and finally build the front-end.
+
+Complete this section to earn the badge "reactive"
 
 [tutorial]: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Introduction

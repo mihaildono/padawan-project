@@ -59,7 +59,6 @@ is, as you will learn more about it in the future.
 
 
 ## Plan
-
 To put an object onto a plane, it needs coordinates. With this in mind we are
 going to design the interactions between the individual elements. In a snake
 game we have at the most basic implementation 3 elements - Board, Snake, Apple.
