@@ -32,7 +32,7 @@ Please try to improve the documents as much as possible, and share your experien
 ## TODO:
 Add contents with links for each chapter
 Picture of padawan insignia
-Implement a reward system(cable guy mern, Orient express mern, showoff badge in react, Señor - reeact weather, masterming badge, algorithmic excellence(introduction,
+Implement a reward system(Objection! objects, force user arrays,cable guy mern, Orient express mern, showoff badge in react, Señor - reeact weather, masterming badge, algorithmic excellence(introduction,
 hidden), TBD testing snake, Sneko in snake, tinkerer in css, css trial). When all introduction badged are
 earned, earn badge "Jedi youngling". "Padawan" for second chapter. When all jedi
 badges are earned, earn badge "Jedi Knight" When all badged are earned, earn badge

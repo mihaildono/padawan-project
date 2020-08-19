@@ -9,7 +9,7 @@ arrays and objects, as those are the basic data structures of the
 language. There will be sample explanations, but mentors are encouraged to give
 their own.
 
-*Using internet is not advised in this section
+*Using internet for help is not advised in this section
 
 # Prerequisites
 * [Install][node] NodeJS
@@ -29,8 +29,8 @@ $ node path/to/file/file.js
 Functions are a collection of code that we want to reuse.
 There are two ways to define a function:
 
-1. const <funcName> = (<param1>, <param2>) => {}
-2. function <name>(<params>) {}
+1. `const <funcName> = (<param1>, <param2>) => {}`
+2. `function <funcName>(<params...>) {}`
 
 Throughout the project the student will use the first way.
 `const` is a language keyword which means we `define` a new `variable`. Then we
@@ -85,7 +85,8 @@ if (name === 'Foo') {
 ## Array
 Unordered list of primitive values. We use it when we do not want a specific element, but just to bundle similar items into one place. Array is denoted by the symbols `[]`
 
-Lottary example: [69, 31, 56, 76, 22] -> We want all the numbers, but do not care for the individual
+Lottary example: [69, 31, 56, 76, 22] -> We want all the elements without
+specific order
 
 To take element of an array: <arrayName>[<number>]
 ```js

@@ -52,3 +52,5 @@ Implement the two functions, and reimplement the tasks with them.
 
 [map]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 [filter]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+Complete this section to earn the badge "Force user"
