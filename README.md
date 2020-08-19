@@ -1,6 +1,6 @@
 # Padawan Project
-> "Truly wonderful, the mind of a child is." <br/>
-> ―Yoda
+> “You will find only what you bring in.” <br/>
+> – Yoda
 
 Teacher constructed program, which aims to bring students to a level equal of a Javascript Frontend Junior Developer.
 
@@ -34,5 +34,11 @@ Add contents with links for each chapter
 Picture of padawan insignia
 Implement a reward system(cable guy mern, Orient express mern, showoff badge in react, Señor - reeact weather, masterming badge, algorithmic excellence(introduction,
 hidden), TBD testing snake, Sneko in snake, tinkerer in css, css trial). When all introduction badged are
-earned, earn badge "Padawan". "Ascendent" for second chapter. When all badges are earned, earn badge "Jedi" //
+earned, earn badge "Jedi youngling". "Padawan" for second chapter. When all jedi
+badges are earned, earn badge "Jedi Knight" When all badged are earned, earn badge
+"jedi guardian"//
 appropriate names for badges
+
+
+ “Difficult to see. Always in motion is the future.” — Yoda
+ “Your path you must decide.” — Yoda

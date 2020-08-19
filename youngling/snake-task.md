@@ -57,24 +57,44 @@ is, as you will learn more about it in the future.
 
 * A method is a function that is "attached" to an object
 
+
 ## Plan
 
-TODO: Kamen plan
-To put an object onto a plane, it needs coordinates.
-1. Board class
-   - size
-2. Snake class
-   - dimensions
-7. create game
-3. Game print snake
-4. create directions
-5. create apple
-6. eat apple
-8. Game lose
-- tests
+To put an object onto a plane, it needs coordinates. With this in mind we are
+going to design the interactions between the individual elements. In a snake
+game we have at the most basic implementation 3 elements - Board, Snake, Apple.
+Each has one of them has coordinates or dimensions. From a functional stand
+point, we need the snake to move around, eat apples. The board needs to display
+itself, check for collisions, spawn apples and begin/end a game.
 
-* Use consts
+```js
+// example project speicification
 
+const POINTS_PER_APPLE
+
+class Board
+- attrs:
+  * snake
+  * apple
+  * score
+-methods
+    * hasCollision
+    * print
+    * spawnApple
+      - hasCollision
+    * isGameOver
+      -hasCollision
+    * gameStart
+Class Apple
+- attrs:
+  * position
+Class Snake
+- attrs:
+  * position
+-methods:
+  * move
+  * grow
+```
 Complete all tasks to earn the badge "Sneko"
 
 [github]: https://github.com/

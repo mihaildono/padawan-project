@@ -1,4 +1,7 @@
 # Introduction
+> "Truly wonderful, the mind of a child is." <br/>
+> ―Yoda
+
 The computer thinks in a logical way. Humans do not. The biggest challenges for
 a developer who is just starting out is learnign basic algorithmic thinking and
 the related vocabulary. The introduction part of JS is split into two parts -
