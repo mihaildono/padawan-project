@@ -17,6 +17,6 @@ This level is split into 3 parts.
 2. [React][react]
 3. [MERN][mern]
 
-[css]: https://piratefsh.github.io/how-to/2016/01/27/how-to-think-in-css.html
-[react]: https://piratefsh.github.io/how-to/2016/01/27/how-to-think-in-css.html
-[mern]: https://piratefsh.github.io/how-to/2016/01/27/how-to-think-in-css.html
+[css]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/padawan/css.md
+[react]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/padawan/react.md
+[mern]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/padawan/mern.md
