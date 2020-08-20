@@ -1,8 +1,13 @@
 # Padawan Project
+
+<p align="center">
+  <img src="./logo.png" alt="PadawanProject Logo"/>
+</p>
+
 > “You will find only what you bring in.” <br/>
 > – Yoda
 
-Teacher constructed program, which aims to bring students to a level equal of a Javascript Frontend Junior Developer.
+**Padawan Project** is a teacher constructed program, which aims to bring students to a level equal of a Javascript Frontend Junior Developer.
 
 ## Why?
 Knowledge is useless, unless applied. The web holds vast amount of data,
