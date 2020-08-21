@@ -17,6 +17,6 @@ This level is split into 3 parts.
 2. [React][react]
 3. [MERN][mern]
 
-[css]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/padawan/css.md
-[react]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/padawan/react.md
-[mern]: https://github.com/mihailgeorgiev94/padawan-project/blob/master/padawan/mern.md
+[css]: https://github.com/mihaildono/padawan-project/blob/master/padawan/css.md
+[react]: https://github.com/mihaildono/padawan-project/blob/master/padawan/react.md
+[mern]: https://github.com/mihaildono/padawan-project/blob/master/padawan/mern.md

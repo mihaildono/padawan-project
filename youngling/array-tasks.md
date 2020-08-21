@@ -48,7 +48,13 @@ console.log(zip([1, 2, 3], [4, 5, 6])) // [ [1, 4], [2, 5], [3, 6] ]
 ```
 
 ### [Map][map], [Filter][filter]
-Implement the two functions, and reimplement the tasks with them.
+Implement the two functions, and reimplement the previous tasks with them.
+
+## IMPORANT
+Initially we used `for loop`, and then we learned about `map` and `filter`. From
+this point on, we will strive to only you higher order functions like `map`,
+`filter`, `reduce` and etc., for a more functional style approach.
+
 
 [map]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 [filter]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
