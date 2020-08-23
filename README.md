@@ -24,8 +24,8 @@ learn on your own.
 All of this is achieved without cluttering the mind with theory and language specifics, which will not be of any use for the person at this point of his education. That being said, initially many of the tasks will be perfomed blindly, without delving deeply into what the language constructs actually mean. With each task, the pupil will understand more and more of how things actually work.
 
 ## Prerequisites
-The program:
-    _MUST_ be undertaken with a mentor.
+The program: <br>
+    _MUST_ be undertaken with a mentor. <br>
     is **NOT** meant for people to learn by themselves!
 
 No computer science knowledge is needed beforehand.

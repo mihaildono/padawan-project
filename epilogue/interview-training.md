@@ -1,3 +1,5 @@
+# Introduction
+
 Interviews contrary to popular belief are not about the technical capabilities
 of the interviewee, but rather how the interviewer will like him. In most jobs
 in the market almost everyone will pass the technical test, which means that
@@ -25,6 +27,8 @@ the business that drives it.
      - databases
      - patterns
      - testing
+3. Manager interview
+   -
 
 ## CV
 A good CV must not exceed 1 page, and preferably be single column.
