@@ -71,5 +71,5 @@ experiences via PRs or email at: mihaildono@gmail.com
 
 [youngling]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
-[Jedi][jedi]: https://github.com/mihaildono/padawan-project/blob/master/jedi/final-project.md
+[jedi]: https://github.com/mihaildono/padawan-project/blob/master/jedi/final-project.md
 [epilogue]: https://github.com/mihaildono/padawan-project/blob/master/epilogue/interview-training.md
