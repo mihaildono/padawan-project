@@ -44,19 +44,15 @@ respective folder under `cached`, in case a site goes down.
 Please try to improve the documents as much as possible, and share your
 experiences via PRs or email at: mihaildono@gmail.com
 
-Badges list:
-|-|-|
+|Description| Youngling | Padawan | Jedi |
+| - | - | - | - |
+|Section badges| Objection <br> force user <br> mastermind <br> algorithmic excellence <br> Sneko| tinkerer <br> handsome Jack <br> reactive <br> cable guy <br> Orient Express <br> showoff <br> señor ||
+|Earn whole section to acquire| Jedi Youngling | Jedi Padawan | Jedi Knight|
+
+When all badges are earned, earn badge "Jedi Guardian"
 
 ## TODO:
 Add contents with links for each chapter
-Picture of padawan insignia
-Implement a reward system(Objection! objects, force user arrays,reactive react, cable guy mern, Orient express mern, showoff badge in react, Señor - reeact weather, masterming badge, algorithmic excellence(introduction,
-hidden), TBD testing snake, Sneko in snake, tinkerer in css, handsome jack in css). When all introduction badged are
-earned, earn badge "Jedi youngling". "Padawan" for second chapter. When all jedi
-badges are earned, earn badge "Jedi Knight" When all badged are earned, earn badge
-"jedi guardian"//
-appropriate names for badges
 
-
- “Difficult to see. Always in motion is the future.” — Yoda
- “Your path you must decide.” — Yoda
+“Difficult to see. Always in motion is the future.” — Yoda
+“Your path you must decide.” — Yoda
