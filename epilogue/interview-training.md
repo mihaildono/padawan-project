@@ -27,9 +27,9 @@ the business that drives it.
      - testing
 
 ## CV
-A good CV must not exceed 1 page, and preferably to be single column.
+A good CV must not exceed 1 page, and preferably be single column.
 Never use standard European format or similar, because it looks unattractive.
-Sample CV template sites are [EnchanCV][enchancv] and
+Use sample CV template sites like [EnchanCV][enchancv] or
 [VisualCV][visualcv]. There are also example CVs there, which can serve as a
 reference.
 

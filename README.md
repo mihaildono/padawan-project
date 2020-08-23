@@ -42,7 +42,8 @@ The program is divided into 3 parts:
   development. You will create different projects and acquire all the necessary
   skills to service
 - [Jedi][jedi], gives you the opportunity to test your skills and add an amazing
-  project to your portofolio
+  project to your portfolio
+- [Epilogue][epilogue], prepares your CV and gives you sample interview questions
 
 
 ## Badges
@@ -71,3 +72,4 @@ experiences via PRs or email at: mihaildono@gmail.com
 [youngling]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
 [Jedi][jedi]: https://github.com/mihaildono/padawan-project/blob/master/jedi/final-project.md
+[epilogue]: https://github.com/mihaildono/padawan-project/blob/master/epilogue/interview-training.md
