@@ -53,6 +53,3 @@ When all badges are earned, earn badge "Jedi Guardian"
 
 ## TODO:
 Add contents with links for each chapter
-
-“Difficult to see. Always in motion is the future.” — Yoda
-“Your path you must decide.” — Yoda

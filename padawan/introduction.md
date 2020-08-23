@@ -1,4 +1,7 @@
 # Introduction
+> “Your path you must decide.” </br>
+> — Yoda
+
 From this point on, the student should start doing his own research and only use
 the mentor for clarification and advice.
 
