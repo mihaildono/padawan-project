@@ -24,6 +24,19 @@ $ node
 ```sh
 $ node path/to/file/file.js
 ```
+## Variables
+Variables are containers for storing data values. They can be defined via the
+keywords 'const', 'let' and 'var'. 'const' is immutable, which means it can't be
+changed. To `assign` a value to a `variable` use '=':
+```js
+let name = 'George'
+const ageOfGeorge = 16
+```
+
+## Booleans
+Booleans is a data type which is either `true` or `false`. Everything in
+javascript also evaluates to true, except `false` `0` `-0` `0n` `""` `null`
+`undefined` and `NaN`. For example 'George' and '5' will both be true.
 
 ## Functions
 Functions are a collection of code that we want to reuse.
@@ -37,7 +50,7 @@ Throughout the project the student will use the first way.
 have the function name, followed by `=` and the `paramaters` enclosed in
 parantheses. Finally we have the special syntax `=>`: this is called an arrow
 function. The `{}` defines a `block` scope.
-This is a sample function which sums two numbers():
+This is a sample function which sums two numbers:
 ```js
 const add = (a, b) => {
     return a + b
@@ -56,15 +69,15 @@ Input: 'a'
 Output: 'aaaaaaaaaa'
 
 ## Conditional Statements:
-Some times we want to split the flow of out application depending on the result of an expression. We do this with the keywords `if` and `else`.
+Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.
 ```js
-If (true) {
+if (true) {
     // do something
 } else {
     // do something else
 }
 ```
-If we want to check if a something is equal to something else we use `===`
+If we want to check if something is equal to something else we use `===`
 ```js
 const name = 'Foo'
 
@@ -83,11 +96,11 @@ if (name === 'Foo') {
 3. Execute single expressions in console using `node` or press F12 in browser to open console.
 
 ## Array
-Arrays are unordered lists of primitive values. We use it when we want to bundle
-similar items into one place without specific order. Array is denoted by the symbols `[]`
+An array is a special variable, which can hold values under a single name. You
+can access the values by referring to an index number. Array is denoted by the
+symbols `[]`
 
-Lottary example: [69, 31, 56, 76, 22] -> We want all the elements without
-specific order
+Lottary example: [69, 31, 56, 76, 22]
 
 To take element of an array: <arrayName>[<number>]
 ```js
@@ -106,7 +119,9 @@ arr[101] // 7
 ```
 
 ## Loops
-Some times we want to `iterate` through a collection and perform the an action for every element and not go through them individually. These constructs are called `loops`. Initially we will use `for` loop. This is a machinery which increments a certain `variable` by a specific value. For example if we have an array with length 10 and we want to go through the whole thing, we start at index 0, go through each number until we reach index 9. This is an example `for loop`:
+Sometimes we want to `iterate` through a collection and perform the an action
+for every element and not go through them individually. These constructs are
+called `loops`. Initially we will use the `for` loop. This is a mechanism which increments a certain `variable` by a specific value. For example if we have an array with length 10 and we want to go through the whole thing, we start at index 0, go through each number until we reach index 9. This is an example `for loop`:
 ```js
 for (i = 0; i < 5; i++) {
     arr[i] // arr[0] => 69, arr[1] => 31 ...
@@ -127,20 +142,21 @@ Sometimes we want to access a specific value in a data structure, and not just
 store elements in an unorganized way like arrays. This is where objects come in. Here we define a `key` and a `value`. Behind every `key` we can select, there is a `value` that we can access:
 obj = { <key1>: <value1>, <key2>: <value2> }
 ```js
-const people = { 'George': 'male', 'Maria': 'female' }
-people['George'] // male
-people['Maria'] // female
-people['Alex'] // undefined
-people['Alex'] = male
-people['Alex'] // male
-people['Alex'] = female
-people['Alex'] // female
+const george = { 'name': 'George', 'gender': 'male' }
+const maria = { 'name': 'Maria', 'gender': 'female' }
+george['gender'] // male
+maria['gender'] // female
+george['height'] // undefined
+george['height'] = 180
+george['height'] // 180
+george['height'] = 190
+george['height'] // 190
 ```
 To get all the keys or values in an array of an object we can use `.keys` and `.values`
 
 ```js
-obj.keys // ['George', 'Maria', 'Alex']
-obj.values // ['male', 'female', 'female']
+george.keys // ['gender', 'name', 'height']
+obj.values // ['male', 'George', '190']
 ```
 
 Run through the following [exercises][exObj]
@@ -168,8 +184,6 @@ How a piece of code is implemented(written down)
 Go through all items of a collection
 * Primitives
 Most basic piece of informational building block eg.: 1, 'George'
-* Variable
-Storage element for information
 * Paramater
 A variable which is not being defined by the function, but passed to from another piece of code
 * Block({})
