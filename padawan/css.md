@@ -58,4 +58,8 @@ Complete this trial you and earn the badge "handsome Jack"
 Find a page with an ad that blocks the view and remove it, to see the
 contents. You will earn the badge "Tinkerer"
 
+When finished with the trial, head over to the [react][react] section for
+creating your first full-fledged front-end applications.
+
 [css]: https://piratefsh.github.io/how-to/2016/01/27/how-to-think-in-css.html
+[react]: https://github.com/mihaildono/padawan-project/blob/master/padawan/react.md

@@ -38,4 +38,8 @@ previous chapter and finally build the front-end.
 
 Complete this section to earn the badge "reactive"
 
+When finished with the trial, head over to the [mern][mern] section for
+introduction to backend and the MERN stack.
+
+[mern]: https://github.com/mihaildono/padawan-project/blob/master/padawan/mern.md
 [tutorial]: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Introduction

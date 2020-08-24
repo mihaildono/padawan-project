@@ -17,6 +17,7 @@ we query data from the database. The database is a system which manages input
 and output of data. After that we serialize the data in a format(json for
 example) that can be used to be send over the desired protocol(HTTP in our case).
 
+## Trial
 1. Create a basic `express` backend that supports the actions for the todo react
 app.
 
@@ -29,3 +30,6 @@ Complete the tasks to earn the badge "Orient express"
 ## BONUS
 Create a babel and webpack config, which transpiles ES6 and lints using airbnb
 rules to earn the badge "Cable guy"
+
+When finished with the trial, head over to the [epilogue][epilogue] of the
+program for final notes and advice.

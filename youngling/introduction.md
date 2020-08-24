@@ -146,8 +146,10 @@ obj.values // ['male', 'female', 'female']
 Run through the following [exercises][exObj]
 
 ## Mastermind Trial
-
 Complete the [final][final] exercise and earn the badge "Mastermind".
+
+When finished with the trial, head over to the [padawan][padawan] section to
+start creating real-world applications.
 
 ### Common pitfalls
 * Always return something
@@ -181,3 +183,4 @@ A set of structured data of primitives
 [exArr]: https://github.com/mihaildono/padawan-project/blob/master/youngling/array-tasks.md
 [exObj]: https://github.com/mihaildono/padawan-project/blob/master/youngling/object-tasks.md
 [final]: https://github.com/mihaildono/padawan-project/blob/master/youngling/snake-task.md
+[padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md

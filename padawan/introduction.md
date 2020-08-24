@@ -16,9 +16,9 @@ JS is responsible for what happens when the user interacts with the page.
 
 This level is split into 3 parts.
 
-1. [CSS][css]
-2. [React][react]
-3. [MERN][mern]
+1. Starting with the basis of [CSS][css] and cloning the google landing page.
+2. Secondly getting into the gist of the program with [React][react].
+3. Finally there is introduction to [MERN][mern] stack, and creating basic backend.
 
 [css]: https://github.com/mihaildono/padawan-project/blob/master/padawan/css.md
 [react]: https://github.com/mihaildono/padawan-project/blob/master/padawan/react.md
