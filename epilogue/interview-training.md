@@ -74,6 +74,15 @@ What will be the output and why of the two statements:
 console.log(1 + +"2");
 console.log("1" +  2);
 
+## Design patterns
+As software development progressed in time, design patterns emerged, that
+solved common problems. Here is a small subset of them:
+    * Factory - Creates objects without depending on the implementation of the class
+    * Observer - when one object changes state, all its dependents are notified
+    * Adapter - allows incompatible classes to work together by converting the
+interface of one class into another.
+
+
 ## JS [Cheatsheet][cheatsheet]
 
 [enchancv]: https://enhancv.com/
