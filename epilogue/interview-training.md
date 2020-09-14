@@ -82,6 +82,22 @@ solved common problems. Here is a small subset of them:
     * Adapter - allows incompatible classes to work together by converting the
 interface of one class into another.
 
+## Programming Principles
+In order for us to write clean code, the community must agree upon and follow
+commong programming principles. Here is a small subset of them:
+    * KISS(Keep it simple stupid)
+    * DRY(Don't repeat yourself)
+    * YAGNI(You Aren’t Gonna Need It - don’t implement something until it is necessary
+    * SOLID
+      - Single Responsibility Principle: a class should have only one reason to change
+      - Open/Closed Principle: software entities (classes, modules, functions, etc.)
+      should be open for extension, but closed for modification
+      - Liskov’s Substitution Principle - derived or child classes must be
+      substitutable for their base or parent classes
+      - Dependency Inversion Principle: High-level modules/classes should not
+      depend on low-level modules/classes. Both should depend upon abstractions.
+      Abstractions should not depend upon details. Details should depend upon abstractions.
+    * Separation of Concerns (SoC)
 
 ## JS [Cheatsheet][cheatsheet]
 
