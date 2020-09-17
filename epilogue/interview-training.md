@@ -99,6 +99,33 @@ commong programming principles. Here is a small subset of them:
       Abstractions should not depend upon details. Details should depend upon abstractions.
     * Separation of Concerns (SoC)
 
+## Git development
+* Trunk-based
+  All developers work on a single branch with open access to it
+* Git flow
+  One main development branch with strict access to it. Developers work on feature
+  branches, that are merged at certain points in time
+
+## Data Structures
+* Array
+* Stack
+* Queue
+* Graph
+* Tree
+* Hash table
+
+## Web
+* HTTP Verbs
+  - POST
+  - GET
+  - PUT
+  - PATCH
+  - DELETE
+* Protocols
+  - TCP
+  - UDP
+  - HTTP
+
 ## JS [Cheatsheet][cheatsheet]
 
 [enchancv]: https://enhancv.com/
