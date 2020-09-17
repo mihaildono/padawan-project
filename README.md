@@ -21,7 +21,11 @@ This course does not aim to give a complete reference to the language,
 but rather give introduction into the world of JS and the necessary skills to
 learn on your own.
 
-All of this is achieved without cluttering the mind with theory and language specifics, which will not be of any use for the person at this point of his education. That being said, initially many of the tasks will be perfomed blindly, without delving deeply into what the language constructs actually mean. With each task, the pupil will understand more and more of how things actually work.
+All of this is achieved without cluttering the mind with theory and language
+specifics, which will not be of any use for the person at this point of his
+education. That being said, initially many of the tasks will be perfomed blindly,
+without delving deeply into what the language constructs actually mean. With each
+task, the pupil will understand more and more of how things actually work.
 
 ## Prerequisites
 The program: <br>
@@ -45,6 +49,11 @@ The program is divided into 3 parts:
   project to your portfolio
 - [Epilogue][epilogue], prepares your CV and gives you sample interview questions
 
+## Principles
+This program tries to stay as close as possible to the [Zone of proximal development][zone],
+to maximize the efficiency of learning.
+It is advised to use the [pomodoro][pomodoro] technique as well to utilize deep work
+as much as possible
 
 ## Badges
 Each mentor is advised to pick his own motivation system, so he can keep the
@@ -73,3 +82,5 @@ experiences via PRs or email at: mihaildono@gmail.com
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
 [jedi]: https://github.com/mihaildono/padawan-project/blob/master/jedi/final-project.md
 [epilogue]: https://github.com/mihaildono/padawan-project/blob/master/epilogue/interview-training.md
+[zone]: https://www.simplypsychology.org/Zone-of-Proximal-Development.html
+[pomodoro]: https://en.wikipedia.org/wiki/Pomodoro_Technique
