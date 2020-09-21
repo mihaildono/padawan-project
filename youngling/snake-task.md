@@ -12,7 +12,7 @@ care of edge cases and write additional tests.
 
 ## Testing
 For this exercise, we are going to use [jest][jest] for testing. Look through
-the documentation and test previous exercises to earn the badge "TBD testing".
+the documentation and test previous exercises to earn the badge "Check 1 2".
 
 ## Git
 When working on big projects, there will usually be several contributors working

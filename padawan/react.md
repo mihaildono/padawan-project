@@ -36,7 +36,7 @@ Implement the snake game with canvas and react!
 Continuing the previous project, we will use the same js engine from the
 previous chapter and finally build the front-end.
 
-Complete this section to earn the badge "reactive"
+Complete this section to earn the badge "Reactive"
 
 When finished with the trial, head over to the [mern][mern] section for
 introduction to backend and the MERN stack.

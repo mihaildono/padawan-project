@@ -7,10 +7,9 @@
 > “You will find only what you bring in.” <br/>
 > – Yoda
 
-The **Padawan Project** is a teacher constructed program, which aims to provide
-people with the minimum necessary skills to work as javascript front-end
-developers. This is achieved through mentorship, self-learning, problem solving
-and applicaiton building.
+The **Padawan Project** is a minimalistic teacher constructed program, which provides
+people with the necessary skills to work as javascript developers. This is
+achieved through mentorship, self-learning, problem solving and applicaiton building.
 
 ## Why?
 Knowledge is useless, unless applied. The web holds vast amount of data,
@@ -47,12 +46,12 @@ The program is divided into 3 parts:
   skills to service
 - [Jedi][jedi], gives you the opportunity to test your skills and add an amazing
   project to your portfolio
-- [Epilogue][epilogue], prepares your CV and gives you sample interview questions
+- [Epilogue][epilogue], prepares you for the interview process
 
 ## Principles
 This program tries to stay as close as possible to the [Zone of proximal development][zone],
 to maximize the efficiency of learning.
-It is advised to use the [pomodoro][pomodoro] technique as well to utilize deep work
+It is also advised to use the [Pomodoro][pomodoro] technique as well to utilize deep work
 as much as possible
 
 ## Badges
@@ -64,7 +63,7 @@ achieve as much as possible to experience all the benefits of this course.
 
 |Description| Youngling | Padawan | Jedi |
 | - | - | - | - |
-|Section badges| Objection <br> force user <br> mastermind <br> algorithmic excellence <br> Sneko| tinkerer <br> handsome Jack <br> reactive <br> cable guy <br> Orient Express <br> showoff <br> señor ||
+|Section badges| Check 1 2 <br> Objection <br> Force user <br> Mastermind <br> Algorithmic excellence <br> Sneko| Tinkerer <br> Handsome Jack <br> Reactive <br> Cable guy <br> Orient Express <br> Showoff <br> Señor ||
 |Earn whole section to acquire| Jedi Youngling | Jedi Padawan | Jedi Knight|
 
 When all badges are earned, earn badge "Jedi Guardian"

@@ -1,5 +1,7 @@
 # Notes
-The first iteration of solving the tasks should be done by the mentor, where he demonstarates the language. The second iteration should be done solely by the student with hints from the mentor and additional explanation.
+The first iteration of solving the tasks should be done by the mentor, where he
+demonstarates the language. The second iteration should be done solely by the
+student with hints from the mentor and additional explanation.
 
 ## Objectives
 1. Learn how to split tasks into sub-tasks

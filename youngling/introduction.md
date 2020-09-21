@@ -3,7 +3,7 @@
 > ―Yoda
 
 The computer thinks in a logical way. Humans do not. The biggest challenges for
-a developer who is just starting out is learnign basic algorithmic thinking and
+a developer who is just starting out is learning basic algorithmic thinking and
 the related vocabulary.
 The introduction part of JS is split into two parts - arrays and objects, as
 those are the basic data structures of the language. There will be sample

@@ -52,7 +52,7 @@ The following attributes will be learned and should be used:
 3. :hover
 4. transitions
 
-Complete this trial you and earn the badge "handsome Jack"
+Complete this trial you and earn the badge "Handsome Jack"
 
 ### Bonus
 Find a page with an ad that blocks the view and remove it, to see the

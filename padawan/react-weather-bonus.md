@@ -1,5 +1,5 @@
 Whoa hey there! You found a secret! Solve the following challenges for the
-"señor" badge.
+"Señor" badge.
 
 This is a real interview task for senior front-end developer.
 

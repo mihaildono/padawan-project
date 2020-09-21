@@ -17,7 +17,7 @@ manager interview(s). Each of those parts can be split into multiple
 interviews. Sometimes there are also special sections like 'cultural fit'
 interview, which are not covered in this document.
 
-1. HR interview
+1. HR screening
 You will get general information about the company and the role. You may or
 may not discuss salary and conditions. There may be work experience
 questions and overview of the CV.
@@ -53,6 +53,8 @@ Never use standard European format or similar, because it looks unattractive.
 Use sample CV template sites like [EnchanCV][enchancv] or
 [VisualCV][visualcv]. There are also example CVs there, which can serve as a
 reference.
+
+## [STAR Technique][star]
 
 ## Here are some example language specific questions
 What are the differences between var, let and const?
@@ -131,3 +133,4 @@ commong programming principles. Here is a small subset of them:
 [enchancv]: https://enhancv.com/
 [visualcv]: https://www.visualcv.com/
 [cheatsheet]: https://www.cyanhall.com/posts/notes/8.javascript-cheatsheet/
+[star]: https://en.wikipedia.org/wiki/Situation,_task,_action,_result
