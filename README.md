@@ -52,7 +52,8 @@ The program is divided into 3 parts:
 This program tries to stay as close as possible to the [Zone of proximal development][zone],
 to maximize the efficiency of learning.
 It is also advised to use the [Pomodoro][pomodoro] technique as well to utilize deep work
-as much as possible
+as much as possible. Furthermore, practice Getting Things Done (GTD) methodology of planning
+the day before and keeping Todo lists.
 
 ## Badges
 Each mentor is advised to pick his own motivation system, so he can keep the
