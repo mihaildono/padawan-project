@@ -36,7 +36,7 @@ const ageOfGeorge = 16
 ## Booleans
 Booleans is a data type which is either `true` or `false`. Everything in
 javascript also evaluates to true, except `false` `0` `-0` `0n` `""` `null`
-`undefined` and `NaN`. For example 'George' and '5' will both be true.
+`undefined` and `NaN`. For example the string 'Foo' and the integer '5' will both be true.
 
 ## Functions
 Functions are a collection of code that we want to reuse.
@@ -64,9 +64,6 @@ $ node example.js
 ```
 ###### Exercises
 1. Celsius to Fahrenheit converter
-2. Character multiplicator by 10:
-Input: 'a'
-Output: 'aaaaaaaaaa'
 
 ## Conditional Statements:
 Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.
