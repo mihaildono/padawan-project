@@ -24,6 +24,16 @@ $ node
 ```sh
 $ node path/to/file/file.js
 ```
+
+## Booleans
+Booleans is a data type which is either `true` or `false`. Everything in
+javascript also evaluates to true, except `false` `0` `-0` `0n` `""` `null`
+`undefined` and `NaN`. For example the string 'Foo' and the integer '5' will both be true.
+
+## Logical Operators
+Logical operators are used to determine the logic between variables or values.
+They are `&&`(and), `||`(or) and `!`(not).
+
 ## Variables
 Variables are containers for storing data values. They can be defined via the
 keywords 'const', 'let' and 'var'. 'const' is immutable, which means it can't be
@@ -32,11 +42,6 @@ changed. To `assign` a value to a `variable` use '=':
 let name = 'George'
 const ageOfGeorge = 16
 ```
-
-## Booleans
-Booleans is a data type which is either `true` or `false`. Everything in
-javascript also evaluates to true, except `false` `0` `-0` `0n` `""` `null`
-`undefined` and `NaN`. For example the string 'Foo' and the integer '5' will both be true.
 
 ## Functions
 Functions are a collection of code that we want to reuse.
