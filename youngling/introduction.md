@@ -5,43 +5,90 @@
 The computer thinks in a logical way. Humans do not. The biggest challenges for
 a developer who is just starting out is learning basic algorithmic thinking and
 the related vocabulary.
-The introduction part of JS is split into two parts - arrays and objects, as
+The introduction part of JavaScript is split into two parts - arrays and objects, as
 those are the basic data structures of the language. There will be sample
 explanations, but mentors are encouraged to give their own.
 
 *Using internet for help is not advised in this section
 
 # Prerequisites
-* [Install][node] NodeJS
-  This is the environment that allows you to execute your javascript code
-* [Install][vscode] VisualStudio Code
-  This is your editor where you can effeciently modify your code
-* To use the [REPL][repl] and instantly execute JS expressions, open your console and type:
-```sh
-$ node
-```
-  * To execute code from a file(filename must end with .js extension), open your console and type:
-```sh
-$ node path/to/file/file.js
-```
+* Make an account for [jsfiddle][jsfiddle]
+  This is an website that makes it super easy to run JavaScript code.
 
-## Booleans
-Booleans is a data type which is either `true` or `false`. Everything in
-javascript also evaluates to true, except `false` `0` `-0` `0n` `""` `null`
-`undefined` and `NaN`. For example the string 'Foo' and the integer '5' will both be true.
 
-## Logical Operators
-Logical operators are used to determine the logic between variables or values.
-They are `&&`(and), `||`(or) and `!`(not).
+## The basics
+
+ - We right on a language called **JavaScript**. What do you think is a programming language?
+ - We use [jsfiddle] to run JavaScript code. It's a website that let's you write JavaScript code and play with it.
+ - How can we see what our program does? There is a difference between telling the computer to sum `5 + 5` and to making it to show you what the result is `=> 10`. We use **console.log** to visualize something in the console.
+ - What is a **console**? A console is a program that makes it easy to play with the programming language. We will use a JavaScript console.
+ - What is an **error**? When the code that we right cannot be understand by the programming language, the program returns an error and stops execution.
+
+ ###### Exercises
+ <details>
+  <summary>Write to the console the text "Hello world"</summary>
+  <p>
+
+  ```js
+  console.log("Hello world")
+  ```
+  </p>
+ </details>
+
 
 ## Variables
-Variables are containers for storing data values. They can be defined via the
-keywords 'const', 'let' and 'var'. 'const' is immutable, which means it can't be
-changed. To `assign` a value to a `variable` use '=':
+Variables are containers for storing data values.
+
+You can do the following things with a variable:
+ 1. Creating it - it's called "variable declaration"
+
 ```js
-let name = 'George'
-const ageOfGeorge = 16
+let newVariable
 ```
+
+ 2. Passing it a value - it's called "value assignment". To `assign` a value to a `variable` use '='
+```js
+let newVariable
+newVariable = 44
+```
+
+3. Creating **and** passing a value
+```js
+let newVariable = 44
+```
+
+Variables can be defined via the keywords `let` and `const`. The difference is that `const` is immutable, which means it can't be changed.
+
+You can try but the computer will return an error:
+```js
+const newPizza = 'yummy'
+newPizza = 'cold as hell' // !!! ERROR: Uncaught TypeError: Assignment to constant variable
+```
+
+###### Analogy
+You can think for the variables as for "named boxes". You can put things inside the box and you can refer to them with the name of the box. When you use **const** you cannot change what's inside the box.
+
+ - The box has to **have a name**, because you want to distinguish it from the other boxes.
+ - The box can be empty, but if you don't fill it with somthing it isn't very usefull.
+
+###### Exercises
+
+<details>
+  <summary>
+  1. Print the value of the variable
+
+  Create a variable with name `granny` assign it a value some text. Print the value on the console.
+  </summary>
+  <p>
+
+```js
+const granny = "I'm not so old, m*fckaa"
+
+console.log(granny)
+```
+  </p>
+</details>
+
 
 ## Functions
 Functions are a collection of code that we want to reuse.
@@ -68,7 +115,26 @@ The example file in this directory contains the same code, to run it use:
 $ node example.js
 ```
 ###### Exercises
+<details>
+<summary>
 1. Celsius to Fahrenheit converter
+</summary>
+<p>
+℃=(℉-32)/1.8
+K=((℉-32)/1.8)+273.15
+Find element in a list.
+The function returns true if element is present in arr. Otherwise - false
+
+```js
+const numbers = [1, 69, 420]
+
+const contains = (element, arr) => {}
+
+console.log(contains(69, numbers)) // true
+console.log(contains(666, numbers)) // false
+```
+</p>
+</details>
 
 ## Conditional Statements:
 Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.
@@ -193,9 +259,7 @@ This encloses definitions of variables. If we have variable `const i = 10` in on
 * Data structure
 A set of structured data of primitives
 
-[node]: https://nodejs.org/en/
-[vscode]: https://code.visualstudio.com/
-[repl]: https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop
+[jsfiddle]: https://jsfiddle.net/
 [exArr]: https://github.com/mihaildono/padawan-project/blob/master/youngling/array-tasks.md
 [exObj]: https://github.com/mihaildono/padawan-project/blob/master/youngling/object-tasks.md
 [final]: https://github.com/mihaildono/padawan-project/blob/master/youngling/snake-task.md
