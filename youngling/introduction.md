@@ -18,7 +18,7 @@ explanations, but mentors are encouraged to give their own.
 
 ## The basics
 
- - We right on a language called **JavaScript**. What do you think is a programming language?
+ - We program using a language called **JavaScript**. What do you think is a programming language?
  - We use [jsfiddle] to run JavaScript code. It's a website that let's you write JavaScript code and play with it.
  - How can we see what our program does? There is a difference between telling the computer to sum `5 + 5` and to making it to show you what the result is `=> 10`. We use **console.log** to visualize something in the console.
  - What is a **console**? A console is a program that makes it easy to play with the programming language. We will use a JavaScript console.
@@ -26,7 +26,7 @@ explanations, but mentors are encouraged to give their own.
 
  ###### Exercises
  <details>
-  <summary>Write to the console the text "Hello world"</summary>
+  <summary>Write in the console the text "Hello world"</summary>
   <p>
 
   ```js
@@ -69,7 +69,7 @@ newPizza = 'cold as hell' // !!! ERROR: Uncaught TypeError: Assignment to consta
 You can think for the variables as for "named boxes". You can put things inside the box and you can refer to them with the name of the box. When you use **const** you cannot change what's inside the box.
 
  - The box has to **have a name**, because you want to distinguish it from the other boxes.
- - The box can be empty, but if you don't fill it with somthing it isn't very usefull.
+ - The box can be empty, but if you don't fill it with somthing it isn't very useful.
 
 ###### Exercises
 
@@ -138,6 +138,8 @@ console.log(contains(666, numbers)) // false
 
 ## Conditional Statements:
 Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.
+
+**NOTE** Introduce booleans and logical operators here
 ```js
 if (true) {
     // do something
@@ -156,12 +158,8 @@ if (name === 'Foo') {
 
 ###### Exercises
 1. Check if a number is even or not
+**NOTE** Go to mozilla docs and look at how to get the first character of a string
 2. Check if word begins with 'F'
-
-## Debugging
-1. put keyword `debugger` in code and execute the file(works for server applications).
-2. put `console.log()`
-3. Execute single expressions in console using `node` or press F12 in browser to open console.
 
 ## Array
 An array is a special variable, which can hold values under a single name. You

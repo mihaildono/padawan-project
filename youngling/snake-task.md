@@ -10,6 +10,12 @@ after that to start writing code. After the game engine is created, and
 everything is working properly and we have the initial smoke tests. We can take
 care of edge cases and write additional tests.
 
+## Prerequisites
+We are going to need a linux environment that runs javascript with an editor:
+1. Install a linux distribution
+2. Install VSCode
+3. Install node
+
 ## Testing
 For this exercise, we are going to use [jest][jest] for testing. Look through
 the documentation and test previous exercises to earn the badge "Check 1 2".
