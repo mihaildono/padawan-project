@@ -12,9 +12,14 @@ care of edge cases and write additional tests.
 
 ## Prerequisites
 We are going to need a linux environment that runs javascript with an editor:
-1. Install a linux distribution
-2. Install VSCode
-3. Install node
+* Install a linux distribution
+* [Install][node] NodeJS
+  This is the environment that allows you to execute your javascript code
+* [Install][vscode] VisualStudio Code
+
+## Task management
+When we have a large work load, we need to manage all the tasks for a project.
+We are going to use a simple task management system called [trello][trello].
 
 ## Testing
 For this exercise, we are going to use [jest][jest] for testing. Look through
@@ -106,3 +111,6 @@ Complete all tasks to earn the badge "Sneko"
 [practices]: https://deepsource.io/blog/git-best-practices/
 [commit]: https://chris.beams.io/posts/git-commit/
 [jest]: https://jestjs.io/
+[trello]: https://trello.com/
+[node]: https://nodejs.org/en/
+[vscode]: https://code.visualstudio.com/
