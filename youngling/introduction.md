@@ -36,6 +36,39 @@ explanations, but mentors are encouraged to give their own.
  </details>
 
 
+## Numbers & Strings
+In *JavaScript* and in programming in general there is a things called data types. The most important data types are **String** and **Number**. Let's see some examples:
+
+### Numbers
+
+```
+console.log(3)
+```
+`3` is a number
+
+We can:
+ - Sum two numbers: `3 + 4`
+ - Sum many numbers: `1 + 3 + 5 + 1`
+ - Difference numbers: `5 - 5 - 1`
+ - Multiply, divide, ...
+ - We can have a combination of all: `3 - 3 * 1 / 1`
+ - and many more possible actions...
+
+
+### Strings
+Strings are basicly connected chars, therefor it's just a text.
+
+```
+console.log("I'm a string")
+```
+`"I'm a string"` is a string
+
+We can:
+ - Concatenate strings: `"baby " + "Yoda"`
+ - Interpolate strings: ``baby ${Yoda}``
+ - and many more possible actions...
+
+
 ## Variables
 Variables are containers for storing data values.
 
@@ -94,49 +127,89 @@ console.log(granny)
 Functions are a collection of code that we want to reuse.
 There are two ways to define a function:
 
-1. `const <funcName> = (<param1>, <param2>) => {}`
+1. `const <funcName> = (<param1>, <param2>) => { return <result> }`
 2. `function <funcName>(<params...>) {}`
 
+*NOTE:* We use the syntax `<>` for illustrating what name means and **`<>` it is not part of the JavaScript language**.
+
 Throughout the project the student will use the first way.
-`const` is a language keyword which means we `define` a new `variable`. Then we
-have the function name, followed by `=` and the `paramaters` enclosed in
-parantheses. Finally we have the special syntax `=>`: this is called an arrow
-function. The `{}` defines a `block` scope.
 This is a sample function which sums two numbers:
 ```js
 const add = (a, b) => {
     return a + b
 }
 
-add(5, 6) // 11
+const result = add(5, 6) // 11
+console.log(result)
 ```
-The example file in this directory contains the same code, to run it use:
-```sh
-$ node example.js
-```
+
+You can see that the first part `const add = ...` creates the function.
+And `add(5, 6)` executes it, which means it makes the computer run the code inside the function's body.
+Let's see what are the steps that the *computer* will do when we write `const result = add(5, 6)`:
+ - `let a = 5`
+ - `let b = 6`
+ - `return a + b` => `return 5 + 6`
+ - `const result = 11`
+
+
 ###### Exercises
 <details>
 <summary>
-1. Celsius to Fahrenheit converter
+1. Make a multiply function
 </summary>
 <p>
-℃=(℉-32)/1.8
-K=((℉-32)/1.8)+273.15
-Find element in a list.
-The function returns true if element is present in arr. Otherwise - false
 
-```js
-const numbers = [1, 69, 420]
+Create a `multiply` function that sums any two parameters that you pass to it.
 
-const contains = (element, arr) => {}
 
-console.log(contains(69, numbers)) // true
-console.log(contains(666, numbers)) // false
+You can test your formula with the following code:
+
 ```
+console.log(multiply(1, 2))
+```
+
 </p>
 </details>
 
-## Conditional Statements:
+<details>
+<summary>
+2. Fahrenheit to Celsius converter function
+</summary>
+<p>
+
+Create a `celsiusToFahrenheit` function that converters Fahrenheit into Celsius, having the formula:
+
+```
+℉ = ℃ * 1.8 + 32
+```
+
+You can test your formula with the following code:
+
+```
+console.log(celsiusToFahrenheit(38))
+```
+
+</p>
+</details>
+
+
+<details>
+<summary>
+
+3. Make a function that prints "Hello world, [Your name]"
+</summary>
+<p>
+You can test your formula with the following code:
+
+```
+helloWorld()
+```
+
+</p>
+</details>
+
+
+## Conditional Statements
 Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.
 
 **NOTE** Introduce booleans and logical operators here
