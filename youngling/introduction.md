@@ -37,7 +37,8 @@ explanations, but mentors are encouraged to give their own.
 
 
 ## Numbers & Strings
-In *JavaScript* and in programming in general there is a things called data types. The most important data types are **String** and **Number**. Let's see some examples:
+In *JavaScript* and in programming in general, the most simple piece of information is expressed
+via primitive data types. They are **String** and **Number**. Let's see some examples:
 
 ### Numbers
 
@@ -52,22 +53,16 @@ We can:
  - Difference numbers: `5 - 5 - 1`
  - Multiply, divide, ...
  - We can have a combination of all: `3 - 3 * 1 / 1`
- - and many more possible actions...
-
 
 ### Strings
-Strings are basicly connected chars, therefor it's just a text.
+Strings are combinations of letters(chars), therefore it's just a text.
 
 ```
 console.log("I'm a string")
 ```
 `"I'm a string"` is a string
 
-We can:
- - Concatenate strings: `"baby " + "Yoda"`
- - Interpolate strings: ``baby ${Yoda}``
- - and many more possible actions...
-
+We can also concatenate(join) strings: `"baby " + "Yoda"`:
 
 ## Variables
 Variables are containers for storing data values.
@@ -130,7 +125,7 @@ There are two ways to define a function:
 1. `const <funcName> = (<param1>, <param2>) => { return <result> }`
 2. `function <funcName>(<params...>) {}`
 
-*NOTE:* We use the syntax `<>` for illustrating what name means and **`<>` it is not part of the JavaScript language**.
+*NOTE:* We use the syntax `<>` for illustrating what name means and `<>` is not part of the JavaScript language**.
 
 Throughout the project the student will use the first way.
 This is a sample function which sums two numbers:
@@ -143,11 +138,11 @@ const result = add(5, 6) // 11
 console.log(result)
 ```
 
-You can see that the first part `const add = ...` creates the function.
+You can see that the first part `(a, b) => {...}` creates the function and assigns it to the variable `add`.
 And `add(5, 6)` executes it, which means it makes the computer run the code inside the function's body.
 Let's see what are the steps that the *computer* will do when we write `const result = add(5, 6)`:
- - `let a = 5`
- - `let b = 6`
+ - `a = 5`
+ - `b = 6`
  - `return a + b` => `return 5 + 6`
  - `const result = 11`
 
@@ -161,8 +156,7 @@ Let's see what are the steps that the *computer* will do when we write `const re
 
 Create a `multiply` function that sums any two parameters that you pass to it.
 
-
-You can test your formula with the following code:
+You can test your function with the following code:
 
 ```
 console.log(multiply(1, 2))
@@ -183,7 +177,7 @@ Create a `celsiusToFahrenheit` function that converters Fahrenheit into Celsius,
 ℉ = ℃ * 1.8 + 32
 ```
 
-You can test your formula with the following code:
+You can test your function with the following code:
 
 ```
 console.log(celsiusToFahrenheit(38))
@@ -191,23 +185,6 @@ console.log(celsiusToFahrenheit(38))
 
 </p>
 </details>
-
-
-<details>
-<summary>
-
-3. Make a function that prints "Hello world, [Your name]"
-</summary>
-<p>
-You can test your formula with the following code:
-
-```
-helloWorld()
-```
-
-</p>
-</details>
-
 
 ## Conditional Statements
 Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.
@@ -315,6 +292,12 @@ start creating real-world applications.
   evaluate to a string/number
 
 ### Vocabulary
+* Char
+a single letter
+* String
+text, also combination of chars(letters)
+* Concatenate
+Means join
 * Declaration
 This is where you intially define a piece of code.
 * Implementation
