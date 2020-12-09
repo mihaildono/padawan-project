@@ -11,6 +11,9 @@ explanations, but mentors are encouraged to give their own.
 
 *Using internet for help is not advised in this section
 
+###### First Homework
+Before going into the first lesson, check the first [homework][homework01].
+
 # Prerequisites
 * Make an account for [jsfiddle][jsfiddle]
   This is an website that makes it super easy to run JavaScript code.
@@ -24,7 +27,7 @@ explanations, but mentors are encouraged to give their own.
  - What is a **console**? A console is a program that makes it easy to play with the programming language. We will use a JavaScript console.
  - What is an **error**? When the code that we right cannot be understand by the programming language, the program returns an error and stops execution.
 
- ###### Exercises
+###### Exercises
  <details>
   <summary>Write in the console the text "Hello world"</summary>
   <p>
@@ -318,3 +321,4 @@ A set of structured data of primitives
 [exObj]: https://github.com/mihaildono/padawan-project/blob/master/youngling/object-tasks.md
 [final]: https://github.com/mihaildono/padawan-project/blob/master/youngling/snake-task.md
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
+[homework01]: https://github.com/mihaildono/padawan-project/blob/master/youngling/homework/homework-console.md
