@@ -18,9 +18,7 @@ Before going into the first lesson, check the first [homework][homework01].
 * Make an account for [jsfiddle][jsfiddle]
   This is an website that makes it super easy to run JavaScript code.
 
-
 ## The basics
-
  - We program using a language called **JavaScript**. What do you think is a programming language?
  - We use [jsfiddle] to run JavaScript code. It's a website that let's you write JavaScript code and play with it.
  - How can we see what our program does? There is a difference between telling the computer to sum `5 + 5` and to making it to show you what the result is `=> 10`. We use **console.log** to visualize something in the console.
@@ -38,13 +36,11 @@ Before going into the first lesson, check the first [homework][homework01].
   </p>
  </details>
 
-
 ## Numbers & Strings
 In *JavaScript* and in programming in general, the most simple piece of information is expressed
 via primitive data types. They are **String** and **Number**. Let's see some examples:
 
 ### Numbers
-
 ```
 console.log(3)
 ```
@@ -123,14 +119,16 @@ console.log(granny)
 
 ## Functions
 Functions are a collection of code that we want to reuse.
+
 There are two ways to define a function:
 
 1. `const <funcName> = (<param1>, <param2>) => { return <result> }`
 2. `function <funcName>(<params...>) {}`
 
-*NOTE:* We use the syntax `<>` for illustrating what name means and `<>` is not part of the JavaScript language**.
+*NOTE:* We use the syntax `<>` for illustrating what name means and `<>` is not part of the JavaScript language.
 
 Throughout the project the student will use the first way.
+
 This is a sample function which sums two numbers:
 ```js
 const add = (a, b) => {
@@ -190,9 +188,8 @@ console.log(celsiusToFahrenheit(38))
 </details>
 
 ## Conditional Statements
-Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.
+Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.<br/>
 
-**NOTE** Introduce booleans and logical operators here
 ```js
 if (true) {
     // do something
@@ -200,18 +197,34 @@ if (true) {
     // do something else
 }
 ```
-If we want to check if something is equal to something else we use `===`
-```js
-const name = 'Foo'
 
-if (name === 'Foo') {
-    return 'Awesome!'
+If we want to check if something is equal to something else we use `===`
+
+```js
+const name = 'George'
+
+if (name === 'George') {
+    return 'This the dude George'
+} else {
+    return 'Who is this guy?'
+}
+
+const otherName = 'Alex'
+const gender = 'female'
+
+if (name === 'Alex' && gender === 'female') {
+    return 'Hey it is Alexandra!'
+} else if (name === 'Alex' && gender !== 'female'){
+    return 'They call him Sandokan'
+} else {
+    return "It is 'it'"
 }
 ```
-
 ###### Exercises
 1. Check if a number is even or not
+
 **NOTE** Go to mozilla docs and look at how to get the first character of a string
+
 2. Check if word begins with 'F'
 
 ## Array
