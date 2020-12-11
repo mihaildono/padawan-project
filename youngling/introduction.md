@@ -92,14 +92,12 @@ const newPizza = 'yummy'
 newPizza = 'cold as hell' // !!! ERROR: Uncaught TypeError: Assignment to constant variable
 ```
 
-###### Analogy
 You can think for the variables as for "named boxes". You can put things inside the box and you can refer to them with the name of the box. When you use **const** you cannot change what's inside the box.
 
- - The box has to **have a name**, because you want to distinguish it from the other boxes.
- - The box can be empty, but if you don't fill it with somthing it isn't very useful.
+- The box has to **have a name**, because you want to distinguish it from the other boxes.
+- The box can be empty, but if you don't fill it with somthing it isn't very useful.
 
 ###### Exercises
-
 <details>
   <summary>
   1. Print the value of the variable
@@ -138,7 +136,6 @@ const add = (a, b) => {
 const result = add(5, 6) // 11
 console.log(result)
 ```
-
 You can see that the first part `(a, b) => {...}` creates the function and assigns it to the variable `add`.
 And `add(5, 6)` executes it, which means it makes the computer run the code inside the function's body.
 Let's see what are the steps that the *computer* will do when we write `const result = add(5, 6)`:
@@ -227,6 +224,27 @@ if (name === 'Alex' && gender === 'female') {
 
 2. Check if word begins with 'F'
 
+## Loops
+Sometimes we want to `iterate` through a collection and perform the an action
+for every element and not go through them individually. These constructs are
+called `loops`. Initially we will use the `for` loop. This is a mechanism which increments a certain `variable` by a specific value. For example if we have an array with length 10 and we want to go through the whole thing, we start at index 0, go through each number until we reach index 9. This is an example `for loop`:
+```js
+for (i = 0; i < 5; i++) {
+    arr[i] // arr[0] => 69, arr[1] => 31 ...
+}
+```
+
+The construct starts with keyword `for`, then we have 3 parts: start of
+iteration `i = 0`, end of iteration `i < 5`, and finally how to increment it `i++`(this is the same as to write `i = i + 1`). With this, in the enclosing `block`, we get a variable `i`, which will change it's value 5 times -> 0, 1, 2, 3, 4. Notice that in the brackets `[]`, we can write not only numbers, but also variables, that evaluate to numbers. **IMPORTANT** `for loop` changes the value of `i`, if we want to take the current value of the array we must use `arr[i]`.
+
+###### Exercises
+1. Make the string 'Hey There Friend' uppercase.
+2. Create a pyramid, reverse pyramid and a Christmas tree with an angel on top.
+
+**NOTE** Go to mozilla docs and look at how to get the first character of a string
+
+2. Check if word begins with 'F'
+
 ## Array
 An array is a special variable, which can hold values under a single name. You
 can access the values by referring to an index number. Array is denoted by the
@@ -249,19 +267,6 @@ arr[100] // 666
 arr.push(7)
 arr[101] // 7
 ```
-
-## Loops
-Sometimes we want to `iterate` through a collection and perform the an action
-for every element and not go through them individually. These constructs are
-called `loops`. Initially we will use the `for` loop. This is a mechanism which increments a certain `variable` by a specific value. For example if we have an array with length 10 and we want to go through the whole thing, we start at index 0, go through each number until we reach index 9. This is an example `for loop`:
-```js
-for (i = 0; i < 5; i++) {
-    arr[i] // arr[0] => 69, arr[1] => 31 ...
-}
-```
-
-The construct starts with keyword `for`, then we have 3 parts: start of
-iteration `i = 0`, end of iteration `i < 5`, and finally how to increment it `i++`(this is the same as to write `i = i + 1`). With this, in the enclosing `block`, we get a variable `i`, which will change it's value 5 times -> 0, 1, 2, 3, 4. Notice that in the brackets `[]`, we can write not only numbers, but also variables, that evaluate to numbers. **IMPORTANT** `for loop` changes the value of `i`, if we want to take the current value of the array we must use `arr[i]`.
 
 ###### Exercises
 1. Create an array with 5 values and console log each value
@@ -301,8 +306,8 @@ start creating real-world applications.
 
 ### Common pitfalls
 * Always return something
-* Index in a for loop, does not actually take an item, but rather points towards
-  the current item
+* Index in a for loop, does not actually point to an item, but rather it is used to
+  find the corresponding item
 * Map is very confusing when first switched form for loop. Repetition is key!
 * Keys for objects and Indexes for arrays, can be used with variables that
   evaluate to a string/number

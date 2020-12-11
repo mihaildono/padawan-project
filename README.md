@@ -28,8 +28,8 @@ task, the pupil will understand more and more of how things actually work.
 
 ## Prerequisites
 The program: <br>
-    _MUST_ be undertaken with a mentor. <br>
-    is **NOT** meant for people to learn by themselves!
+_MUST_ be undertaken with a mentor. <br>
+is **NOT** meant for people to learn by themselves!
 
 No computer science knowledge is needed beforehand.
 
@@ -48,6 +48,8 @@ The program is divided into 3 parts:
   project to your portfolio
 - [Epilogue][epilogue], prepares you for the interview process
 
+**MENTORS** should first visit the [teacher manual][teacher-manual]
+
 ## Principles
 This program tries to stay as close as possible to the [Zone of proximal development][zone],
 to maximize the efficiency of learning.
@@ -61,6 +63,8 @@ program interesting.
 
 The program has sample reward system and badges that can be earned. Try to
 achieve as much as possible to experience all the benefits of this course.
+Behind every badge, there is a reward, which should be _negotiated_ by the students.
+Tailor the rewards to be suitable to the interests of the students.
 
 |Description| Youngling | Padawan | Jedi |
 | - | - | - | - |
@@ -78,6 +82,7 @@ respective folder under `cached`, in case a site goes down.
 Please try to improve the documents as much as possible, and share your
 experiences via PRs or email at: mihaildono@gmail.com
 
+[teacher-manual]: https://github.com/mihaildono/padawan-project/blob/master/youngling/teacher-manual.md
 [youngling]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
 [jedi]: https://github.com/mihaildono/padawan-project/blob/master/jedi/final-project.md
