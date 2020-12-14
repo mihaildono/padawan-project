@@ -1,4 +1,4 @@
-const boardSize = parseInt(process.argv[2])
+const boardSize = 20
 const BORDER_CHAR = '🐍'
 const EMPTY_CHAR = '  '
 

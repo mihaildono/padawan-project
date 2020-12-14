@@ -123,7 +123,7 @@ There are two ways to define a function:
 1. `const <funcName> = (<param1>, <param2>) => { return <result> }`
 2. `function <funcName>(<params...>) {}`
 
-*NOTE:* We use the syntax `<>` for illustrating what name means and `<>` is not part of the JavaScript language.
+*NOTE:* We use the syntax `<>` for illustrating user-created custom names and `<>` is not part of the JavaScript language.
 
 Throughout the project the student will use the first way.
 
@@ -240,10 +240,8 @@ iteration `i = 0`, end of iteration `i < 5`, and finally how to increment it `i+
 ###### Exercises
 1. Make the string 'Hey There Friend' uppercase.
 2. Create a pyramid, reverse pyramid and a Christmas tree with an angel on top.
-
+3. Check if word begins with 'F'
 **NOTE** Go to mozilla docs and look at how to get the first character of a string
-
-2. Check if word begins with 'F'
 
 ## Array
 An array is a special variable, which can hold values under a single name. You
@@ -271,8 +269,7 @@ arr[101] // 7
 ###### Exercises
 1. Create an array with 5 values and console log each value
 2. Console log the previous array in reverse order
-
-Run through the following [exercises][exArr]
+3. Run through the following [exercises][exArr]
 
 ## Object
 Sometimes we want to access a specific value in a data structure, and not just
