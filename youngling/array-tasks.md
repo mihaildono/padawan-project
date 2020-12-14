@@ -3,6 +3,24 @@ The first iteration of solving the tasks should be done by the mentor, where he
 demonstarates the language. The second iteration should be done solely by the
 student with hints from the mentor and additional explanation.
 
+## Tasks
+
+1. Draw a board in the console
+  - create a file named "drawBoard.js"
+  - we should be able to "execute" the file like that: `node drawBoard.js 20`. Where `20` is the size of the board
+
+![snake-board](./draw-board.png)
+<details>
+<summary>
+Solution
+</summary>
+<p>
+
+[solutions/drawBoard.js](solutions/drawBoard.js)
+</p>
+</details>
+
+
 ## Objectives
 1. Learn how to split tasks into sub-tasks
 2. Start with returning what the output is
