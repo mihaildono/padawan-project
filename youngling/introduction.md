@@ -244,22 +244,26 @@ As example:
 console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
 ```
 2. Create a function `pyramid(size)` that prints a pyramid
-
+"    *    "</br>
+"   ***   "</br>
+"  *****  "</br>
+" ******* "</br>
+"*********"</br>
 reverse pyramid `reversePyramid(size)`
-"*********"
-" ******* "
-"  *****  "
-"   ***   "
-"    *    "
+"*********"</br>
+" ******* "</br>
+"  *****  "</br>
+"   ***   "</br>
+"    *    "</br>
 and a Christmas tree with an angel on top `christmasTree(size)`.
-"    _    "
-"  {\o/}  "
-"   /_\   "
-"    *    "
-"   o*o   "
-"  *****  "
-" o*****o "
-"*********"
+"    _    "</br>
+"  {\o/}  "</br>
+"   /_\   "</br>
+"    *    "</br>
+"   o*o   "</br>
+"  *****  "</br>
+" o*****o "</br>
+"*********"</br>
 It has one argument(number), which defines the longest line of the pyramid.
 The Christmas Tree should also have Christmas balls every second row, after the first and without the last one.
 
