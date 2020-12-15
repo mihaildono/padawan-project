@@ -308,6 +308,20 @@ Complete the [final][final] exercise!
 When finished with the trial, head over to the [padawan][padawan] section to
 start creating real-world applications.
 
+### Best Practices
+* Write understandable names for variables, functions, etc.
+_bad_
+```js
+const e = 5
+const arXe = 'George'
+```_
+
+_good_
+```js
+const number = 5
+const person = 'George'
+```_
+
 ### Common pitfalls
 * Always return something
 * Index in a for loop, does not actually point to an item, but rather it is used to
