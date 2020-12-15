@@ -52,7 +52,8 @@ console.log(zip([1, 2, 3], [4, 5, 6])) // [ [1, 4], [2, 5], [3, 6] ]
 ```
 
 ### Snake Board
-1. Draw a board in the console
+1. Draw a board in the console, like the image below. It should print the snake symbols
+in a square/rectangular shape.
 
 ![snake-board](./draw-board.png)
 <details>
@@ -65,10 +66,10 @@ Solution
 </p>
 </details>
 
-### [Map][map], [Filter][filter]
+### [Map][map], [Filter][filter], [Reduce][reduce]
 Implement the two functions, and reimplement the previous tasks with them.
 
-## IMPORANT
+## IMPORTANT
 Initially we used `for loop`, and then we learned about `map` and `filter`. From
 this point on, we will strive to only you higher order functions like `map`,
 `filter`, `reduce` and etc., for a more functional style approach.
@@ -76,5 +77,6 @@ this point on, we will strive to only you higher order functions like `map`,
 
 [map]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 [filter]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+[reduce]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
 Complete this section to earn the badge "Force user"
