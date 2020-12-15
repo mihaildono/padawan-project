@@ -302,8 +302,8 @@ obj.values // ['male', 'George', '190']
 
 Run through the following [exercises][exObj]
 
-## Mastermind Trial
-Complete the [final][final] exercise and earn the badge "Mastermind".
+## Sneko Trial
+Complete the [final][final] exercise!
 
 When finished with the trial, head over to the [padawan][padawan] section to
 start creating real-world applications.
