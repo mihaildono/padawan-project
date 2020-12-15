@@ -238,14 +238,32 @@ The construct starts with keyword `for`, then we have 3 parts: start of
 iteration `i = 0`, end of iteration `i < 5`, and finally how to increment it `i++`(this is the same as to write `i = i + 1`). With this, in the enclosing `block`, we get a variable `i`, which will change it's value 5 times -> 0, 1, 2, 3, 4. Notice that in the brackets `[]`, we can write not only numbers, but also variables, that evaluate to numbers. **IMPORTANT** `for loop` changes the value of `i`, if we want to take the current value of the array we must use `arr[i]`.
 
 ###### Exercises
-1. Make the string 'Hey There Friend' uppercase.
-2. Create a pyramid, reverse pyramid and a Christmas tree with an angel on top.
-"    *    "
-"   ***   "
-"  *****  "
-" ******* "
+1. Create a function named `uppercase` that has 1 argument(string) and returns the same string but uppercase:
+As example:
+```
+console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
+```
+2. Create a function `pyramid(size)` that prints a pyramid
+
+reverse pyramid `reversePyramid(size)`
 "*********"
-3. Check if word begins with 'F'
+" ******* "
+"  *****  "
+"   ***   "
+"    *    "
+and a Christmas tree with an angel on top `christmasTree(size)`.
+"    _    "
+"  {\o/}  "
+"   /_\   "
+"    *    "
+"   o*o   "
+"  *****  "
+" o*****o "
+"*********"
+It has one argument(number), which defines the longest line of the pyramid.
+The Christmas Tree should also have Christmas balls every second row, after the first and without the last one.
+
+3. Create a function named `doesBeginWithF()` that has 1 argument(string) and returns true OR false
 **NOTE** Go to mozilla docs and look at how to get the first character of a string
 
 ## Array
