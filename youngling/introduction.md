@@ -238,17 +238,23 @@ The construct starts with keyword `for`, then we have 3 parts: start of
 iteration `i = 0`, end of iteration `i < 5`, and finally how to increment it `i++`(this is the same as to write `i = i + 1`). With this, in the enclosing `block`, we get a variable `i`, which will change it's value 5 times -> 0, 1, 2, 3, 4. Notice that in the brackets `[]`, we can write not only numbers, but also variables, that evaluate to numbers. **IMPORTANT** `for loop` changes the value of `i`, if we want to take the current value of the array we must use `arr[i]`.
 
 ###### Exercises
-1. Make the string 'Hey There Friend' uppercase.
-2. Create a function that calculates the Finbonacci sequence
-3. Create a function that calculates Factorial numbers
-4. Create a pyramid, reverse pyramid and a Christmas tree with an angel on top.
+1. Make a function named `uppercase` that has 1 argument(string) and returns the same string but uppercase:
+As example:
+```
+console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
+```
+2. Create a pyramid, reverse pyramid and a Christmas tree with an angel on top.
 "    *    "
 "   ***   "
 "  *****  "
 " ******* "
 "*********"
-5. Check if word begins with 'F'
+3.  Make a function named `doesBeginWithF()` that has 1 argument(string) and returns true OR false
 **NOTE** Go to mozilla docs and look at how to get the first character of a string
+```
+console.log(doesBeginWithF('Faaaak')) // => true
+console.log(doesBeginWithF('Not Fakkk')) // => false
+```
 
 ## Array
 An array is a special variable, which can hold values under a single name. You
