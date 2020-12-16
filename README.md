@@ -82,7 +82,7 @@ respective folder under `cached`, in case a site goes down.
 Please try to improve the documents as much as possible, and share your
 experiences via PRs or email at: mihaildono@gmail.com
 
-[teacher-manual]: https://github.com/mihaildono/padawan-project/blob/master/youngling/teacher-manual.md
+[teacher-manual]: https://github.com/mihaildono/padawan-project/blob/master/teacher-manual.md
 [youngling]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
 [jedi]: https://github.com/mihaildono/padawan-project/blob/master/jedi/final-project.md

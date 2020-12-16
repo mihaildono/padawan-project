@@ -29,7 +29,7 @@ This one should be just an overview of the project
 5. Send homework0
 
 ## Lesson 1
-Types, Variables, Functions, Conditionals, Loops
+Types, Variables, Functions, Conditionals,
 
 Homework: Go though all the exercises again and try to solve the exercises.
 
@@ -38,12 +38,7 @@ Loops, Arrays(Intro)
 
 Homework: Go though all the exercises again and try to solve the exercises.
 
-## Lesson 2
+## Lesson 3
 Arrays
 
 Homework: Go though all the exercises again and try to solve the exercises. Look through Map/Filter
-
-## Lesson 3
-Go through Arrays together, start using map and filter.
-
-Homework: Implement Map and filter and do all the exercises again with them.

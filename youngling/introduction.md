@@ -4,14 +4,17 @@
 
 The computer thinks in a logical way. Humans do not. The biggest challenges for
 a developer who is just starting out is learning basic algorithmic thinking and
-the related vocabulary.
-The introduction part of JavaScript is split into two parts - arrays and objects, as
-those are the basic data structures of the language. There will be sample
-explanations, but mentors are encouraged to give their own.
+the related vocabulary.There will be sample explanations, but mentors are encouraged to give their own.
 
 *Using internet for help is not advised in this section
 
-###### First Homework
+# Helpful links
+- [Common Pitfalls][common-pitfalls]
+- [Vocabulary][vocabulary]
+- [Best Practices][best-practices]
+- [Cheatsheet][cheatsheet]
+
+###### First homework
 Before going into the first lesson, check the first [homework][homework01].
 
 # Prerequisites
@@ -20,7 +23,7 @@ Before going into the first lesson, check the first [homework][homework01].
 
 ## The basics
  - We program using a language called **JavaScript**. What do you think is a programming language?
- - We use [jsfiddle] to run JavaScript code. It's a website that let's you write JavaScript code and play with it.
+ - We use [jsfiddle][jsfiddle] to run JavaScript code. It's a website that let's you write JavaScript code and play with it.
  - How can we see what our program does? There is a difference between telling the computer to sum `5 + 5` and to making it to show you what the result is `=> 10`. We use **console.log** to visualize something in the console.
  - What is a **console**? A console is a program that makes it easy to play with the programming language. We will use a JavaScript console.
  - What is an **error**? When the code that we right cannot be understand by the programming language, the program returns an error and stops execution.
@@ -36,11 +39,11 @@ Before going into the first lesson, check the first [homework][homework01].
   </p>
  </details>
 
-## Numbers & Strings
+## Number & String
 In *JavaScript* and in programming in general, the most simple piece of information is expressed
 via primitive data types. They are **String** and **Number**. Let's see some examples:
 
-### Numbers
+### Number
 ```
 console.log(3)
 ```
@@ -144,7 +147,6 @@ Let's see what are the steps that the *computer* will do when we write `const re
  - `return a + b` => `return 5 + 6`
  - `const result = 11`
 
-
 ###### Exercises
 <details>
 <summary>
@@ -184,7 +186,7 @@ console.log(celsiusToFahrenheit(38))
 </p>
 </details>
 
-## Conditional Statements
+## Conditional statements
 Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.<br/>
 
 ```js
@@ -328,25 +330,51 @@ obj.values // ['male', 'George', '190']
 
 Run through the following [exercises][exObj]
 
-## Sneko Trial
+## Sneko trial
 Complete the [final][final] exercise!
 
 When finished with the trial, head over to the [padawan][padawan] section to
 start creating real-world applications.
 
-### Best Practices
+### Best practices
+* Use camelCase when writing names for readibility
+_bad_
+```js
+const somelongvariable = 5
+const anotherlongvariable = 'George'
+```
+
+_good_
+```js
+const someLongVariable = 5
+const anotherLongVariable = 'George'
+```
 * Write understandable names for variables, functions, etc.
 _bad_
 ```js
 const e = 5
 const arXe = 'George'
-```_
+```
 
 _good_
 ```js
-const number = 5
+const luckyNumber = 5
 const person = 'George'
-```_
+```
+* Use 2 spaces for indentation of code blocks
+* Add spacing between operators
+_bad_
+```js
+const function=(param1)=>{
+return param1}
+```
+
+_good_
+```js
+const function = (param1) => {
+  return param1
+}
+```
 
 ### Common pitfalls
 * Always return something
@@ -364,14 +392,14 @@ text, also combination of chars(letters)
 * Concatenate
 Means join
 * Declaration
-This is where you intially define a piece of code.
+This is where you initially define a piece of code.
 * Implementation
 How a piece of code is implemented(written down)
 * Iterate
 Go through all items of a collection
 * Primitives
 Most basic piece of informational building block eg.: 1, 'George'
-* Paramater
+* Parameter
 A variable which is not being defined by the function, but passed to from another piece of code
 * Block({})
 This encloses definitions of variables. If we have variable `const i = 10` in one block, in another it would equal `undefined`, unless redefined
@@ -379,8 +407,12 @@ This encloses definitions of variables. If we have variable `const i = 10` in on
 A set of structured data of primitives
 
 [jsfiddle]: https://jsfiddle.net/
-[exArr]: https://github.com/mihaildono/padawan-project/blob/master/youngling/array-tasks.md
-[exObj]: https://github.com/mihaildono/padawan-project/blob/master/youngling/object-tasks.md
-[final]: https://github.com/mihaildono/padawan-project/blob/master/youngling/snake-task.md
+[exArr]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/array-tasks.md
+[exObj]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/object-tasks.md
+[final]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/snake-task.md
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
 [homework01]: https://github.com/mihaildono/padawan-project/blob/master/youngling/homework/homework-console.md
+[best-practices]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#best-practices
+[pitfalls]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#common-pitfalls
+[vocabulary]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#vocabulary
+[cheatsheet]: https://github.com/mihaildono/padawan-project/blob/master/youngling/cheatsheet.md
