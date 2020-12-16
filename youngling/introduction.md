@@ -9,7 +9,7 @@ the related vocabulary.There will be sample explanations, but mentors are encour
 *Using internet for help is not advised in this section
 
 # Helpful links
-- [Common Pitfalls][common-pitfalls]
+- [Common Pitfalls][pitfalls]
 - [Vocabulary][vocabulary]
 - [Best Practices][best-practices]
 - [Cheatsheet][cheatsheet]
