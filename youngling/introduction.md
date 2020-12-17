@@ -69,6 +69,11 @@ We can also concatenate(join) strings: `"baby " + "Yoda"`:
 ## Variables
 Variables are containers for storing data values.
 
+You can think for the variables as for "named boxes". You can put things inside the box and you can refer to them with the name of the box.
+
+- The box has to **have a name**, because you want to distinguish it from the other boxes.
+- The box can be empty, but if you don't fill it with something it isn't very useful.
+
 You can do the following things with a variable:
  1. Creating it - it's called "variable declaration"
 
@@ -95,11 +100,6 @@ const newPizza = 'yummy'
 newPizza = 'cold as hell' // !!! ERROR: Uncaught TypeError: Assignment to constant variable
 ```
 
-You can think for the variables as for "named boxes". You can put things inside the box and you can refer to them with the name of the box. When you use **const** you cannot change what's inside the box.
-
-- The box has to **have a name**, because you want to distinguish it from the other boxes.
-- The box can be empty, but if you don't fill it with somthing it isn't very useful.
-
 ###### Exercises
 <details>
   <summary>
@@ -121,14 +121,11 @@ console.log(granny)
 ## Functions
 Functions are a collection of code that we want to reuse.
 
-There are two ways to define a function:
+To define a function:
 
 1. `const <funcName> = (<param1>, <param2>) => { return <result> }`
-2. `function <funcName>(<params...>) {}`
 
 *NOTE:* We use the syntax `<>` for illustrating user-created custom names and `<>` is not part of the JavaScript language.
-
-Throughout the project the student will use the first way.
 
 This is a sample function which sums two numbers:
 ```js
@@ -150,7 +147,7 @@ Let's see what are the steps that the *computer* will do when we write `const re
 ###### Exercises
 <details>
 <summary>
-1. Make a multiply function
+1. Create a multiply function
 </summary>
 <p>
 
@@ -221,31 +218,51 @@ if (name === 'Alex' && gender === 'female') {
 ```
 ###### Exercises
 1. Check if a number is even or not
-
+2. Check if word begins with 'F'
 **NOTE** Go to mozilla docs and look at how to get the first character of a string
 
-2. Check if word begins with 'F'
-
 ## Loops
-Sometimes we want to `iterate` through a collection and perform the an action
-for every element and not go through them individually. These constructs are
-called `loops`. Initially we will use the `for` loop. This is a mechanism which increments a certain `variable` by a specific value. For example if we have an array with length 10 and we want to go through the whole thing, we start at index 0, go through each number until we reach index 9. This is an example `for loop`:
+In life we constantly need to repeat actions, whether it is to brush our teeth every morning
+or do 10 push ups at the gym. This is called a loop. In Javascript there are several types of loops.
+Initially we will use the `for` loop. The `for` loop does 2 things:
+1. Changes a value a certain amount of times.
+2. Executes a `block` of code, the same amount of times the value changed.
+
+Instead of writing this:
 ```js
-for (i = 0; i < 5; i++) {
-    arr[i] // arr[0] => 69, arr[1] => 31 ...
+console.log('Number 1')
+console.log('Number 2')
+console.log('Number 3')
+```
+
+We can write this:
+```js
+for (i = 0; i < 3; i++) {
+    console.log('Number ', i) // Number 1, Number 2, Number 3
 }
 ```
 
-The construct starts with keyword `for`, then we have 3 parts: start of
-iteration `i = 0`, end of iteration `i < 5`, and finally how to increment it `i++`(this is the same as to write `i = i + 1`). With this, in the enclosing `block`, we get a variable `i`, which will change it's value 5 times -> 0, 1, 2, 3, 4. Notice that in the brackets `[]`, we can write not only numbers, but also variables, that evaluate to numbers. **IMPORTANT** `for loop` changes the value of `i`, if we want to take the current value of the array we must use `arr[i]`.
+The construct starts with keyword `for`, then we have 3 parts:
+1. Start of iteration `i = 0`
+2. End of iteration `i < 3`
+3. How to increment it `i++`(this is the same as to write `i = i + 1`).
+
+With this, in the enclosing `block`, we get a variable `i`, which will change it's value 3 times -> 0, 1, 2
 
 ###### Exercises
-1. Create a function named `uppercase` that has 1 argument(string) and returns the same string but uppercase:
+1. Print each number from  0 to 10 in ascending order
+2. Print each number from  0 to 10 in descending order
+3. Print each number from  0 to (-10) in descending order
+4. Print the numbers [0, 2, 4, 6, 8, 10]
+5. Create a function named `uppercase` that has 1 argument(string) and returns the same string but uppercase:
 As example:
 ```
 console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
 ```
-2. Create a function `pyramid(size)` that prints a pyramid
+6. Create a function `pyramid(size)` that prints a pyramid
+* Tip split the task into sub-tasks
+- one task creates 1 line of the pyramid
+- one task combines all the lines of the pyramid
 <pre>
 "    *    "
 "   ***   "
@@ -279,8 +296,7 @@ The Christmas Tree should also have Christmas balls every second row, after the 
 **NOTE** Go to mozilla docs and look at how to get the first character of a string
 
 ## Array
-An array is a special variable, which can hold values under a single name. You
-can access the values by referring to an index number. Array is denoted by the
+An array is a collection, which can hold values under a single name. Array is denoted by the
 symbols `[]`
 
 Lottary example: [69, 31, 56, 76, 22]
