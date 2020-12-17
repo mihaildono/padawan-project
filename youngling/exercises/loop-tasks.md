@@ -7,7 +7,7 @@ Create a `count` function that prints each number from 0 to 10 in ascending orde
 
 You can test your function with the following code:
 ```js
-console.log(count())
+count()
 ```
 </p>
 </details>
@@ -21,7 +21,7 @@ Create a `reverseCount` function that prints each number from 0 to 10 in descend
 
 You can test your function with the following code:
 ```js
-console.log(reverseCount())
+reverseCount()
 ```
 </p>
 </details>
@@ -35,7 +35,7 @@ Create a `negativeCount` function that prints each number from 0 to (-10) in des
 
 You can test your function with the following code:
 ```js
-console.log(negativeCount())
+negativeCount()
 ```
 </p>
 </details>
@@ -49,7 +49,7 @@ Create a `stepCount` function that prints the numbers [0, 2, 4, 6, 8, 10]
 
 You can test your function with the following code:
 ```js
-console.log(stepCount())
+stepCount()
 ```
 </p>
 </details>
@@ -63,7 +63,7 @@ Create a function named `uppercase` that has 1 argument(string) and returns(stri
 
 You can test your function with the following code:
 ```js
-console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
+uppercase('Hey There Friend') // => 'HEY THERE FRIEND'
 ```
 </p>
 </details>
@@ -91,7 +91,7 @@ console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
 </pre>
 You can test your function with the following code:
 ```js
-console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
+uppercase('Hey There Friend') // => 'HEY THERE FRIEND'
 ```
 </p>
 </details>
