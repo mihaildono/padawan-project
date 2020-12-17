@@ -29,16 +29,32 @@ This one should be just an overview of the project
 5. Send homework0
 
 ## Lesson 1
-Types, Variables, Functions, Conditionals,
+Types, Variables, Functions, Conditionals, Loops(intro)
 
-Homework: Go though all the exercises again and try to solve the exercises.
+Homework: Go though all the exercises again and try to solve them.
 
 ## Lesson 2
-Loops, Arrays(Intro)
+Loops
 
-Homework: Go though all the exercises again and try to solve the exercises.
+Homework: Go though all the exercises again and try to solve them.
 
 ## Lesson 3
+Loops pt2, Arrays(Intro)
+
+Homework: Go though all the exercises again and try to solve them. Look through Arrays
+
+## Lesson 4
 Arrays
 
-Homework: Go though all the exercises again and try to solve the exercises. Look through Map/Filter
+Homework: Go though all the exercises again and try to solve them. Look through Map/Filter
+
+## Lesson 5
+Arrays pt2, Map/Filter(intro)
+
+Homework: Go though all the exercises again and try to solve the exercises.
+Try to implement Map/Filter
+
+## Lesson 6
+Map/Filter with Array
+
+Homework: Redo all the exercises with map/filter.

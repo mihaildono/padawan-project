@@ -121,6 +121,9 @@ console.log(granny)
 ## Functions
 Functions are a collection of code that we want to reuse.
 
+When we watch TV, we do not build the TV each time before watching something, we
+reuse the same package(TV box) each time.
+
 To define a function:
 
 1. `const <funcName> = (<param1>, <param2>) => { return <result> }`
@@ -217,9 +220,25 @@ if (name === 'Alex' && gender === 'female') {
 }
 ```
 ###### Exercises
+<details>
+<summary>
 1. Check if a number is even or not
+</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>
 2. Check if word begins with 'F'
-**NOTE** Go to mozilla docs and look at how to get the first character of a string
+</summary>
+<p>
+
+</p>
+</details>
+
+*NOTE* Go to mozilla docs and look at how to get the first character of a string
 
 ## Loops
 In life we constantly need to repeat actions, whether it is to brush our teeth every morning
@@ -250,16 +269,59 @@ The construct starts with keyword `for`, then we have 3 parts:
 With this, in the enclosing `block`, we get a variable `i`, which will change it's value 3 times -> 0, 1, 2
 
 ###### Exercises
+<details>
+<summary>
 1. Print each number from  0 to 10 in ascending order
+</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>
 2. Print each number from  0 to 10 in descending order
+</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>
 3. Print each number from  0 to (-10) in descending order
+</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>
 4. Print the numbers [0, 2, 4, 6, 8, 10]
+</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>
 5. Create a function named `uppercase` that has 1 argument(string) and returns the same string but uppercase:
+</summary>
+<p>
 As example:
 ```
 console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
 ```
+</p>
+</details>
+
+<details>
+<summary>
 6. Create a function `pyramid(size)` that prints a pyramid
+</summary>
+<p>
 * Tip split the task into sub-tasks
 - one task creates 1 line of the pyramid
 - one task combines all the lines of the pyramid
@@ -291,9 +353,17 @@ and a Christmas tree with an angel on top `christmasTree(size)`.
 </pre>
 It has one argument(number), which defines the longest line of the pyramid.
 The Christmas Tree should also have Christmas balls every second row, after the first and without the last one.
+</p>
+</details>
 
+<details>
+<summary>
 3. Create a function named `doesBeginWithF()` that has 1 argument(string) and returns true OR false
+</summary>
+<p>
 **NOTE** Go to mozilla docs and look at how to get the first character of a string
+</p>
+</details>
 
 ## Array
 An array is a collection, which can hold values under a single name. Array is denoted by the
