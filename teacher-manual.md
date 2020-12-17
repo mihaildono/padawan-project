@@ -1,3 +1,8 @@
+# General Tips
+- Ask constantly about problems between lessons
+- Give frequently tips about different issues
+- Tell the people it is always good to ask "stupid" questions
+
 # Selection Process:
 All the people should be interviewed for these reasons:
 1. Filter out unmotivated individuals

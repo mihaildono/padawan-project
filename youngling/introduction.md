@@ -154,11 +154,11 @@ Let's see what are the steps that the *computer* will do when we write `const re
 </summary>
 <p>
 
-Create a `multiply` function that sums any two parameters that you pass to it.
+Create a `multiply` function that has 2 arguments(number) and returns(number) their sum.
 
 You can test your function with the following code:
 
-```
+```js
 console.log(multiply(1, 2))
 ```
 
@@ -171,15 +171,15 @@ console.log(multiply(1, 2))
 </summary>
 <p>
 
-Create a `celsiusToFahrenheit` function that converters Fahrenheit into Celsius, having the formula:
+Create a `celsiusToFahrenheit` function that has one argument(number) - Fahrenheit and returns(number) - Celsius, having the formula:
 
-```
+```js
 ℉ = ℃ * 1.8 + 32
 ```
 
 You can test your function with the following code:
 
-```
+```js
 console.log(celsiusToFahrenheit(38))
 ```
 
@@ -187,7 +187,7 @@ console.log(celsiusToFahrenheit(38))
 </details>
 
 ## Conditional statements
-Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.<br/>
+Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.
 
 ```js
 if (true) {
@@ -197,7 +197,7 @@ if (true) {
 }
 ```
 
-If we want to check if something is equal to something else we use `===`
+If we want to check if something is equal to something else we use `===`.
 
 ```js
 const name = 'George'
@@ -225,16 +225,30 @@ if (name === 'Alex' && gender === 'female') {
 1. Check if a number is even or not
 </summary>
 <p>
+Create a `isEven` function that has 1 arguments(number) and returns(boolean).
 
+You can test your function with the following code:
+```js
+console.log(isEven(73))
+console.log(isEven(0))
+console.log(isEven(16))
+```
 </p>
 </details>
 
 <details>
 <summary>
-2. Check if word begins with 'F'
+2. Check if word begins with the letter 'F'
 </summary>
 <p>
+Create a `beginsWithF` function that has 1 argument(string) that returns(boolean).
 
+You can test your function with the following code:
+```js
+console.log(beginsWithF('Bar'))
+console.log(beginsWithF('Foo'))
+console.log(beginsWithF(' Foo'))
+```
 </p>
 </details>
 
@@ -269,101 +283,7 @@ The construct starts with keyword `for`, then we have 3 parts:
 With this, in the enclosing `block`, we get a variable `i`, which will change it's value 3 times -> 0, 1, 2
 
 ###### Exercises
-<details>
-<summary>
-1. Print each number from  0 to 10 in ascending order
-</summary>
-<p>
-
-</p>
-</details>
-
-<details>
-<summary>
-2. Print each number from  0 to 10 in descending order
-</summary>
-<p>
-
-</p>
-</details>
-
-<details>
-<summary>
-3. Print each number from  0 to (-10) in descending order
-</summary>
-<p>
-
-</p>
-</details>
-
-<details>
-<summary>
-4. Print the numbers [0, 2, 4, 6, 8, 10]
-</summary>
-<p>
-
-</p>
-</details>
-
-<details>
-<summary>
-5. Create a function named `uppercase` that has 1 argument(string) and returns the same string but uppercase:
-</summary>
-<p>
-As example:
-```
-console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
-```
-</p>
-</details>
-
-<details>
-<summary>
-6. Create a function `pyramid(size)` that prints a pyramid
-</summary>
-<p>
-* Tip split the task into sub-tasks
-- one task creates 1 line of the pyramid
-- one task combines all the lines of the pyramid
-<pre>
-"    *    "
-"   ***   "
-"  *****  "
-" ******* "
-"*********"
-</pre>
-reverse pyramid `reversePyramid(size)`
-<pre>
-"*********"
-" ******* "
-"  *****  "
-"   ***   "
-"    *    "
-</pre>
-and a Christmas tree with an angel on top `christmasTree(size)`.
-<pre>
-"    _    "
-"  {\o/}  "
-"   /_\   "
-"    *    "
-"   o*o   "
-"  *****  "
-" o*****o "
-"*********"
-</pre>
-It has one argument(number), which defines the longest line of the pyramid.
-The Christmas Tree should also have Christmas balls every second row, after the first and without the last one.
-</p>
-</details>
-
-<details>
-<summary>
-3. Create a function named `doesBeginWithF()` that has 1 argument(string) and returns true OR false
-</summary>
-<p>
-**NOTE** Go to mozilla docs and look at how to get the first character of a string
-</p>
-</details>
+Run through the following [exercises][exLoop]
 
 ## Array
 An array is a collection, which can hold values under a single name. Array is denoted by the
@@ -495,6 +415,7 @@ A set of structured data of primitives
 [jsfiddle]: https://jsfiddle.net/
 [exArr]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/array-tasks.md
 [exObj]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/object-tasks.md
+[exLoop]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/loop-tasks.md
 [final]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/snake-task.md
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
 [homework01]: https://github.com/mihaildono/padawan-project/blob/master/youngling/homework/homework-console.md
