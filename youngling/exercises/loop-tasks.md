@@ -101,6 +101,7 @@ console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
 7. Create a function `pyramid(size)` that prints a pyramid
 </summary>
 <p>
+It has one argument(number), which defines the longest line of the pyramid.
 * Tip split the task into sub-tasks
 - one task creates 1 line of the pyramid
 - one task combines all the lines of the pyramid
@@ -132,7 +133,6 @@ console.log(uppercase('Hey There Friend')) // => 'HEY THERE FRIEND'
 " o*****o "
 "*********"
 </pre>
-It has one argument(number), which defines the longest line of the pyramid.
 The Christmas Tree should also have Christmas balls every second row, after the first and without the last one.
 </p>
 </details>
