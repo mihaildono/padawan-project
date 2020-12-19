@@ -65,13 +65,13 @@ for (i = 0; i < 3; i++) {
 ## Array
 ```js
 const arr = [69, 31, 56, 76, 22]
-arr[0] // 69
-arr[3] // 76
-arr[100] // undefined
+arr[0] // =>  69
+arr[3] // =>  76
+arr[100] // =>  undefined
 arr[100] = 666
-arr[100] // 666
+arr[100] // =>  666
 arr.push(7)
-arr[101] // 7
+arr[101] // =>  7
 ```
 * Keys for objects and Indexes for arrays, can be used with variables that
   evaluate to a string/number
