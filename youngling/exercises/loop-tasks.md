@@ -2,7 +2,7 @@
 
 <details>
 <summary>
-### count
+<h1>count</h1>
 </summary>
 <p>
 Create a `count` function that prints each number from 0 to 10 in ascending order
@@ -16,7 +16,7 @@ console.log(count()) // => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 <details>
 <summary>
-### reverseCount
+<h1>reverseCount</h1>
 </summary>
 <p>
 Create a `reverseCount` function that prints each number from 0 to 10 in descending order
@@ -30,7 +30,7 @@ console.log(reverseCount()) // => [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 
 <details>
 <summary>
-### negativeCount
+<h1>negativeCount</h1>
 </summary>
 <p>
 Create a `negativeCount` function that prints each number from 0 to (-10) in descending order
@@ -44,7 +44,7 @@ console.log(negativeCount()) // => [0, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
 
 <details>
 <summary>
-### stepCount
+<h1>stepCount</h1>
 </summary>
 <p>
 Create a `stepCount` function that prints the numbers [0, 2, 4, 6, 8, 10]
@@ -58,7 +58,7 @@ console.log(stepCount()) // => [0, 2, 4, 6, 8, 10]
 
 <details>
 <summary>
-### custromRepeat
+<h1>custromRepeat</h1>
 </summary>
 <p>
 Create a function named `custromRepeat(symbol, count)` that has 2 arguments - (symbol:string, count:number) and
@@ -73,10 +73,10 @@ console.log(custromRepeat('*', 5)) // => '*****'
 
 <details>
 <summary>
-6. Create a staircase
+<h1>staircase</h1>
 </summary>
 <p>
-6.1 Create a function named `staircase(size)` that has 1 argument (size:number),
+1. Create a function named `staircase(size)` that has 1 argument (size:number),
 which is the length of the last row and prints:
 <pre>
 "*    "
@@ -85,7 +85,7 @@ which is the length of the last row and prints:
 "**** "
 "*****"
 </pre>
-6.2 Create a function named `reverseStaircase(size)` that has 1 argument (size:number),
+2. Create a function named `reverseStaircase(size)` that has 1 argument (size:number),
 which is the length of the last row and prints:
 <pre>
 "    *"
@@ -99,10 +99,11 @@ which is the length of the last row and prints:
 
 <details>
 <summary>
-7. Create a function `pyramid(size)` that has 1 argument (size:number),
-which is the length of the last row and prints a pyramid:
+<h1>pyramid</h1>
 </summary>
 <p>
+Create a function `pyramid(size)` that has 1 argument (size:number),
+which is the length of the last row and prints a pyramid:
 *Sub tasks:
 - one task creates 1 line of the pyramid
 - one task combines all the lines of the pyramid
