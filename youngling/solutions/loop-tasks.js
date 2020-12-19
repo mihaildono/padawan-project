@@ -28,5 +28,3 @@ const customRepeat = (symbol, count) => {
 
   return result
 }
-
-console.log()

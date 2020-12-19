@@ -2,7 +2,7 @@
 
 <details>
 <summary>
-<h3>count</h3>
+count
 </summary>
 <p>
 Create a `count` function that prints each number from 0 to 10 in ascending order
@@ -16,7 +16,7 @@ console.log(count()) // => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 <details>
 <summary>
-<h3>reverseCount</h3>
+reverseCount
 </summary>
 <p>
 Create a `reverseCount` function that prints each number from 0 to 10 in descending order
@@ -30,7 +30,7 @@ console.log(reverseCount()) // => [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 
 <details>
 <summary>
-<h3>negativeCount</h3>
+negativeCount
 </summary>
 <p>
 Create a `negativeCount` function that prints each number from 0 to (-10) in descending order
@@ -44,7 +44,7 @@ console.log(negativeCount()) // => [0, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
 
 <details>
 <summary>
-<h3>stepCount</h3>
+stepCount
 </summary>
 <p>
 Create a `stepCount` function that prints the numbers [0, 2, 4, 6, 8, 10]
@@ -58,7 +58,7 @@ console.log(stepCount()) // => [0, 2, 4, 6, 8, 10]
 
 <details>
 <summary>
-<h3>custromRepeat</h3>
+custromRepeat
 </summary>
 <p>
 Create a function named `custromRepeat(symbol, count)` that has 2 arguments - (symbol:string, count:number) and
@@ -73,7 +73,7 @@ console.log(custromRepeat('*', 5)) // => '*****'
 
 <details>
 <summary>
-<h3>staircase</h3>
+staircase
 </summary>
 <p>
 1. Create a function named `staircase(size)` that has 1 argument (size:number),
@@ -99,7 +99,7 @@ which is the length of the last row and prints:
 
 <details>
 <summary>
-<h3>pyramid</h3>
+pyramid
 </summary>
 <p>
 Create a function `pyramid(size)` that has 1 argument (size:number),
