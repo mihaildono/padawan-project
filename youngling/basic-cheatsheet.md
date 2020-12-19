@@ -52,7 +52,7 @@ console.log(result)
 
 ## For loop
 ```js
-     start; end;  iteration;
+//   start; end;  iteration;
 for (i = 0; i < 3; i++) {
     console.log('Number ', i) // => Number 1, Number 2, Number 3
 }
