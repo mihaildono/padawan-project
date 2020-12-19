@@ -58,15 +58,15 @@ console.log(stepCount()) // => [0, 2, 4, 6, 8, 10]
 
 <details>
 <summary>
-custromRepeat
+customRepeat
 </summary>
 <p>
-Create a function named `custromRepeat(symbol, count)` that has 2 arguments - (symbol:string, count:number) and
+Create a function named `customRepeat(symbol, count)` that has 2 arguments - (symbol:string, count:number) and
 returns a string with the `symbol` repeated `count` times:
 
 You can test your function with the following code:
 ```js
-console.log(custromRepeat('*', 5)) // => '*****'
+console.log(customRepeat('*', 5)) // => '*****'
 ```
 </p>
 </details>
