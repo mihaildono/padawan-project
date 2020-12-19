@@ -12,7 +12,7 @@ the related vocabulary.There will be sample explanations, but mentors are encour
 - [Common Pitfalls][pitfalls]
 - [Vocabulary][vocabulary]
 - [Best Practices][best-practices]
-- [Cheatsheet][cheatsheet]
+- [Basic-Cheatsheet][basic-cheatsheet]
 
 ###### First homework
 Before going into the first lesson, check the first [homework][homework01].
@@ -136,8 +136,7 @@ const add = (a, b) => {
     return a + b
 }
 
-const result = add(5, 6) // 11
-console.log(result)
+add(5, 6) // => 11
 ```
 You can see that the first part `(a, b) => {...}` creates the function and assigns it to the variable `add`.
 And `add(5, 6)` executes it, which means it makes the computer run the code inside the function's body.
@@ -154,7 +153,8 @@ Let's see what are the steps that the *computer* will do when we write `const re
 </summary>
 <p>
 
-Create a `multiply` function that has 2 arguments(number) and returns(number) their sum.
+Create a `multiply(firstNumber, secondNumber)` function that has 2 arguments
+(firstNumber:number, secondNumber:number) and returns (sum:number) their sum.
 
 You can test your function with the following code:
 
@@ -171,7 +171,8 @@ console.log(multiply(1, 2))
 </summary>
 <p>
 
-Create a `celsiusToFahrenheit` function that has one argument(number) - Fahrenheit and returns(number) - Celsius, having the formula:
+Create a `celsiusToFahrenheit(celsiusNumber)` function that has one argument (celsiusNumber)
+returns (fahrenheit:number) having the formula:
 
 ```js
 ℉ = ℃ * 1.8 + 32
@@ -225,7 +226,7 @@ if (name === 'Alex' && gender === 'female') {
 1. Check if a number is even or not
 </summary>
 <p>
-Create a `isEven` function that has 1 arguments(number) and returns(boolean).
+Create a `isEven(num)` function that has 1 argument (num:number) and returns (boolean).
 
 You can test your function with the following code:
 ```js
@@ -241,7 +242,7 @@ console.log(isEven(16))
 2. Check if word begins with the letter 'F'
 </summary>
 <p>
-Create a `beginsWithF` function that has 1 argument(string) that returns(boolean).
+Create a `beginsWithF(text)` function that has 1 argument (text:string) that returns (boolean).
 
 You can test your function with the following code:
 ```js
@@ -270,8 +271,9 @@ console.log('Number 3')
 
 We can write this:
 ```js
+     start; end;  iteration;
 for (i = 0; i < 3; i++) {
-    console.log('Number ', i) // Number 1, Number 2, Number 3
+    console.log('Number ', i) // => Number 1, Number 2, Number 3
 }
 ```
 
@@ -282,14 +284,15 @@ The construct starts with keyword `for`, then we have 3 parts:
 
 With this, in the enclosing `block`, we get a variable `i`, which will change it's value 3 times -> 0, 1, 2
 
+*Tip: Index in a `for` loop, does not actually point to an item, but rather it is used to
+  find the corresponding item. 2 things happen: 1. `i` is changed, code inside `{}`
+  is repeated as many times as `i` is changed.
 ###### Exercises
 Run through the following [exercises][exLoop]
 
 ## Array
 An array is a collection, which can hold values under a single name. Array is denoted by the
 symbols `[]`
-
-Lottary example: [69, 31, 56, 76, 22]
 
 To take element of an array: <arrayName>[<number>]
 ```js
@@ -382,14 +385,6 @@ const function = (param1) => {
 }
 ```
 
-### Common pitfalls
-* Always return something
-* Index in a for loop, does not actually point to an item, but rather it is used to
-  find the corresponding item
-* Map is very confusing when first switched form for loop. Repetition is key!
-* Keys for objects and Indexes for arrays, can be used with variables that
-  evaluate to a string/number
-
 ### Vocabulary
 * Char
 a single letter
@@ -404,8 +399,10 @@ How a piece of code is implemented(written down)
 * Iterate
 Go through all items of a collection
 * Primitives
-Most basic piece of informational building block eg.: 1, 'George'
+Most basic piece of informational building block eg.: the number `1`, the text `'George'`
 * Parameter
+A variable which is not being defined by the function, but passed to from another piece of code
+* Argument
 A variable which is not being defined by the function, but passed to from another piece of code
 * Block({})
 This encloses definitions of variables. If we have variable `const i = 10` in one block, in another it would equal `undefined`, unless redefined
@@ -422,4 +419,4 @@ A set of structured data of primitives
 [best-practices]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#best-practices
 [pitfalls]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#common-pitfalls
 [vocabulary]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#vocabulary
-[cheatsheet]: https://github.com/mihaildono/padawan-project/blob/master/youngling/cheatsheet.md
+[cheatsheet]: https://github.com/mihaildono/padawan-project/blob/master/youngling/basic-cheatsheet.md

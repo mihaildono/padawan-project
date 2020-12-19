@@ -3,10 +3,6 @@ The first iteration of solving the tasks should be done by the mentor, where he
 demonstarates the language. The second iteration should be done solely by the
 student with hints from the mentor and additional explanation.
 
-## Objectives
-1. Learn how to split tasks into sub-tasks
-2. Start with returning what the output is
-
 ## Tasks
 
 ### contains
@@ -32,6 +28,16 @@ console.log(range(1, 10)) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 console.log(range(5, 9)) // [5, 6, 7, 8, 9]
 ```
 
+### minMax
+Return an array containing the smallest and largest number.
+
+```js
+const minMax = (arr) => {}
+
+console.log(minMax([1, 2, 3, 4, 5])) // [1, 5]
+console.log(minMax(1, 1, 1, 1)) // [1, 1]
+```
+
 ### without
 arr and exclude are lists. The function should return a new list, removing all elements from exclude in arr.
 
@@ -55,7 +61,7 @@ console.log(zip([1, 2, 3], [4, 5, 6])) // [ [1, 4], [2, 5], [3, 6] ]
 1. Draw a board in the console, like the image below. It should print the snake symbols
 in a square/rectangular shape.
 
-![snake-board](./draw-board.png)
+![snanke-board](./draw-board.png)
 <details>
 <summary>
 Solution
