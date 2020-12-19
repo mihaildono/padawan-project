@@ -419,4 +419,4 @@ A set of structured data of primitives
 [best-practices]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#best-practices
 [pitfalls]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#common-pitfalls
 [vocabulary]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#vocabulary
-[cheatsheet]: https://github.com/mihaildono/padawan-project/blob/master/youngling/basic-cheatsheet.md
+[basic-cheatsheet]: https://github.com/mihaildono/padawan-project/blob/master/youngling/basic-cheatsheet.md
