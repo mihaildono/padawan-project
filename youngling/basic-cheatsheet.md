@@ -1,12 +1,17 @@
 # Cheatsheet
 
 ## How to approach a problem
-0. Split task into sub-tasks and implement them one-by-one
-1. Start with the return
-`js code`
-2. Put console.log on appropriate places
-3. If undefined is returned, check what you `return`
-4. If a console.log or `return` is not displayed, probably the code cannot reach it.
+#### 5 steps to algorithm solving
+0. Read the problem out loud and make sure you understand it.
+1. See the input and output type
+2. Split task into sub-tasks and to implement them one-by-one
+3. Create pseudocode of the problem
+4. Star coding, starting with the return statement.
+
+#### How to debug
+2. Put `console.log` on appropriate places
+3. If `undefined` is returned, check what you `return`
+4. If a `console.log` or `return` is not displayed, probably the code cannot reach it.
 
 ## Types
 - Number
