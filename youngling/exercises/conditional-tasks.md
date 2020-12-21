@@ -5,10 +5,12 @@
 <p>
 Create a `max(a, b)` function that has 2 arguments (a:number, b:number) and returns (number),
 which checks the bigger number
+
 ```js
 console.log(max(5, 6)) // => 6
 console.log(max(0, -5)) // => 0
 ```
+
 </p>
 </details>
 

@@ -1,16 +1,17 @@
+# Variable exercises
+
 <details>
-  <summary>
-    Old granny
-  </summary>
-  <p>
-  Create a variable with name `granny` assign it a value some text. Print the value on the console.
+<summary>
+Old granny
+</summary>
+<p>
+Create a variable with name `granny` assign it a value some text. Print the value on the console.
 ```js
 const granny = "I'm not so old, m*fckaa"
-
 console.log(granny)
 ```
-  </p>
-</details>
+</p>
+    </details>
 
 <details>
   <summary>
