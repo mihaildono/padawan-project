@@ -66,10 +66,10 @@ achieve as much as possible to experience all the benefits of this course.
 Behind every badge, there is a reward, which should be _negotiated_ by the students.
 Tailor the rewards to be suitable to the interests of the students.
 
-|Description| Youngling | Padawan | Jedi |
-| - | - | - | - |
-|Section badges| Check 1 2 <br> Objection <br> Force user <br> Sneko| Tinkerer <br> Handsome Jack <br> Reactive <br> Cable guy <br> Orient Express <br> Showoff <br> Señor ||
-|Earn whole section to acquire| Jedi Youngling | Jedi Padawan | Jedi Knight|
+| Description                   | Youngling                                           | Padawan                                                                                              | Jedi        |
+| -                             | -                                                   | -                                                                                                    | -           |
+| Section badges                | Check 1 2 <br> Objection <br> Force user <br> Sneko | Tinkerer <br> Handsome Jack <br> Reactive <br> Cable guy <br> Orient Express <br> Showoff <br> Señor |             |
+| Earn whole section to acquire | Jedi Youngling                                      | Jedi Padawan                                                                                         | Jedi Knight |
 
 When all badges are earned, earn badge "Jedi Guardian"
 

@@ -9,7 +9,7 @@
 4. Star coding, starting with the return statement.
 
 #### How to debug
-2. Put `console.log` on appropriate places
+2. Put several `console.log` at different places, printing variables.
 3. If `undefined` is returned, check what you `return`
 4. If a `console.log` or `return` is not displayed, probably the code cannot reach it.
 

@@ -14,9 +14,6 @@ the related vocabulary.There will be sample explanations, but mentors are encour
 - [Best Practices][best-practices]
 - [Basic-Cheatsheet][basic-cheatsheet]
 
-###### First homework
-Before going into the first lesson, check the first [homework][homework01].
-
 # Prerequisites
 * Make an account for [jsfiddle][jsfiddle]
   This is an website that makes it super easy to run JavaScript code.
@@ -39,7 +36,7 @@ Before going into the first lesson, check the first [homework][homework01].
   </p>
  </details>
 
-## Number & String
+## Types
 In *JavaScript* and in programming in general, the most simple piece of information is expressed
 via primitive data types. They are **String** and **Number**. Let's see some examples:
 
@@ -56,7 +53,7 @@ We can:
  - Multiply, divide, ...
  - We can have a combination of all: `3 - 3 * 1 / 1`
 
-### Strings
+### String
 Strings are combinations of letters(chars), therefore it's just a text.
 
 ```
@@ -66,30 +63,35 @@ console.log("I'm a string")
 
 We can also concatenate(join) strings: `"baby " + "Yoda"`:
 
-## Variables
-Variables are containers for storing data values.
+###### Exercises
+Run through the following [exercises][exTypes]
 
-You can think for the variables as for "named boxes". You can put things inside the box and you can refer to them with the name of the box.
+## Variable
+A variable is a container for storing data values.
+
+You can think of variables as "named boxes". You can put things inside the box and you can refer to them with the name of the box.
 
 - The box has to **have a name**, because you want to distinguish it from the other boxes.
 - The box can be empty, but if you don't fill it with something it isn't very useful.
 
 You can do the following things with a variable:
- 1. Creating it - it's called "variable declaration"
 
+- Creating it - it's called "variable declaration"
 ```js
 let newVariable
 ```
 
- 2. Passing it a value - it's called "value assignment". To `assign` a value to a `variable` use '='
+- Passing it a value - it's called "value assignment". To `assign` a value to a `variable` use '='
 ```js
-let newVariable
-newVariable = 44
+let myNumber
+myNumber = 44
+console.log(myNumber) // => 44
 ```
 
-3. Creating **and** passing a value
+- Creating **and** passing a value
 ```js
-let newVariable = 44
+let myNumber = 44
+console.log(myNumber) // => 44
 ```
 
 Variables can be defined via the keywords `let` and `const`. The difference is that `const` is immutable, which means it can't be changed.
@@ -101,22 +103,7 @@ newPizza = 'cold as hell' // !!! ERROR: Uncaught TypeError: Assignment to consta
 ```
 
 ###### Exercises
-<details>
-  <summary>
-  1. Print the value of the variable
-
-  Create a variable with name `granny` assign it a value some text. Print the value on the console.
-  </summary>
-  <p>
-
-```js
-const granny = "I'm not so old, m*fckaa"
-
-console.log(granny)
-```
-  </p>
-</details>
-
+Run through the following [exercises][exVar]
 
 ## Functions
 Functions are a collection of code that we want to reuse.
@@ -188,27 +175,30 @@ console.log(celsiusToFahrenheit(38))
 </details>
 
 ## Conditional statements
-Sometimes we want to split the flow of our application depending on the result of an expression. We do this with the keywords `if` and `else`.
-
+We make choices based on if something is truth(true) or a lie(false). In a classroom
+if you have more 50% correct answers you pass the exam, otherwise you would fail it.
 ```js
-if (true) {
-    // do something
+const correctAnswerPercentage = 0.5
+if (correctAnswerPercentage > 0.5) {
+    console.log('You pass!')
 } else {
-    // do something else
+    console.log('You fail!')
 }
 ```
 
 If we want to check if something is equal to something else we use `===`.
-
 ```js
 const name = 'George'
 
 if (name === 'George') {
-    return 'This the dude George'
+    return 'It is cool guy George!'
 } else {
     return 'Who is this guy?'
 }
+```
 
+We can combine statement with `&&` - this means `and`
+```js
 const otherName = 'Alex'
 const gender = 'female'
 
@@ -221,39 +211,7 @@ if (name === 'Alex' && gender === 'female') {
 }
 ```
 ###### Exercises
-<details>
-<summary>
-1. Check if a number is even or not
-</summary>
-<p>
-Create a `isEven(num)` function that has 1 argument (num:number) and returns (boolean).
-
-You can test your function with the following code:
-```js
-console.log(isEven(73))
-console.log(isEven(0))
-console.log(isEven(16))
-```
-</p>
-</details>
-
-<details>
-<summary>
-2. Check if word begins with the letter 'F'
-</summary>
-<p>
-Create a `beginsWithF(text)` function that has 1 argument (text:string) that returns (boolean).
-
-You can test your function with the following code:
-```js
-console.log(beginsWithF('Bar'))
-console.log(beginsWithF('Foo'))
-console.log(beginsWithF(' Foo'))
-```
-</p>
-</details>
-
-*NOTE* Go to mozilla docs and look at how to get the first character of a string
+Run through the following [exercises][exCond]
 
 ## Loops
 In life we constantly need to repeat actions, whether it is to brush our teeth every morning
@@ -410,12 +368,14 @@ This encloses definitions of variables. If we have variable `const i = 10` in on
 A set of structured data of primitives
 
 [jsfiddle]: https://jsfiddle.net/
+[exTypes]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/types-tasks.md
 [exArr]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/array-tasks.md
+[exCond]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/conditional-tasks.md
+[exVar]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/variable-tasks.md
 [exObj]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/object-tasks.md
 [exLoop]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/loop-tasks.md
 [final]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/snake-task.md
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
-[homework01]: https://github.com/mihaildono/padawan-project/blob/master/youngling/homework/homework-console.md
 [best-practices]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#best-practices
 [pitfalls]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#common-pitfalls
 [vocabulary]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#vocabulary
