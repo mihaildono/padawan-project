@@ -14,11 +14,8 @@ console.log(max(0, -5)) // => 0
 </p>
 </details>
 
-<details>
-<summary>
-isLegal
-</summary>
-<p>
+###### isLegal
+
 Create a `isLegal(num, country)` function that has 2 arguments (num:number, country:string)
 and returns (boolean), which checks if an age is legal in EU/US
 * EU is 18 years of age
@@ -29,8 +26,6 @@ console.log(isLegal(18, EU)) // => 'legal'
 console.log(isLegal(18, US)) // => 'illegal'
 console.log(isLegal(21, US)) // => 'legal'
 ```
-</p>
-</details>
 
 <details>
 <summary>
