@@ -11,9 +11,9 @@ console.log(max(0, -5)) // => 0
 
 ### isLegal
 Create a `isLegal(num, country)` function that has 2 arguments (num:number, country:string)
-and returns (boolean), which checks if an age is legal in EU/US
-* EU is 18 years of age
-* US is 21
+and returns (boolean), which checks if an age is eligible to drink in EU/US
+* EU drinking age is 18
+* US drinking age is 21
 ```js
 console.log(isLegal(17, EU)) // => 'illeagal'
 console.log(isLegal(18, EU)) // => 'legal'
@@ -22,7 +22,7 @@ console.log(isLegal(21, US)) // => 'legal'
 ```
 ### isEven
 Create a `isEven(num)` function that has 1 argument (num:number) and returns (boolean),
-which checks if a word begins and ends with the letter `F`.
+which checks if a number is even.
 
 You can test your function with the following code:
 ```js
