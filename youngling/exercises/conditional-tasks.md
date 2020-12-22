@@ -26,9 +26,9 @@ which checks if a number is even.
 
 You can test your function with the following code:
 ```js
-console.log(isEven(73))
-console.log(isEven(0))
-console.log(isEven(16))
+console.log(isEven(73)) // => false
+console.log(isEven(0)) // => true
+console.log(isEven(16)) // => true
 ```
 ### startEndF
 Create a `starEndF(text)` function that has 1 argument (text:string) that returns (boolean),
@@ -36,7 +36,7 @@ which checks if a word begins and ends with the letter `F`.
 
 You can test your function with the following code:
 ```js
-console.log(startEndF('FarF'))
-console.log(startEndF('Foo'))
-console.log(startEndF(' FooF'))
+console.log(startEndF('FarF')) // => true
+console.log(startEndF('Foo')) // => false
+console.log(startEndF(' FooF')) // => false
 ```
