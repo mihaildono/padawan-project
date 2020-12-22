@@ -1,6 +1,8 @@
+## Conditional statements exercises
+
 <details>
 <summary>
-    max
+max
 </summary>
 <p>
 Create a `max(a, b)` function that has 2 arguments (a:number, b:number) and returns (number),
@@ -10,13 +12,12 @@ which checks the bigger number
 console.log(max(5, 6)) // => 6
 console.log(max(0, -5)) // => 0
 ```
-
 </p>
 </details>
 
 <details>
 <summary>
-    isLegal
+isLegal
 </summary>
 <p>
 Create a `isLegal(num, country)` function that has 2 arguments (num:number, country:string) and returns (boolean),
