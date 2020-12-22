@@ -6,16 +6,13 @@ The computer thinks in a logical way. Humans do not. The biggest challenges for
 a developer who is just starting out is learning basic algorithmic thinking and
 the related vocabulary.There will be sample explanations, but mentors are encouraged to give their own.
 
-*Using internet for help is not advised in this section
-
 # Helpful links
-- [Common Pitfalls][pitfalls]
 - [Vocabulary][vocabulary]
 - [Best Practices][best-practices]
 - [Basic-Cheatsheet][basic-cheatsheet]
 
 # Prerequisites
-* Make an account for [jsfiddle][jsfiddle]
+* Make an account for [jsfiddle][jsfiddle].
   This is an website that makes it super easy to run JavaScript code.
 
 ## The basics
@@ -57,11 +54,11 @@ We can:
 Strings are combinations of letters(chars), therefore it's just a text.
 
 ```
-console.log("I'm a string")
+console.log("I'm a string") // => "I'm a string"
 ```
 `"I'm a string"` is a string
 
-We can also concatenate(join) strings: `"baby " + "Yoda"`:
+We can also concatenate(join) strings: `'baby ' + 'Yoda'`:
 
 ###### Exercises
 Run through the following [exercises][exTypes]
@@ -76,12 +73,12 @@ You can think of variables as "named boxes". You can put things inside the box a
 
 You can do the following things with a variable:
 
-- Creating it - it's called "variable declaration"
+- Creating it, it's called "variable declaration"
 ```js
 let newVariable
 ```
 
-- Passing it a value - it's called "value assignment". To `assign` a value to a `variable` use '='
+- Passing it a value, it's called "value assignment". To `assign` a value to a `variable` use '='
 ```js
 let myNumber
 myNumber = 44
@@ -96,7 +93,7 @@ console.log(myNumber) // => 44
 
 Variables can be defined via the keywords `let` and `const`. The difference is that `const` is immutable, which means it can't be changed.
 
-You can try but the computer will return an error:
+You can try, but the computer will return an error:
 ```js
 const newPizza = 'yummy'
 newPizza = 'cold as hell' // !!! ERROR: Uncaught TypeError: Assignment to constant variable
@@ -175,7 +172,7 @@ console.log(celsiusToFahrenheit(38))
 </details>
 
 ## Conditional statements
-We make choices based on if something is truth(true) or a lie(false). In a classroom
+We make choices based on if something is a truth(true) or a lie(false). In a classroom
 if you have more 50% correct answers you pass the exam, otherwise you would fail it.
 ```js
 const correctAnswerPercentage = 0.5
@@ -186,7 +183,7 @@ if (correctAnswerPercentage > 0.5) {
 }
 ```
 
-If we want to check if something is equal to something else we use `===`.
+If we want to check if something is equal to something else, we use `===`.
 ```js
 const name = 'George'
 
@@ -197,7 +194,7 @@ if (name === 'George') {
 }
 ```
 
-We can combine statement with `&&` - this means `and`
+We can combine statements with `&&` - this means `and`
 ```js
 const otherName = 'Alex'
 const gender = 'female'
@@ -345,27 +342,27 @@ const function = (param1) => {
 
 ### Vocabulary
 * Char
-a single letter
+  - a single letter
 * String
-text, also combination of chars(letters)
+  - text, also combination of chars(letters)
 * Concatenate
-Means join
+  - Means join
 * Declaration
-This is where you initially define a piece of code.
+  - This is where you initially define a piece of code.
 * Implementation
-How a piece of code is implemented(written down)
+  - How a piece of code is implemented(written down)
 * Iterate
-Go through all items of a collection
+  - Go through all items of a collection
 * Primitives
-Most basic piece of informational building block eg.: the number `1`, the text `'George'`
+  - Most basic piece of informational building block eg.: the number `1`, the text `'George'`
 * Parameter
-A variable which is not being defined by the function, but passed to from another piece of code
+  - A variable which is not being defined by the function, but passed to from another piece of code
 * Argument
-A variable which is not being defined by the function, but passed to from another piece of code
+  - A variable which is not being defined by the function, but passed to from another piece of code
 * Block({})
-This encloses definitions of variables. If we have variable `const i = 10` in one block, in another it would equal `undefined`, unless redefined
+  - This encloses definitions of variables. If we have variable `const i = 10` in one block, in another it would equal `undefined`, unless redefined
 * Data structure
-A set of structured data of primitives
+  - A set of structured data of primitives
 
 [jsfiddle]: https://jsfiddle.net/
 [exTypes]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/types-tasks.md
