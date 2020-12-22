@@ -1,73 +1,42 @@
 # Variable exercises
 
-<details>
-<summary>
-Old granny
-</summary>
-<p>
-Create a variable with name `granny` assign it a value some text. Print the value on the console.
+### Old granny
+Create a variable with name `granny` assign to the variable some text. Print the value in the console.
 ```js
 const granny = "I'm not so old, m*fckaa"
 console.log(granny)
 ```
-</p>
-    </details>
 
-<details>
-  <summary>
-    Sums and counts
-  </summary>
-  <p>
+### Sums and counts
+Write the following in the console. What is the output?
 ```js
-  let count = 1
-  let sum = 3
-  sum = count + sum
-  count = sum + count
+let count = 1
+let sum = 3
+sum = count + sum
+count = sum + count
 ```
-  </p>
-</details>
 
-<details>
-  <summary>
-  Discounts
-  </summary>
-  <p>
+### Discounts
+Write the following in the console. What is the sum after we apply the discount?
 ```js
-  sum = 500
-  discount = 0.25
+sum = 500
+discount = 0.25
 ```
-  </p>
-</details>
 
-<details>
-  <summary>
-  Negative sum
-  </summary>
-  <p>
+### Negative sum
+Write the following in the console. How to get the negative sum?
 ```js
-  sum = 500
+sum = 500
 ```
-  </p>
-</details>
-
-<details>
-  <summary>
-  Names
-  </summary>
-  <p>
+### Names
+Write the following in the console. Print the names with space between them.
 ```js
-  first_name = "John"
-  second_name = "Atanasov"
+first_name = "John"
+second_name = "Atanasov"
 ```
-  </p>
-</details>
+### Library
+We have the following book catalog
 
-<details>
-  <summary>
-  Library
-  </summary>
-  <p>
-  We have the following book catalog
 | Book                       | Price |
 |----------------------------|-------|
 | Learn You a Haskell        | Free  |
@@ -78,10 +47,8 @@ console.log(granny)
 | Introduction to Algorithms | 80    |
 | Concrete Mathematics       | 100   |
 
-0 Create all book variables
-1 Print all books with their price tag.
-2 What is the sum of prices of all the books?
-3 If a person buys ` Pro Git` and `Code Complete`, he gets a discount of 25%.
+0. Create all book variables
+1. Print all books with their price tags.
+2. What is the sum of prices of all the books?
+3. If a person buys ` Pro Git` and `Code Complete`, he gets a discount of 25%.
 What will be the sum of prices now?
-  </p>
-</details>
