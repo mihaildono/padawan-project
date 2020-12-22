@@ -1,66 +1,38 @@
 # Loop exercises
 
-<details>
-<summary>
-count
-</summary>
-<p>
+### count
 Create a `count` function that prints each number from 0 to 10 in ascending order
 
 You can test your function with the following code:
 ```js
 console.log(count()) // => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
-</p>
-</details>
 
-<details>
-<summary>
-reverseCount
-</summary>
-<p>
+### reverseCount
 Create a `reverseCount` function that prints each number from 0 to 10 in descending order
 
 You can test your function with the following code:
 ```js
 console.log(reverseCount()) // => [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 ```
-</p>
-</details>
 
-<details>
-<summary>
-negativeCount
-</summary>
-<p>
+### negativeCount
 Create a `negativeCount` function that prints each number from 0 to (-10) in descending order
 
 You can test your function with the following code:
 ```js
 console.log(negativeCount()) // => [0, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
 ```
-</p>
-</details>
 
-<details>
-<summary>
-stepCount
-</summary>
-<p>
+### stepCount
 Create a `stepCount` function that prints the numbers [0, 2, 4, 6, 8, 10]
 
 You can test your function with the following code:
 ```js
 console.log(stepCount()) // => [0, 2, 4, 6, 8, 10]
 ```
-</p>
-</details>
 
-<details>
-<summary>
-customRepeat
-</summary>
-<p>
+### customRepeat
 Create a function named `customRepeat(symbol, count)` that has 2 arguments - (symbol:string, count:number) and
 returns a string with the `symbol` repeated `count` times:
 
@@ -68,14 +40,8 @@ You can test your function with the following code:
 ```js
 console.log(customRepeat('*', 5)) // => '*****'
 ```
-</p>
-</details>
 
-<details>
-<summary>
-staircase
-</summary>
-<p>
+### staircase
 1. Create a function named `staircase(size)` that has 1 argument (size:number),
 which is the length of the last row and prints:
 <pre>
@@ -94,14 +60,8 @@ which is the length of the last row and prints:
 " ****"
 "*****"
 </pre>
-</p>
-</details>
 
-<details>
-<summary>
-pyramid
-</summary>
-<p>
+### pyramid
 Create a function `pyramid(size)` that has 1 argument (size:number),
 which is the length of the last row and prints a pyramid:
 *Sub tasks:
@@ -136,5 +96,3 @@ which is the length of the last row and prints a pyramid:
 "*********"
 </pre>
 The Christmas Tree should also have Christmas balls every second row, after the first and without the last one.
-</p>
-</details>
