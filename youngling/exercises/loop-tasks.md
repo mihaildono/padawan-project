@@ -66,9 +66,8 @@ Create a function `pyramid(size)` that has 1 argument (size:number),
 which is the length of the last row and prints a pyramid:
 
 * Sub tasks:
-- one task creates 1 line of the pyramid
-- one task combines all the lines of the pyramid
-
+  - one task creates 1 line of the pyramid
+  - one task combines all the lines of the pyramid
 * Total number of symbols per row is (2 * size - 1)
 7.1 Pyramid
 <pre>
