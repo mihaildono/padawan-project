@@ -1,5 +1,4 @@
 ## Conditional statements exercises
-
 <details>
 <summary>
 max
@@ -20,8 +19,8 @@ console.log(max(0, -5)) // => 0
 isLegal
 </summary>
 <p>
-Create a `isLegal(num, country)` function that has 2 arguments (num:number, country:string) and returns (boolean),
-which checks if an age is legal in EU/US
+Create a `isLegal(num, country)` function that has 2 arguments (num:number, country:string)
+and returns (boolean), which checks if an age is legal in EU/US
 * EU is 18 years of age
 * US is 21
 ```js
