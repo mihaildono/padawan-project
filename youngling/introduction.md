@@ -131,45 +131,7 @@ Let's see what are the steps that the *computer* will do when we write `const re
  - `const result = 11`
 
 ###### Exercises
-<details>
-<summary>
-1. Create a multiply function
-</summary>
-<p>
-
-Create a `multiply(firstNumber, secondNumber)` function that has 2 arguments
-(firstNumber:number, secondNumber:number) and returns (sum:number) their sum.
-
-You can test your function with the following code:
-
-```js
-console.log(multiply(1, 2))
-```
-
-</p>
-</details>
-
-<details>
-<summary>
-2. Fahrenheit to Celsius converter function
-</summary>
-<p>
-
-Create a `celsiusToFahrenheit(celsiusNumber)` function that has one argument (celsiusNumber)
-returns (fahrenheit:number) having the formula:
-
-```js
-℉ = ℃ * 1.8 + 32
-```
-
-You can test your function with the following code:
-
-```js
-console.log(celsiusToFahrenheit(38))
-```
-
-</p>
-</details>
+Run through the following [exercises][exFunc]
 
 ## Conditional statements
 We make choices based on if something is a truth(true) or a lie(false). In a classroom
@@ -367,6 +329,7 @@ const function = (param1) => {
 [jsfiddle]: https://jsfiddle.net/
 [exTypes]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/types-tasks.md
 [exArr]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/array-tasks.md
+[exFunc]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/functions-tasks.md
 [exCond]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/conditional-tasks.md
 [exVar]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/variable-tasks.md
 [exObj]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/object-tasks.md

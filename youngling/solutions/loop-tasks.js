@@ -21,10 +21,10 @@ const drawDecoration = (starCount) => {
 }
 
 const customRepeat = (symbol, count) => {
-  let result = ''
+  let line = ''
   for (let i = 0; i < count; i++) {
-    result = result + symbol
+    line = line + symbol
   }
 
-  return result
+  return line
 }

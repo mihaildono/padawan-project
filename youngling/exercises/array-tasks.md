@@ -1,8 +1,3 @@
-# Notes
-The first iteration of solving the tasks should be done by the mentor, where he
-demonstarates the language. The second iteration should be done solely by the
-student with hints from the mentor and additional explanation.
-
 ## Tasks
 
 ### contains
