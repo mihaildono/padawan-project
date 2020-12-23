@@ -329,7 +329,7 @@ const function = (param1) => {
 [jsfiddle]: https://jsfiddle.net/
 [exTypes]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/types-tasks.md
 [exArr]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/array-tasks.md
-[exFunc]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/functions-tasks.md
+[exFunc]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/function-tasks.md
 [exCond]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/conditional-tasks.md
 [exVar]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/variable-tasks.md
 [exObj]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/object-tasks.md
