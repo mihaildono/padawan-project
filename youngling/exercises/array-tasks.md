@@ -46,14 +46,14 @@ console.log(without([5,6], [1,2,3,4,5,6]); // [1, 2, 3, 4]
 console.log(without([4,7], [1,2,3,4,5,6]); // [1, 2, 3, 5, 6]
 ```
 
-### Zip
+### zip
 Create a zip(arr1, arr2) function that has 2 arguments (arr1: (string|number)[], arr2: (string|number)[]) and returns ((string|number)[]).
 Return a new list, which merges together the values of each of the arrays with the values at the corresponding position.
 
 ```js
 const zip = (arr1, arr2) => {}
 
-console.log(zip([1, 2, 3], [4, 5, 6])) // [ [1, 4], [2, 5], [3, 6] ]
+console.log(zip([1, 2, 3], [4, 5, 6])) // [[1, 4], [2, 5], [3, 6]]
 ```
 
 ### Snake Board
@@ -73,6 +73,16 @@ Solution
 
 ### [Map][map], [Filter][filter], [Reduce][reduce]
 Implement the three functions, and reimplement the previous tasks with them.
+
+## Use only [Map][map], [Filter][filter] or [Reduce][reduce] for the following tasks:
+
+### multiplier
+Create a function, which multiplies the numbers of an array by themselves.
+
+```js
+console.log(multiplier([1,2,3,4])) // [1, 4, 9, 16]
+console.log(multiplier([5, 5])) // [25, 25]
+```
 
 ## IMPORTANT
 Initially we used `for loop`, and then we learned about `map`, `filter` and `reduce`. From
