@@ -44,6 +44,9 @@ console.log(customRepeat('*', 5)) // => '*****'
 ### staircase
 1. Create a function named `staircase(size)` that has 1 argument (size:number),
 which is the length of the last row and prints:
+```js
+console.log(staircase(5))
+```
 <pre>
 "*    "
 "**   "
@@ -53,6 +56,9 @@ which is the length of the last row and prints:
 </pre>
 2. Create a function named `reverseStaircase(size)` that has 1 argument (size:number),
 which is the length of the last row and prints:
+```js
+console.log(reverseStaircase(5))
+```
 <pre>
 "    *"
 "   **"
@@ -71,6 +77,9 @@ which is the length of the last row and prints a pyramid:
 * Total number of symbols per row is (2 * size - 1)
 
 7.1 Pyramid
+```js
+console.log(pyramid(9))
+```
 <pre>
 "    *    "
 "   ***   "
@@ -79,6 +88,9 @@ which is the length of the last row and prints a pyramid:
 "*********"
 </pre>
 7.2 Reverse pyramid `reversePyramid(size)`
+```js
+console.log(reversePyramid(9))
+```
 <pre>
 "*********"
 " ******* "
@@ -87,6 +99,9 @@ which is the length of the last row and prints a pyramid:
 "    *    "
 </pre>
 7.3 Christmas tree with an angel on top `christmasTree(size)`.
+```js
+console.log(christmasTree(9))
+```
 <pre>
 "    _    "
 "  {\o/}  "
