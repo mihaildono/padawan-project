@@ -92,11 +92,11 @@ console.log(multiplier([1, 2, 3, 4])) // => [1, 4, 9, 16]
 console.log(multiplier([5, 5])) // => [25, 25]
 ```
 
-### leghtifier
+### lengthifier
 Create a function, which transforms elements of an array to their length.
 
 ```js
-console.log(leghtifier(['dog', 'snake', 'elephant', 'cat'])) // => [3, 5, 7, 3]
+console.log(lengthifier(['dog', 'snake', 'elephant', 'cat'])) // => [3, 5, 7, 3]
 ```
 
 ### filterEven
