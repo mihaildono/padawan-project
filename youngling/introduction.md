@@ -164,9 +164,9 @@ const gender = 'female'
 if (name === 'Alex' && gender === 'female') {
     console.log('Hey it is Alexandra!')
 } else if (name === 'Alex' && gender !== 'female') {
-    console.log('They call him Sandokan')
+    console.log('They call him Sandokan!')
 } else {
-    console.log("It is 'it'")
+    console.log("It is 'it'.")
 }
 ```
 ###### Exercises
@@ -189,8 +189,8 @@ console.log('Number 3')
 We can write this:
 ```js
      start; end;  iteration;
-for (i = 0; i < 3; i++) {
-    console.log('Number ', i) // => Number 1, Number 2, Number 3
+for (i = 0; i < 10; i++) {
+    console.log('Number ', i) // => Number 1, Number 2, Number 3 ... Number 9
 }
 ```
 
@@ -208,23 +208,32 @@ With this, in the enclosing `block`, we get a variable `i`, which will change it
 Run through the following [exercises][exLoop]
 
 ## Array
-An array is a collection, which can hold values under a single name. Array is denoted by the
-symbols `[]`
+Simple primitives hold information like a name or favorite number, however we often want to group several elements into a single collection.
+An array is such collection, which can hold multiple values under a single name. Array is denoted by the
+symbols `[]`. For example:
+- RGB color model, we have 3 colors that always go together - ['red', 'green', 'blue']
+- names of the students of a certain group: ['George', 'Maria', 'Peter']
+- numbers of a lottery: [1, 63, 23, 12]
+- helper variables: [randomVariable, myFunction]
+- array inception: [[1,2,3], ['dog', 'cat']
 
-To take element of an array: <arrayName>[<number>]
+Each element stands behind a certain index in the array starting from 0. To get the element behind the index use `arr[<index>]`, like so:
 ```js
 const arr = [69, 31, 56, 76, 22]
-arr[0] // 69
-arr[3] // 76
-arr[100] // undefined
+// take element with index 0
+arr[0] // => 69
+// take element with index 3
+arr[3] // => 76
+// take element with index 100
+arr[100] // => undefined
 ```
 
 To add an element to specific index, we use the index number and `=` sign. If we want to append to the end of the array we can use the predifined `push` function for the array.
 ```js
 arr[100] = 666
-arr[100] // 666
+arr[100] // => 666
 arr.push(7)
-arr[101] // 7
+arr[101] // => 7
 ```
 
 ###### Exercises
