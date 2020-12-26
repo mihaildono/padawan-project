@@ -150,9 +150,9 @@ If we want to check if something is equal to something else, we use `===`.
 const name = 'George'
 
 if (name === 'George') {
-    return 'It is cool guy George!'
+    console.log('It is cool guy George!')
 } else {
-    return 'Who is this guy?'
+    console.log('Who is this guy?')
 }
 ```
 
@@ -162,11 +162,11 @@ const otherName = 'Alex'
 const gender = 'female'
 
 if (name === 'Alex' && gender === 'female') {
-    return 'Hey it is Alexandra!'
-} else if (name === 'Alex' && gender !== 'female'){
-    return 'They call him Sandokan'
+    console.log('Hey it is Alexandra!')
+} else if (name === 'Alex' && gender !== 'female') {
+    console.log('They call him Sandokan')
 } else {
-    return "It is 'it'"
+    console.log("It is 'it'")
 }
 ```
 ###### Exercises
