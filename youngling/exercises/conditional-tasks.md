@@ -40,3 +40,15 @@ console.log(startEndF('FarF')) // => true
 console.log(startEndF('Foo')) // => false
 console.log(startEndF(' FooF')) // => false
 ```
+
+### calculator
+Create a `calculator(leftOperand, rightOperand, sign)` function that has 3 arguments (leftOperand: number, rightOperand: number, sign:string),
+that calculates the `leftOperand` and `rightOperand` based on the `sign`.
+You can test your function with the following code:
+
+```js
+console.log(calculator(5, 6, '+')) // => 11
+console.log(calculator(30, 5, '/')) // => 6
+console.log(calculator(5, 6, '*')) // => 30
+console.log(calculator(5, 6, '-')) // => -1
+```
