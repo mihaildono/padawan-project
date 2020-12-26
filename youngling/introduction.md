@@ -228,7 +228,7 @@ arr[3] // => 76
 arr[100] // => undefined
 ```
 
-To add an element to specific index, we use the index number and `=` sign. If we want to append to the end of the array we can use the predifined `push` function for the array.
+To add/change an element to specific index, we use the index number and `=` sign. If we want to append to the end of the array we can use the predefined `push` function for the array.
 ```js
 arr[100] = 666
 arr[100] // => 666
