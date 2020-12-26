@@ -1,8 +1,8 @@
 ## Conditional statements exercises
 
 ### max
-Create a `max(a, b)` function that has 2 arguments (a:number, b:number) and returns (number),
-which returns the bigger number of the two
+Create a `max(a, b)` function that has 2 arguments (a:number, b:number) and returns (number).
+Return the bigger number of the two.
 
 ```js
 console.log(max(5, 6)) // => 6
