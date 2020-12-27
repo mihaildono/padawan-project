@@ -72,13 +72,31 @@ for (i = 0; i < 3; i++) {
 ## Array
 ```js
 const arr = [69, 31, 56, 76, 22]
-arr[0] // =>  69
-arr[3] // =>  76
-arr[100] // =>  undefined
+// take element with index 0
+arr[0] // => 69
+// take element with index 3
+arr[3] // => 76
+// take element with index 100
+arr[100] // => undefined
+
 arr[100] = 666
-arr[100] // =>  666
+arr[100] // => 666
 arr.push(7)
-arr[101] // =>  7
+arr[101] // => 7
 ```
 * Keys for objects and Indexes for arrays, can be used with variables that
   evaluate to a string/number
+  
+## Object
+```js
+const person = { 'name': 'George', 'gender': 'male' }
+person['gender'] // => male
+person.gender // => male
+
+person['height'] // => undefined
+person['height'] = 180
+person['height'] // => 180
+
+person.keys // ['gender', 'name', 'height']
+person.values // ['male', 'George', '190']
+```
