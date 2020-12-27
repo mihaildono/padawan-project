@@ -303,7 +303,8 @@ person.values // ['male', 'George', '190']
 
 ###### Exercises
 1. Create an object and print all the keys and values
-2. Run through the following [exercises][exObj]
+2. Create an object and print the length of keys and values
+3. Run through the following [exercises][exObj]
 
 ## Sneko trial
 Complete the [final][final] exercise!
