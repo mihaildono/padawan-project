@@ -16,11 +16,10 @@ the related vocabulary.There will be sample explanations, but mentors are encour
   This is an website that makes it super easy to run JavaScript code.
 
 ## The basics
- - We program using a language called **JavaScript**. What do you think is a programming language?
- - We use [jsfiddle][jsfiddle] to run JavaScript code. It's a website that let's you write JavaScript code and play with it.
+ - We will program using a language called **JavaScript**. What do you think is a programming language?
+ - We will use [jsfiddle][jsfiddle] to run JavaScript code. It's a website that let's you write JavaScript code and play with it.
  - How can we see what our program does? There is a difference between telling the computer to sum `5 + 5` and to making it to show you what the result is `=> 10`. We use **console.log** to visualize something in the console.
- - What is a **console**? A console is a program that makes it easy to play with the programming language. We will use a JavaScript console.
- - What is an **error**? When the code that we right cannot be understand by the programming language, the program returns an error and stops execution.
+ - What is an **error**? When the code that we write cannot be understood by the programming language, the program returns an error and stops execution.
 
 ###### Exercises
  <details>
@@ -30,6 +29,7 @@ the related vocabulary.There will be sample explanations, but mentors are encour
   ```js
   console.log("Hello world")
   ```
+  
   </p>
  </details>
 
@@ -38,9 +38,11 @@ In *JavaScript* and in programming in general, the most simple piece of informat
 via primitive data types. They are **String** and **Number**. Let's see some examples:
 
 ### Number
-```
+
+```js
 console.log(3)
 ```
+
 `3` is a number
 
 We can:
@@ -58,7 +60,11 @@ console.log("I'm a string") // => "I'm a string"
 ```
 `"I'm a string"` is a string
 
-We can also concatenate(join) strings: `'baby ' + 'Yoda'`:
+We can also concatenate(join) strings: 
+
+```js
+'baby ' + 'Yoda' // => baby Yoda
+``` 
 
 ###### Exercises
 Run through the following [exercises][exTypes]
@@ -68,7 +74,7 @@ A variable is a container for storing data values.
 
 You can think of variables as "named boxes". You can put things inside the box and you can refer to them with the name of the box.
 
-- The box has to **have a name**, because you want to distinguish it from the other boxes.
+- The box needs to **have a name**, because you want to distinguish it from the other boxes.
 - The box can be empty, but if you don't fill it with something it isn't very useful.
 
 You can do the following things with a variable:
@@ -78,7 +84,8 @@ You can do the following things with a variable:
 let newVariable
 ```
 
-- Passing it a value, it's called "value assignment". To `assign` a value to a `variable` use '='
+- Passing it a value, it's called "value assignment". To `assign` a value to a `variable` use `=`
+
 ```js
 let myNumber
 myNumber = 44
@@ -86,6 +93,7 @@ console.log(myNumber) // => 44
 ```
 
 - Creating **and** passing a value
+
 ```js
 let myNumber = 44
 console.log(myNumber) // => 44
@@ -94,6 +102,7 @@ console.log(myNumber) // => 44
 Variables can be defined via the keywords `let` and `const`. The difference is that `const` is immutable, which means it can't be changed.
 
 You can try, but the computer will return an error:
+
 ```js
 const newPizza = 'yummy'
 newPizza = 'cold as hell' // !!! ERROR: Uncaught TypeError: Assignment to constant variable
@@ -110,11 +119,12 @@ reuse the same package(TV box) each time.
 
 To define a function:
 
-1. `const <funcName> = (<param1>, <param2>) => { return <result> }`
+`const <funcName> = (<param1>, <param2>) => { return <result> }`
 
 *NOTE:* We use the syntax `<>` for illustrating user-created custom names and `<>` is not part of the JavaScript language.
 
-This is a sample function which sums two numbers:
+This is a sample function, which sums two numbers:
+
 ```js
 const add = (a, b) => {
     return a + b
@@ -127,15 +137,17 @@ And `add(5, 6)` executes it, which means it makes the computer run the code insi
 Let's see what are the steps that the *computer* will do when we write `const result = add(5, 6)`:
  - `a = 5`
  - `b = 6`
- - `return a + b` => `return 5 + 6`
- - `const result = 11`
+ - `return a + b` => `return 5 + 6` => `11`
 
 ###### Exercises
 Run through the following [exercises][exFunc]
 
 ## Conditional statements
+Conditional statements are used to change the flow of the application based on true and false statements.
+
 We make choices based on if something is a truth(true) or a lie(false). In a classroom
 if you have more 50% correct answers you pass the exam, otherwise you would fail it.
+
 ```js
 const correctAnswerPercentage = 0.5
 if (correctAnswerPercentage > 0.5) {
@@ -146,6 +158,7 @@ if (correctAnswerPercentage > 0.5) {
 ```
 
 If we want to check if something is equal to something else, we use `===`.
+
 ```js
 const name = 'George'
 
@@ -156,7 +169,8 @@ if (name === 'George') {
 }
 ```
 
-We can combine statements with `&&` - this means `and`
+We can combine statements with `&&` - this means `and`:
+
 ```js
 const otherName = 'Alex'
 const gender = 'female'
@@ -169,10 +183,13 @@ if (name === 'Alex' && gender === 'female') {
     console.log("It is 'it'.")
 }
 ```
+
 ###### Exercises
 Run through the following [exercises][exCond]
 
 ## Loops
+Loops are used to repeat a certain piece of code several times.
+
 In life we constantly need to repeat actions, whether it is to brush our teeth every morning
 or do 10 push ups at the gym. This is called a loop. In Javascript there are several types of loops.
 Initially we will use the `for` loop. The `for` loop does 2 things:
@@ -180,6 +197,7 @@ Initially we will use the `for` loop. The `for` loop does 2 things:
 2. Executes a `block` of code, the same amount of times the value changed.
 
 Instead of writing this:
+
 ```js
 console.log('Number 1')
 console.log('Number 2')
@@ -187,6 +205,7 @@ console.log('Number 3')
 ```
 
 We can write this:
+
 ```js
      start; end;  iteration;
 for (i = 0; i < 10; i++) {
@@ -195,19 +214,23 @@ for (i = 0; i < 10; i++) {
 ```
 
 The construct starts with keyword `for`, then we have 3 parts:
-1. Start of iteration `i = 0`
-2. End of iteration `i < 3`
-3. How to increment it `i++`(this is the same as to write `i = i + 1`).
+1. Start of iteration `i = 0`. This will be the first value of i.
+2. End of iteration `i < 10`. When `i` reaches 10, the loop will exit.
+3. How to increment it `i++`(this is the same as to write `i = i + 1`). 
+This means that it will take every value from the start(0), till the end(10), and repeat the code as many times.
 
-With this, in the enclosing `block`, we get a variable `i`, which will change it's value 3 times -> 0, 1, 2
+With this, in the enclosing `block`, we get a variable `i`, which will change it's value 10 times -> 0..9
 
 *Tip: Index in a `for` loop, does not actually point to an item, but rather it is used to
-  find the corresponding item. 2 things happen: 1. `i` is changed, code inside `{}`
+  find the corresponding item. 2 things happenin a `for loop`: 1. `i` is changed, code inside `{}`
   is repeated as many times as `i` is changed.
+  
 ###### Exercises
 Run through the following [exercises][exLoop]
 
 ## Array
+Array is a collection of elements with varying types.
+
 Simple primitives hold information like a name or favorite number, however we often want to group several elements into a single collection.
 An array is such collection, which can hold multiple values under a single name. Array is denoted by the
 symbols `[]`. For example:
@@ -242,28 +265,43 @@ arr[101] // => 7
 3. Run through the following [exercises][exArr]
 
 ## Object
-Sometimes we want to access a specific value in a data structure, and not just
-store elements in an unorganized way like arrays. This is where objects come in. Here we define a `key` and a `value`. Behind every `key` we can select, there is a `value` that we can access:
-obj = { <key1>: <value1>, <key2>: <value2> }
+It is easy when we just have a collection of names for people, but what if we need to save multiple properties per person like name, gender and heigt?
+To help us save such kind of information under one name, objects come in. With them you can have multiple properties with corresponding values:
+
 ```js
-const george = { 'name': 'George', 'gender': 'male' }
-const maria = { 'name': 'Maria', 'gender': 'female' }
-george['gender'] // male
-maria['gender'] // female
-george['height'] // undefined
-george['height'] = 180
-george['height'] // 180
-george['height'] = 190
-george['height'] // 190
+{
+  name: 'George',
+  gender: 'male'
+}
 ```
+
+Objects are denoted by `{}`. Properties are called `keys` and their values are called `values`. The structure is like so `obj = { <key1>: <value1>, <key2>: <value2> }`.
+To access a specific `key`, we either use the `.` or `[]` notations like so:
+
+```js
+const person = { 'name': 'George', 'gender': 'male' }
+person['gender'] // => male
+person.gender // => male
+```
+
+Assignement is the same as `Array`, with `=`.
+
+```js
+person['height'] // => undefined
+person['height'] = 180
+person['height'] // => 180
+```
+
 To get all the keys or values in an array of an object we can use `.keys` and `.values`
 
 ```js
-george.keys // ['gender', 'name', 'height']
-obj.values // ['male', 'George', '190']
+person.keys // ['gender', 'name', 'height']
+person.values // ['male', 'George', '190']
 ```
 
-Run through the following [exercises][exObj]
+###### Exercises
+1. Create an object and print all the keys and values
+2. Run through the following [exercises][exObj]
 
 ## Sneko trial
 Complete the [final][final] exercise!
