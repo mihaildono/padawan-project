@@ -265,6 +265,8 @@ arr[101] // => 7
 3. Run through the following [exercises][exArr]
 
 ## Object
+Object is a collection of properties, and a property is an association between a name (or key) and a value.
+
 It is easy when we just have a collection of names for people, but what if we need to save multiple properties per person like name, gender and heigt?
 To help us save such kind of information under one name, objects come in. With them you can have multiple properties with corresponding values:
 
