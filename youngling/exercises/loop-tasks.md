@@ -78,7 +78,7 @@ which is the length of the last row and prints a pyramid:
 
 7.1 Pyramid
 ```js
-console.log(pyramid(9))
+console.log(pyramid(5))
 ```
 <pre>
 "    *    "
@@ -89,7 +89,7 @@ console.log(pyramid(9))
 </pre>
 7.2 Reverse pyramid `reversePyramid(size)`
 ```js
-console.log(reversePyramid(9))
+console.log(reversePyramid(5))
 ```
 <pre>
 "*********"
@@ -98,9 +98,15 @@ console.log(reversePyramid(9))
 "   ***   "
 "    *    "
 </pre>
-7.3 Christmas tree with an angel on top `christmasTree(size)`.
+
+### christmasTree
+
+Create a function that prints a Christmas tree with an angel on top `christmasTree(size)`.
+ - Where `size` is the height of the tree and the height of the angel is fixed to 3 lines
+ - The Christmas Tree should also have Christmas balls every second row, after the first and without the last one
+
 ```js
-console.log(christmasTree(9))
+console.log(christmasTree(5))
 ```
 <pre>
 "    _    "
@@ -112,4 +118,3 @@ console.log(christmasTree(9))
 " o*****o "
 "*********"
 </pre>
-The Christmas Tree should also have Christmas balls every second row, after the first and without the last one.
