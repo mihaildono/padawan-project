@@ -68,8 +68,7 @@ console.log(reverseStaircase(5))
 </pre>
 
 ### pyramid
-Create a function `pyramid(size)` that has 1 argument (size:number),
-which is the length of the last row and prints a pyramid:
+Create a function `pyramid(size)` that has 1 argument (size:number),  where `size` is the height of the pyramid and prints:
 
 * Sub tasks:
   - one task creates 1 line of the pyramid
