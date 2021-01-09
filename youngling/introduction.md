@@ -222,7 +222,7 @@ This means that it will take every value from the start(0), till the end(10), an
 With this, in the enclosing `block`, we get a variable `i`, which will change it's value 10 times -> 0..9
 
 *Tip: Index in a `for` loop, does not actually point to an item, but rather it is used to
-  find the corresponding item. 2 things happenin a `for loop`: 1. `i` is changed, code inside `{}`
+  find the corresponding item. 2 things happening a `for loop`: 1. `i` is changed, code inside `{}`
   is repeated as many times as `i` is changed.
 
 ###### Exercises
@@ -238,7 +238,7 @@ symbols `[]`. For example:
 - names of the students of a certain group: ['George', 'Maria', 'Peter']
 - numbers of a lottery: [1, 63, 23, 12]
 - helper variables: [randomVariable, myFunction]
-- array inception: [[1,2,3], ['dog', 'cat']
+- array inception: [[1, 2, 3], ['dog', 'cat']]
 
 Each element stands behind a certain index in the array starting from 0. To get the element behind the index use `arr[<index>]`, like so:
 ```js
@@ -313,6 +313,7 @@ the [padawan][padawan] section to start creating real-world applications.
 
 ### Best practices
 * Use camelCase when writing names for readibility
+
 _bad_
 ```js
 const somelongvariable = 5
@@ -325,6 +326,7 @@ const someLongVariable = 5
 const anotherLongVariable = 'George'
 ```
 * Write understandable names for variables, functions, etc.
+
 _bad_
 ```js
 const e = 5
@@ -338,6 +340,7 @@ const person = 'George'
 ```
 * Use 2 spaces for indentation of code blocks
 * Add spacing between operators
+
 _bad_
 ```js
 const function=(param1)=>{
@@ -353,9 +356,9 @@ const function = (param1) => {
 
 ### Vocabulary
 * Char
-  - a single letter
+  - A single letter
 * String
-  - text, also combination of chars(letters)
+  - Text, also combination of chars(letters)
 * Concatenate
   - Means join
 * Declaration
