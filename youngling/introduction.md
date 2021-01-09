@@ -392,3 +392,4 @@ const function = (param1) => {
 [pitfalls]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#common-pitfalls
 [vocabulary]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#vocabulary
 [basic-cheatsheet]: https://github.com/mihaildono/padawan-project/blob/master/youngling/basic-cheatsheet.md
+[dev-setup]: https://github.com/mihaildono/padawan-project/blob/master/youngling/dev-setup.md
