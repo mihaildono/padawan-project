@@ -46,21 +46,6 @@ Return a new list, which merges together the values of each of the arrays with t
 console.log(zip([1, 2, 3], [4, 5, 6])) // => [[1, 4], [2, 5], [3, 6]]
 ```
 
-### Snake Board
-1. Draw a board in the console, like the image below. It should print the snake symbols
-in a square/rectangular shape. Try to figure out the name of the function, its parameters and what it returns.
-
-![snanke-board](./draw-board.png)
-<details>
-<summary>
-Solution
-</summary>
-<p>
-
-[solutions/drawBoard.js](solutions/drawBoard.js)
-</p>
-</details>
-
 ## Use only [Map][map], [Filter][filter] or [Reduce][reduce] for the following tasks:
 
 ### doubled
@@ -119,7 +104,7 @@ console.log(flatten([1, 'cat', 3, 4, 5])) // => '1cat345'
 Create a function, which flattens an array of arrays.
 
 ```js
-console.log(flatten(['cat', 'dog'], [true], [4, 5, 6])) // => ['cat', 'dog', true, 4, 5, 6]
+console.log(flatten([['cat', 'dog'], [true], [4, 5, 6]])) // => ['cat', 'dog', true, 4, 5, 6]
 ```
 
 ### map

@@ -1,13 +1,12 @@
 ## Tasks
-
 * Note: try to solve the problems both with `for loop` and `higher order functions` like `map`, `filter`, `reduce`.
-* Tip: look through the javascript documentation to find helper functions to assit you in the following tasks. 
+* Tip: look through the javascript documentation to find helper functions to assit you in the following tasks.
 
 ### cashRegister
 Implement a function that sums the prices of all products.
 
 ```js
-var cartForParty = {  
+var cartForParty = {
   banana: "1.25",
   handkerchief: ".99",
   Tshirt: "25.01",

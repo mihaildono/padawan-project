@@ -29,7 +29,7 @@ the related vocabulary.There will be sample explanations, but mentors are encour
   ```js
   console.log("Hello world")
   ```
-  
+
   </p>
  </details>
 
@@ -60,11 +60,11 @@ console.log("I'm a string") // => "I'm a string"
 ```
 `"I'm a string"` is a string
 
-We can also concatenate(join) strings: 
+We can also concatenate(join) strings:
 
 ```js
 'baby ' + 'Yoda' // => baby Yoda
-``` 
+```
 
 ###### Exercises
 Run through the following [exercises][exTypes]
@@ -216,7 +216,7 @@ for (i = 0; i < 10; i++) {
 The construct starts with keyword `for`, then we have 3 parts:
 1. Start of iteration `i = 0`. This will be the first value of i.
 2. End of iteration `i < 10`. When `i` reaches 10, the loop will exit.
-3. How to increment it `i++`(this is the same as to write `i = i + 1`). 
+3. How to increment it `i++`(this is the same as to write `i = i + 1`).
 This means that it will take every value from the start(0), till the end(10), and repeat the code as many times.
 
 With this, in the enclosing `block`, we get a variable `i`, which will change it's value 10 times -> 0..9
@@ -224,7 +224,7 @@ With this, in the enclosing `block`, we get a variable `i`, which will change it
 *Tip: Index in a `for` loop, does not actually point to an item, but rather it is used to
   find the corresponding item. 2 things happenin a `for loop`: 1. `i` is changed, code inside `{}`
   is repeated as many times as `i` is changed.
-  
+
 ###### Exercises
 Run through the following [exercises][exLoop]
 
@@ -267,7 +267,7 @@ arr[101] // => 7
 ## Object
 Object is a collection of properties, and a property is an association between a name (or key) and a value.
 
-It is easy when we just have a collection of names for people, but what if we need to save multiple properties per person like name, gender and heigt?
+It is easy when we just have a collection of names for people, but what if we need to save multiple properties per person like name, gender and height?
 To help us save such kind of information under one name, objects come in. With them you can have multiple properties with corresponding values:
 
 ```js
@@ -297,7 +297,7 @@ person['height'] // => 180
 To get all the keys or values in an array of an object we can use `.keys` and `.values`
 
 ```js
-person.keys // ['gender', 'name', 'height']
+Object.keys(person) // ['gender', 'name', 'height']
 person.values // ['male', 'George', '190']
 ```
 
@@ -306,11 +306,10 @@ person.values // ['male', 'George', '190']
 2. Create an object and print the length of keys and values
 3. Run through the following [exercises][exObj]
 
-## Sneko trial
-Complete the [final][final] exercise!
-
-When finished with the trial, head over to the [padawan][padawan] section to
-start creating real-world applications.
+## Development setup and final trial
+Go to the [development setup][dev-setup] to pick up your tools of trade
+and create your first project! When finished with the trial, head over to
+the [padawan][padawan] section to start creating real-world applications.
 
 ### Best practices
 * Use camelCase when writing names for readibility
