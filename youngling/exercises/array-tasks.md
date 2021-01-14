@@ -1,8 +1,9 @@
 ## Tasks
 
 ### contains
-Create a contains(element, arr) function that has 2 arguments (element: (number|string), arr: (string|number)[]) and returns (boolean), which
-checks if the element is present in the array, otherwise fasle.
+Create a contains(element, arr) function that has 2 arguments (element, arr) and returns (boolean), which
+checks if the element is present in the array. If it is returns `true`, otherwise returns `false`.
+
 
 ```js
 const numbers = [1, 69, 420]
@@ -12,7 +13,7 @@ console.log(contains(666, numbers)) // => false
 ```
 
 ### range
-Create a range(from, to) function that has 2 arguments (from: number, to: number) and returns (number[]), which
+Create a range(from, to) function that has 2 arguments (from, to) and returns an array of numbers. The function
 creates a range of numbers starting from the `from` number and ends in `to` number.
 
 ```js
@@ -21,7 +22,7 @@ console.log(range(5, 9)) // => [5, 6, 7, 8, 9]
 ```
 
 ### minMax
-Create a minMax(arr) function that has 1 argument (arr: number[]) and returns ([number, number]).
+Create a minMax(arr) function that has 1 argument (arr) and returns ([number, number]).
 Return an array with the smallest and largest number.
 
 ```js
@@ -30,7 +31,7 @@ console.log(minMax(1, 1, 1, 1)) // => [1, 1]
 ```
 
 ### without
-Create a without(exclude, arr) function that has 2 arguments (exlcude: number[], arr: number[]) and returns (number[]).
+Create a without(exclude, arr) function that has 2 arguments (exlcude, arr) and returns an array.
 Return a new array which is the `arr` with filtered out `exclude` array.
 
 ```js
@@ -39,7 +40,7 @@ console.log(without([4,7], [1,2,3,4,5,6]); // => [1, 2, 3, 5, 6]
 ```
 
 ### zip
-Create a zip(arr1, arr2) function that has 2 arguments (arr1: (string|number)[], arr2: (string|number)[]) and returns ((string|number)[]).
+Create a zip(arr1, arr2) function that has 2 arguments (arr1, arr2) and returns an array.
 Return a new list, which merges together the values of each of the arrays with the values at the corresponding position.
 
 ```js
