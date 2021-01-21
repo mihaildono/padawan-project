@@ -15,7 +15,7 @@ var cartForParty = {
   proteinShake: "22.36"
 };
 
-console.log(cashRegister(cartForParty))) // => 60.55
+console.log(cashRegister(cartForParty)) // => 60.55
 ```
 
 ### pluck
