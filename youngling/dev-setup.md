@@ -25,9 +25,9 @@ understand more and more of it. For now read through the best
 Create a repository on github and upload all your tasks so far.
 
 ## Testing
-No code is working until there are tests to back it up! From now on we are going
-to use [jest][jest] for testing. Head over to the website and learn how to write
-unit tests.
+No code is working until there are tests to back it up!  We are going to use [jest][jest]
+to achieve that. Head over to the website and learn how to write unit tests.
+See these [common][common] guidelines on how to write good tests.
 
 ###### Exercises
 Write tests for all the problems so far and upload them to github.
@@ -65,3 +65,4 @@ Pick a project and complete it to ascend to [padawan][padawan]!
 [node]: https://nodejs.org/en/
 [vscode]: https://code.visualstudio.com/
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
+[common]:  https://github.com/mihaildono/padawan-project/blob/master/youngling/testing.md
