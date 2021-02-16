@@ -41,6 +41,15 @@ In the introduction document, we have a very basic styleguide on how to format
 the code in a more eye-pleasing way, however from this point on, we are going to
 enforce it. Setup your editor with a `popular` linter.
 
+## npm and package.json
+**npm** is a software registry. It is used to share software. You can upload your
+package there or download someone else's  package and use it in your project.
+Your current project's configuration is managed by a `package.json` file. It
+contains information about the author and project's name, packages and their
+dependencies.
+
+To start a new project run: `npm init` and follow the steps.
+
 ###### Exercises
 Check if all the code that you have submitted to github passes the styleguide you
 have chosen. If not, beautify all your code :)

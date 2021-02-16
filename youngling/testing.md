@@ -8,7 +8,7 @@ guarantee that functionality fits the requirements and the application is stable
 
 There are several layers related to testing:
 
-![testing pyramid](./testing-pyramid.jpg)
+![testing pyramid](./test-pyramid.jpg)
 
 There are 2 sides to the testing pyramid:
 1. Technical value
