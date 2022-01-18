@@ -53,6 +53,7 @@ The program is divided into 3 parts:
 ## Principles
 This program tries to stay as close as possible to the [Zone of proximal development][zone],
 to maximize the efficiency of learning.
+Tasks should be constructed in [85% success rule][fail]
 It is also advised to use the [Pomodoro][pomodoro] technique as well to utilize deep work
 as much as possible. Furthermore, practice Getting Things Done (GTD) methodology of planning
 the day before and keeping Todo lists.
@@ -86,6 +87,7 @@ experiences via PRs or email at: mihaildono@gmail.com
 [youngling]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
 [jedi]: https://github.com/mihaildono/padawan-project/blob/master/jedi/final-project.md
-[epilogue]: https://github.com/mihaildono/padawan-project/blob/master/epilogue/interview-training.md
+[epilogue]: https://github.com/mihaildono/padawan-project/blob/master/epilogue/interview-training.mdn
 [zone]: https://www.simplypsychology.org/Zone-of-Proximal-Development.html
+[fail]: https://www.nature.com/articles/s41467-019-12552-4
 [pomodoro]: https://en.wikipedia.org/wiki/Pomodoro_Technique
