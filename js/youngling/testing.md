@@ -46,3 +46,16 @@ Technical value:
 - Don't put logic in tests like loops or conditionals
 - Don't have unnecessary assertions
 - Extract common setup and logic
+
+
+https://kentcdodds.com/blog/stop-mocking-fetch
+https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications
+https://kentcdodds.com/blog/how-to-know-what-to-test
+
+resolve/reject
+mockOnlyOnce(recursion)
+snapshots(diffrent types of tests)
+ Jest assertions
+ Integration tests for use cases
+ mocking api calls
+ redux state wrapper

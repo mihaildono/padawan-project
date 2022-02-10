@@ -4,49 +4,50 @@
   <img src="./logo.png" alt="PadawanProject Logo"/>
 </p>
 
-> “You will find only what you bring in.” <br/>
-> – Yoda
-
-The **Padawan Project** is a minimalistic teacher constructed program, which provides
-people with the necessary skills to work as javascript developers. This is
-achieved through mentorship, self-learning, problem solving and applicaiton building.
+The **Padawan Project** is a collection of curated learning programs, utilizing specific
+set of peer reviewed research backed tools, which allows anyone to consistently
+and effectively educate themselves.
 
 ## Why?
-Knowledge is useless, unless applied. The web holds vast amount of data,
-however, we as human beings are severely limited by the amount one can learn for
-the time given. Naturally we want to make the process as effecient as
-possible.
-This course does not aim to give a complete reference to the language,
-but rather give introduction into the world of JS and the necessary skills to
-learn on your own.
-
-All of this is achieved without cluttering the mind with theory and language
-specifics, which will not be of any use for the person at this point of his
-education. That being said, initially many of the tasks will be perfomed blindly,
-without delving deeply into what the language constructs actually mean. With each
-task, the pupil will understand more and more of how things actually work.
+There are many different education systems in the world, some more effective than
+others. This inconsistency is staggering, considering there is plenty of research
+that supports optimal learning methods. Furthermore accessibility of information
+nowadays allows for everyone to get **equal** opportunity to develop regardless of
+their social and economic status, as well as their geolocation. The mission of this
+project is to bring a system that defines a clear development path and explicit
+use of necessary techniques to achieve that. Our vision is a world where knowledge
+is a basic right and anyone has equal success in it.
 
 ## Prerequisites
 The program: <br>
 _MUST_ be undertaken with a mentor. <br>
-is **NOT** meant for people to learn by themselves!
+Is **NOT** meant for people to learn by themselves!
 
-No computer science knowledge is needed beforehand.
+No prior knowledge is needed beforehand.
 
-Absolute student and mentor motivation is necessary. Do not start it, if you
-intend not to finish it.
+Mentor should have 5+ years of experience in the domain and 2+ years of experience
+working in soft-skill intensive environment.
+NOTE: exact experience is TBD
 
-## Overview
-The program is divided into 3 parts:
-- [Youngling][youngling], is the where everyone should begin. It teaches you
-  about the basics of the language and introduces the students to algorithmic
-  thinking
-- [Padawan][padawan], throws you into the real world of javascript
-  development. You will create different projects and acquire all the necessary
-  skills to service
-- [Jedi][jedi], gives you the opportunity to test your skills and add an amazing
-  project to your portfolio
-- [Epilogue][epilogue], prepares you for the interview process
+## Programs
+[Front End Web Development][JS]
+
+## Mentor Information
+Ideally each group should consist of 2-4 people. As it is important for the students
+to feel the sense of community, but not so much that the teacher is overwhelmed by
+too many people.
+NOTE: See research regarding optimal class size
+
+The whole program should be led by a *single* mentor, as to minimize the impact
+of context switching for students, however it is recommended to have occasional
+lectures with different lectors on more laid back topics, that are still
+informative(eg. basic UX, history of web)
+
+No outside remarks should be made unless requests by the mentor. There is an
+ongoing problem of different teachers/parents/students interfering with the work
+of a teacher, thus disturbing the process. Throughout the program there should be
+scheduled meetings where people outside of the group can submit their appeals and
+have discussion with the mentors.
 
 **MENTORS** should first visit the [teacher manual][teacher-manual]
 
@@ -54,40 +55,61 @@ The program is divided into 3 parts:
 This program tries to stay as close as possible to the [Zone of proximal development][zone],
 to maximize the efficiency of learning.
 Tasks should be constructed in [85% success rule][fail]
+Take into account the 5 stages of [Tuckman][Tuckman] Team Model to monitor team chemistry
+
+## Class notes
+Teaching should begin not too early, so that the individual is completely awake(10 am would be ideal).
+Study day should not exceed 6 hours.
+Sessions should be according to [Ultradian][Ultradian] rhythm
 It is also advised to use the [Pomodoro][pomodoro] technique as well to utilize deep work
-as much as possible. Furthermore, practice Getting Things Done (GTD) methodology of planning
-the day before and keeping Todo lists.
+as much as possible.
+Each session should be a maximum of 1.5 hours divided in 3 pomodoros.
+There should be regular multi-person projects that promote cooperation.
+There should be regularly contests to train for real life scenarios and deadlines.
 
-## Badges
-Each mentor is advised to pick his own motivation system, so he can keep the
-program interesting.
+## Group Chemistry
+NOTE: Here we can put more suggestion how to improve team chemistry
+At regular intervals there should be organized teambuildings(search for proper research)
+- hackaton
+- cross-group competitions
+- non-subject activities(karaoke, escape room, festival, cinema...)
 
-The program has sample reward system and badges that can be earned. Try to
-achieve as much as possible to experience all the benefits of this course.
-Behind every badge, there is a reward, which should be _negotiated_ by the students.
-Tailor the rewards to be suitable to the interests of the students.
+## Badges and rewards
+The program will make use of the [Random intermittent reward][reward] research.
+Rewards should be mainly given at random intervals. Big and scheduled rewards
+should be given only at big milestones(eg. completing the program)
 
-| Description                   | Youngling                                           | Padawan                                                                                              | Jedi        |
-| -                             | -                                                   | -                                                                                                    | -           |
-| Section badges                | Check 1 2 <br> Objection <br> Force user <br> Sneko | Tinkerer <br> Handsome Jack <br> Reactive <br> Cable guy <br> Orient Express <br> Showoff <br> Señor |             |
-| Earn whole section to acquire | Jedi Youngling                                      | Jedi Padawan                                                                                         | Jedi Knight |
+| Name          | Description           | Reward    |
+| Completionist | Solve 50 tasks        |           |
+| Lootbox       | Random Daily reward   | Candy bar |
+| Bullseye      | Center an element     |           |
+| Loop Hero     | Loop through an array |           |
+| Jedi          | Finish the program    | Party     |
 
-When all badges are earned, earn badge "Jedi Guardian"
+## Research
+Everything in this program should be backed with research. All of the related papers
+will be stored [here][research]
+
+## Roadmap
+- Customized learning materials that contributing to the final
+objective
+- Mentor Network
+- Sponsoring(Donations, NFT, state subsidies)
+- Blockchain reward system
+- Additional subjects
 
 ## Additional notes
-This project will always be free.
-
-All the necessary reading materials also have markdown version in their
-respective folder under `cached`, in case a site goes down.
+**This project will always be free.**
 
 Please try to improve the documents as much as possible, and share your
 experiences via PRs or email at: mihaildono@gmail.com
 
 [teacher-manual]: https://github.com/mihaildono/padawan-project/blob/master/teacher-manual.md
-[youngling]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md
-[padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
-[jedi]: https://github.com/mihaildono/padawan-project/blob/master/jedi/final-project.md
-[epilogue]: https://github.com/mihaildono/padawan-project/blob/master/epilogue/interview-training.mdn
 [zone]: https://www.simplypsychology.org/Zone-of-Proximal-Development.html
 [fail]: https://www.nature.com/articles/s41467-019-12552-4
 [pomodoro]: https://en.wikipedia.org/wiki/Pomodoro_Technique
+[Ultradian]: https://en.wikipedia.org/wiki/Ultradian_rhythm
+[Tuckman]: https://pressbooks.bccampus.ca/technicalwriting/chapter/understandingteamdynamics/
+[reward]: https://www.techdetoxbox.com/weapons-of-digital-manipulation/random-rewards/
+[JS]: https://github.com/mihaildono/padawan-project/blob/master/js/README.md
+[research]: https://github.com/mihaildono/padawan-project/blob/master/research.md

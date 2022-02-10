@@ -1,5 +1,4 @@
 # Introduction
-
 Interviews contrary to popular belief are not only about the technical capabilities
 of the interviewee, but also it is a demonstration of social prowess. In most jobs
 in the market almost everyone will pass the technical test, which means that
