@@ -5,39 +5,36 @@
 </p>
 
 The **Padawan Project** is a collection of curated learning programs, utilizing specific
-set of research backed tools, which allows anyone to consistently and effectively get educated.
+set of research-backed tools, which allows anyone to consistently and effectively get educated.
 
 ## Why?
-There are many different education systems in the world, most of them are very ineffective.
+There are many different education systems, most of which unfortunately very ineffective.
 This effectiveness inconsistency is staggering, considering there is plenty of research
-that supports optimal learning methods. Furthermore accessibility of information
-nowadays allows for everyone to get **equal** opportunity to develop regardless of
+that supports optimal learning methods. Furthermore, accessibility of information
+nowadays is a prerequisite for everyone to get **equal** opportunity to develop regardless of
 their social and economic status, as well as their geolocation. The mission of this
-project is to bring a system that defines a clear development path and explicit
+project is to bring forward a system that defines a clear development path and explicit
 use of necessary techniques to achieve that. Our vision is a world where knowledge
-is a basic right and anyone has equal success in it.
+is a basic human right and everyone has equal opportunity to be successful in it.
 
 ## Prerequisites
-The program: <br>
-_MUST_ be undertaken with a mentor. <br>
-Is **NOT** meant for people to learn by themselves!
-
-No prior knowledge is needed beforehand.
-
-Mentor should have 5+ years of experience in the domain and 2+ years of experience
-working in soft-skill intensive environment.<br>
-NOTE: exact experience is TBD
+The program is **NOT** tailored for people to learn by themselves and _MUST_ be taken under the guidance of a mentor.<br>
+However, no prior knowledge in the matter is required.
 
 ## Programs
 [Front End Web Development][JS]
 
 ## Mentor Information
-Ideally each group should consist of 2-4 people. As it is important for the students
+Mentors should have 5+ years of experience in the respective domain and 2+ years of experience
+working in soft-skill intensive environment*.<br>
+_* Exact experience is TBD._<br>
+### Groups
+Ideally each group should consist of 2-4 people as it is important for the students
 to feel the sense of community, but not so much that the teacher is overwhelmed by
 too many people.<br>
-NOTE: This current constraint is due to use of scaffolding from "Zone Of Proximal Development"<br>
-NOTE: See research regarding optimal class size
+NOTE: This current constraint is due to use of scaffolding from "Zone Of Proximal Development". See research regarding optimal class size.<br>
 
+## General direction
 The whole program should be led by a *single* mentor, as to minimize the impact
 of context switching for students, however it is recommended to have occasional
 lectures with different lectors on more laid back topics, that are still
@@ -64,7 +61,7 @@ the learning rate of the students. [Here][techniques] you can see step-by-step g
 how to implement those techniques in your teaching process.
 
 ## Class notes
-Study room should be brightly lid<br>
+Study room should be brightly lit.<br>
 Teaching should begin not too early, so that the individual is completely awake(10 am would be ideal).<br>
 Study day should not exceed 6 hours.<br>
 Sessions should be according to [Ultradian][Ultradian] rhythm.<br>
