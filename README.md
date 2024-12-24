@@ -24,19 +24,8 @@ Is **NOT** meant for people to learn by themselves!
 
 No prior knowledge is needed beforehand.
 
-Mentor should have 5+ years of experience in the domain and 2+ years of experience
-working in soft-skill intensive environment.<br>
-NOTE: exact experience is TBD
-
 ## Programs
 [Front End Web Development][JS]
-
-## Roadmap
-- Customized learning materials that contributing to the final
-objective
-- Sponsoring(Donations, NFT, state subsidies)
-- Blockchain reward system
-- Additional subjects
 
 ## Additional notes
 **This project will always be free.**
@@ -44,14 +33,4 @@ objective
 Please try to improve the documents as much as possible, and share your
 experiences via PRs or email at: mihaildono@gmail.com
 
-[teacher-manual]: https://github.com/mihaildono/padawan-project/blob/master/teacher-manual.md
-[zone]: https://www.simplypsychology.org/Zone-of-Proximal-Development.html
-[fail]: https://www.nature.com/articles/s41467-019-12552-4
-[pomodoro]: https://en.wikipedia.org/wiki/Pomodoro_Technique
-[Ultradian]: https://en.wikipedia.org/wiki/Ultradian_rhythm
-[Tuckman]: https://pressbooks.bccampus.ca/technicalwriting/chapter/understandingteamdynamics/
-[reward]: https://www.techdetoxbox.com/weapons-of-digital-manipulation/random-rewards/
 [JS]: https://github.com/mihaildono/padawan-project/blob/master/js/README.md
-[research]: https://github.com/mihaildono/padawan-project/blob/master/research.md
-[techniques]: https://github.com/mihaildono/padawan-project/blob/master/techniques.md
-[huberman]: https://hubermanlab.com/
