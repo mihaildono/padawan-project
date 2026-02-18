@@ -416,16 +416,16 @@ const function = (param1) => {
   - A set of structured data of primitives
 
 [jsfiddle]: https://jsfiddle.net/
-[exTypes]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/types-tasks.md
-[exArr]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/array-tasks.md
-[exFunc]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/function-tasks.md
-[exCond]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/conditional-tasks.md
-[exVar]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/variable-tasks.md
-[exObj]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/object-tasks.md
-[exLoop]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/loop-tasks.md
-[final]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/snake-task.md
-[padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
-[best-practices]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#best-practices
-[vocabulary]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#vocabulary
-[basic-cheatsheet]: https://github.com/mihaildono/padawan-project/blob/master/youngling/basic-cheatsheet.md
-[dev-setup]: https://github.com/mihaildono/padawan-project/blob/master/youngling/dev-setup.md
+[exTypes]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/exercises/types-tasks.md
+[exArr]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/exercises/array-tasks.md
+[exFunc]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/exercises/function-tasks.md
+[exCond]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/exercises/conditional-tasks.md
+[exVar]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/exercises/variable-tasks.md
+[exObj]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/exercises/object-tasks.md
+[exLoop]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/exercises/loop-tasks.md
+[final]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/exercises/snake-task.md
+[padawan]: https://github.com/mihaildono/padawan-project/blob/master/js/padawan/introduction.md
+[best-practices]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/introduction.md#best-practices
+[vocabulary]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/introduction.md#vocabulary
+[basic-cheatsheet]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/basic-cheatsheet.md
+[dev-setup]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/dev-setup.md

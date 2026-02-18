@@ -30,4 +30,4 @@ The whole application should have unit and integration tests.
 When finished with the trial, head over to the [epilogue][epilogue] of the
 program for final notes and advice.
 
-[epilogue]: https://github.com/mihaildono/padawan-project/blob/master/epilogue/interview-training.md
+[epilogue]: https://github.com/mihaildono/padawan-project/blob/master/js/epilogue/interview-training.md

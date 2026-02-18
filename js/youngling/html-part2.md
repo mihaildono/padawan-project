@@ -300,8 +300,9 @@ Complete this trial and earn the badge **"Form Master"**
 
 Create a navigation menu in the header that links to different sections of the same page using anchor links (hint: use `href="#sectionId"`). Add a contact form that includes validation (required fields, email format). You will earn the badge **"Semantic Sensei"**
 
-When finished with this trial, you're ready to dive deeper into Basic JS pt. 2 to continue building your programming skills!
+When finished with this trial, you're ready to dive deeper into [Basic JS pt. 2][js-intro] to continue building your programming skills!
 
 [mdn-forms]: https://developer.mozilla.org/en-US/docs/Learn/Forms
 [semantic]: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html
 [events]: https://developer.mozilla.org/en-US/docs/Web/Events
+[js-intro]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/introduction.md

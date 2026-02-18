@@ -132,12 +132,6 @@ app.get('/users/:id', (req, res) => {
 });
 ```
 
-**Explanation:**
-
-- `req.params.id` - gets the ID from the URL (e.g., `/users/1`)
-- `find()` - searches the array for a user with matching ID
-- `status(404)` - sends a 404 error if user not found
-
 ### CREATE - Adding Data (POST)
 
 Create a new user:
@@ -154,12 +148,6 @@ app.post('/users', (req, res) => {
   res.status(201).json(newUser);
 });
 ```
-
-**Explanation:**
-
-- `req.body` - contains the data sent in the request
-- `status(201)` - means "Created" (successful creation)
-- We add the new user to our array and return it
 
 **Test with curl or Postman:**
 
@@ -189,12 +177,6 @@ app.put('/users/:id', (req, res) => {
 });
 ```
 
-**Explanation:**
-
-- Find the user by ID
-- Update only the fields that were provided
-- `||` operator keeps old value if new one not provided
-
 **Test:**
 
 ```bash
@@ -221,107 +203,19 @@ app.delete('/users/:id', (req, res) => {
 });
 ```
 
-**Explanation:**
-
-- `findIndex()` - finds the position of the user in the array
-- `splice()` - removes the user from the array
-- Returns the deleted user as confirmation
-
 **Test:**
 
 ```bash
 curl -X DELETE http://localhost:3000/users/2
 ```
 
-## Complete Example
-
-Here's the full server with all CRUD operations:
-
-```js
-const express = require('express');
-const app = express();
-const PORT = 3000;
-
-app.use(express.json());
-
-let users = [
-  { id: 1, name: 'Luke Skywalker', role: 'Jedi' },
-  { id: 2, name: 'Darth Vader', role: 'Sith' },
-  { id: 3, name: 'Yoda', role: 'Jedi Master' }
-];
-
-// READ - Get all users
-app.get('/users', (req, res) => {
-  res.json(users);
-});
-
-// READ - Get single user
-app.get('/users/:id', (req, res) => {
-  const id = parseInt(req.params.id);
-  const user = users.find(u => u.id === id);
-
-  if (!user) {
-    return res.status(404).json({ message: 'User not found' });
-  }
-
-  res.json(user);
-});
-
-// CREATE - Add new user
-app.post('/users', (req, res) => {
-  const newUser = {
-    id: users.length + 1,
-    name: req.body.name,
-    role: req.body.role
-  };
-
-  users.push(newUser);
-  res.status(201).json(newUser);
-});
-
-// UPDATE - Modify user
-app.put('/users/:id', (req, res) => {
-  const id = parseInt(req.params.id);
-  const user = users.find(u => u.id === id);
-
-  if (!user) {
-    return res.status(404).json({ message: 'User not found' });
-  }
-
-  user.name = req.body.name || user.name;
-  user.role = req.body.role || user.role;
-
-  res.json(user);
-});
-
-// DELETE - Remove user
-app.delete('/users/:id', (req, res) => {
-  const id = parseInt(req.params.id);
-  const index = users.findIndex(u => u.id === id);
-
-  if (index === -1) {
-    return res.status(404).json({ message: 'User not found' });
-  }
-
-  const deletedUser = users.splice(index, 1);
-  res.json(deletedUser[0]);
-});
-
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
-});
-```
-
 ## Middleware
 
-Middleware functions are functions that have access to the request and response objects. They can:
+Middleware functions have access to the request and response objects. They can
+execute code, modify requests/responses, or end the request-response cycle.
 
-- Execute code
-- Modify the request/response
-- End the request-response cycle
-- Call the next middleware
-
-Example of custom middleware:
+Read about middleware in the [Express docs](https://expressjs.com/en/guide/using-middleware.html),
+then try writing your own:
 
 ```js
 // Logger middleware
@@ -356,45 +250,6 @@ Always handle errors properly:
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).json({ message: 'Something went wrong!' });
-});
-```
-
-## Connecting to a Database
-
-In real applications, you'll use a database instead of an in-memory array. Popular choices:
-
-- **MongoDB** - NoSQL database (use with Mongoose)
-- **PostgreSQL** - SQL database (use with pg or Sequelize)
-- **MySQL** - SQL database (use with mysql2 or Sequelize)
-
-Example with MongoDB and Mongoose:
-
-```js
-const mongoose = require('mongoose');
-
-mongoose.connect('mongodb://localhost/myapp', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-});
-
-const UserSchema = new mongoose.Schema({
-  name: String,
-  role: String
-});
-
-const User = mongoose.model('User', UserSchema);
-
-// CREATE
-app.post('/users', async (req, res) => {
-  const user = new User(req.body);
-  await user.save();
-  res.status(201).json(user);
-});
-
-// READ
-app.get('/users', async (req, res) => {
-  const users = await User.find();
-  res.json(users);
 });
 ```
 

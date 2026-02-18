@@ -454,47 +454,12 @@ Always use try-catch blocks and send appropriate error messages.
 
 ## Moving to Production Databases
 
-For production apps, consider:
+SQLite is great for learning and small projects. For production apps, explore:
 
-### PostgreSQL
+- **PostgreSQL** - Powerful SQL database. Use with the `pg` npm package. [Docs](https://node-postgres.com/)
+- **MySQL** - Popular SQL database. Use with `mysql2` npm package. [Docs](https://github.com/sidorares/node-mysql2)
 
-```bash
-npm install pg
-```
-
-```js
-const { Pool } = require('pg');
-const pool = new Pool({
-  user: 'myuser',
-  host: 'localhost',
-  database: 'mydb',
-  password: 'mypassword',
-  port: 5432,
-});
-
-app.get('/users', async (req, res) => {
-  const result = await pool.query('SELECT * FROM users');
-  res.json(result.rows);
-});
-```
-
-### MySQL
-
-```bash
-npm install mysql2
-```
-
-```js
-const mysql = require('mysql2/promise');
-const connection = await mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'password',
-  database: 'mydb'
-});
-
-const [rows] = await connection.execute('SELECT * FROM users');
-```
+The SQL you've learned here transfers directly — the syntax is nearly identical.
 
 ## Trial: Build a Blog API with Database
 

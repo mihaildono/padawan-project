@@ -227,8 +227,9 @@ Complete this trial and earn the badge **"Page Builder"**
 
 Add a section with 3 different heading levels (h1, h2, h3) and use comments to organize your code. You will earn the badge **"Organized Padawan"**
 
-When finished with the trial, continue to Basic JS pt. 1 to learn programming logic.
+When finished with the trial, continue to [Basic JS pt. 1][js-intro] to learn programming logic.
 
 [mdn-html]: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
 [html-elements]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 [w3-html]: https://www.w3schools.com/html/
+[js-intro]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/introduction.md

@@ -1,9 +1,23 @@
-# Introduction
+# React
+
+> "The Force will be with you. Always."
+> ―Obi-Wan Kenobi
 
 Previously, we learned about the `individual` elements that make a
 web page. Time to bring them together. Now we will learn about
 `React`. `React` is a library, that makes building SPAs(Single Page
 Application) very easy.
+
+## Helpful links
+
+- [React Official Tutorial][tutorial]
+- [React Documentation](https://react.dev/)
+- [Reconciliation Algorithm][reconciliation]
+
+## Prerequisites
+
+- Complete CSS section
+- Comfortable with JavaScript fundamentals (functions, arrays, objects)
 
 ### Hello World
 
@@ -50,6 +64,7 @@ return React.createElement('div', {className: 'shopping-list'},
 ```
 
 We can put JSX in vars as well:
+
 ```js
 const element = (
   <h1 className="greeting">
@@ -57,7 +72,9 @@ const element = (
   </h1>
 );
 ```
+
 which will turn into this:
+
 ```js
 const element = React.createElement(
   'h1',
@@ -65,6 +82,7 @@ const element = React.createElement(
   'Hello, world!'
 );
 ```
+
 which will end up as a simple JS object:
 
 ```js
@@ -115,41 +133,139 @@ together and updates the HTML DOM in a *smart* manner.
 
 Now lets create our own application!
 
-```js
+```bash
 npx create-react-app my-first-padawan-app
 ```
 
 ### Props
 
-The idea behind components is that they are reusable.
+The idea behind components is that they are reusable. Props (short for "properties")
+are how we pass data from a parent component to a child component. Think of them
+as function arguments but for components.
+
+```js
+const Greeting = (props) => {
+  return <h1>Hello, {props.name}!</h1>
+}
+
+// Usage
+<Greeting name="Luke" />
+<Greeting name="Leia" />
+```
+
+Props are **read-only** - a component should never modify its own props.
 
 ### Interaction
 
-Synthetic events
-Clicking on counter
+React uses **synthetic events** to handle user interactions. They work like
+regular HTML events but are consistent across all browsers.
+
+```js
+const Button = () => {
+  const handleClick = () => {
+    console.log('Button clicked!')
+  }
+
+  return <button onClick={handleClick}>Click me</button>
+}
+```
+
+Note: In JSX, event names use camelCase (`onClick`, `onChange`, `onSubmit`)
+instead of lowercase.
 
 ### State
 
+State is data that changes over time within a component. Unlike props, state is
+managed *inside* the component.
+
+```js
+import { useState } from 'react'
+
+const Counter = () => {
+  const [count, setCount] = useState(0)
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  )
+}
+```
+
+Key rules: never modify state directly, always use the setter function.
+
 ### Lifecycle
+
+Components go through a lifecycle: mounting (appearing), updating (changing),
+and unmounting (disappearing). The `useEffect` hook lets you run code at
+specific points in this lifecycle.
+
+```js
+import { useEffect } from 'react'
+
+useEffect(() => {
+  // Runs after component mounts
+  console.log('Component loaded!')
+
+  return () => {
+    // Runs before component unmounts (cleanup)
+    console.log('Component removed!')
+  }
+}, []) // Empty array = run only once
+```
+
+Explore the [official docs](https://react.dev/reference/react/useEffect) for
+deeper understanding of when and how effects run.
 
 ### JS in JSX
 
-- inline if
-- loops(keys)
+You can use JavaScript expressions inside JSX with curly braces:
 
-### Lifting state up
+```js
+// Inline conditional
+{isLoggedIn && <p>Welcome back!</p>}
+
+// Ternary
+{isAdmin ? <AdminPanel /> : <UserPanel />}
+
+// Rendering lists (always provide a key!)
+{items.map(item => <li key={item.id}>{item.name}</li>)}
+```
+
+### Lifting State Up
+
+When two components need to share state, move it to their closest common parent
+and pass it down via props. This is a core React pattern - read about it in the
+[React docs](https://react.dev/learn/sharing-state-between-components).
 
 ### Composition
 
+Build complex UIs by combining small, focused components. Prefer composition
+over large monolithic components. The `children` prop lets you nest components
+naturally:
+
+```js
+const Card = ({ children, title }) => (
+  <div className="card">
+    <h2>{title}</h2>
+    {children}
+  </div>
+)
+```
+
 ### Thinking in React
 
-0. Start with mock data
-1. Break UI in component hierarchy
-2. Build Static Version
-3. Identify Minimal state
-4. Where should state live
+When building a React app, follow this process:
 
-### Pitfalls
+1. Start with mock data
+2. Break UI into a component hierarchy
+3. Build a static version first (no state)
+4. Identify the minimal state needed
+5. Decide where state should live
+
+Read the official [Thinking in React](https://react.dev/learn/thinking-in-react)
+guide - it is excellent.
 
 ### It is time to do some work on your own
 
@@ -160,35 +276,37 @@ possible to absorb the needed knowledge for the task.
 
 Complete the following [tutorial][tutorial].
 
-## Trial
+## Trial: React Applications
 
-1: TODO list
+### 1: TODO list
+
 List all of the created todos in a list.
 You should be able to add, remove and update a task.
 Todos can be reordered. To achieve this use a library of your liking.
-Split the jsx code into 2 subfunctions - TaskList and Task.
+Split the JSX code into 2 subfunctions - TaskList and Task.
 
-BONUS: create your own drag-n-drop reorder to earn the badge "Showoff"
+**Bonus:** Create your own drag-n-drop reorder to earn the badge **"Showoff"**
 
-2: Employee list
+### 2: Employee list
 
 List first 10 employees from this api:
 `http://dummy.restapiexample.com/api/v1/employees`
 Create a function that sorts by random employee attribute(salary, name...) every
-10 seconds
+10 seconds.
 
-3: Routing
+### 3: Routing
+
 Combine Todo and Employee in new app with Home as a landing page - use
-ReactRouter
+ReactRouter.
 
 ## Final Trial
 
-Implement the snake game with canvas and react!
+Implement the snake game with canvas and React!
 
-Continuing the previous project, we will use the same js engine from the
+Continuing the previous project, we will use the same JS engine from the
 previous chapter and finally build the front-end.
 
-Complete this section to earn the badge "Reactive"
+Complete this section to earn the badge **"Reactive"**
 
 When finished with the trial, head over to the [Node.js][node] section for
 introduction to backend development with Express.
