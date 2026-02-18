@@ -1,15 +1,46 @@
-# Introduction
+# Interview Preparation Guide
 
-Interviews contrary to popular belief are not only about the technical capabilities
-of the interviewee, but also it is a demonstration of social prowess. In most jobs
-in the market almost everyone will pass the technical test, which means that
-candidates are usually filtered based on their likability by the employer. So it is very
-important that the student of this program, also develop his social skills in
-order to secure his place in his dream job. A popular saying in the dev
-community is that a good developer write codes for people, and not just
-machines. Anyone can create a working system - what is important is how this
-system is being managed in time, considering all the people working on it and
-the business that drives it.
+> "Do. Or do not. There is no try."
+> ―Yoda
+
+Interviews are not only about technical capabilities - they're also a
+demonstration of communication skills, problem-solving approach, and cultural
+fit. In most jobs, candidates pass the technical test, but are filtered based on
+their ability to collaborate and communicate effectively.
+
+Remember: A good developer writes code for people, not just machines. Anyone can
+create a working system - what matters is how that system is maintained over
+time, considering all the people working on it and the business driving it.
+
+## Before You Start Applying
+
+### Portfolio Essentials
+
+✅ **GitHub Profile:**
+
+- Pin your best 3-6 projects
+- Write clear README files for each project
+- Include screenshots/GIFs demonstrating functionality
+- Show commit history (regular, meaningful commits)
+
+✅ **Live Demos:**
+
+- Deploy at least 2-3 projects
+- Ensure they work on mobile
+- Test them before sending to employers
+
+✅ **Personal Website/Portfolio** (Optional but recommended):
+
+- About section
+- Projects showcase
+- Contact information
+- Blog (bonus points)
+
+### Build Your Online Presence
+
+- **LinkedIn** - Professional profile with projects and skills
+- **Twitter/X** - Follow developers, share learnings (optional)
+- **Dev.to or Medium** - Write about what you're learning (optional)
 
 ## 3 step interview process
 
@@ -49,35 +80,162 @@ upon. Asking for less out of fear of losing the job will show lack of confidence
 and actually says that you are not skilled enough, since you undervalue
 yourself.
 
-## CV
+## CV (Resume)
 
-A good CV must not exceed 1 page, and preferably be single column.
-Never use standard European format or similar, because it looks unattractive.
-Use sample CV template sites like [EnchanCV][enchancv] or
-[VisualCV][visualcv]. There are also example CVs there, which can serve as a
-reference.
+### Key Rules
 
-## [STAR Technique][star]
+- **Maximum 1 page** (2 pages only if 10+ years experience)
+- **Single column** layout for better readability
+- **No generic templates** - Avoid Europass or standard Word templates
+- **ATS-friendly** - Use standard fonts, clear sections, avoid images/tables
+- **Tailored** - Customize for each application
 
-## Here are some example language specific questions
-What are the differences between var, let and const?
+### Structure
 
-What is closure?
+1. **Header**
+   - Name, location (city), email, phone
+   - GitHub, LinkedIn, Portfolio links
 
-What is prototype?
+2. **Summary** (2-3 sentences)
+   - "Full-stack developer specializing in React and Node.js with experience
+     building scalable web applications..."
 
-What is hoisting?
+3. **Skills**
+   - **Frontend:** React, TypeScript, CSS, HTML
+   - **Backend:** Node.js, Express, RESTful APIs
+   - **Database:** PostgreSQL, MySQL, MongoDB
+   - **Tools:** Git, Jest, Docker, VS Code
 
-What are high order functions?
+4. **Projects** (Most important for juniors!)
+   - 3-4 projects with bullet points:
+     - What it does
+     - Technologies used
+     - Key achievement/metric
+   - Example: "Built a full-stack e-commerce app with React and Node.js,
+     featuring user authentication and payment processing"
 
-What is the difference between callbacks, promises and async await
+5. **Experience** (If any)
+   - Focus on responsibilities and achievements
+   - Use action verbs: built, implemented, designed, improved
 
-What happens if you assign a variable without a keyword? `x = 1`
+6. **Education**
+   - Degree, institution, year (if relevant)
+   - Online courses/bootcamps
 
-What will be the output and why of the two statements:
+### Resources
 
-console.log(1 + +"2");
-console.log("1" +  2);
+- [EnchanCV][enchancv] - Modern CV templates
+- [VisualCV][visualcv] - Professional templates
+- [Resume.io](https://resume.io) - ATS-friendly templates
+- [Standard Resume](https://standardresume.co) - Simple, clean design
+
+## STAR Technique for Behavioral Questions
+
+Use [STAR][star] to structure answers to behavioral questions:
+
+- **Situation** - Set the context
+- **Task** - Describe your responsibility
+- **Action** - Explain what you did
+- **Result** - Share the outcome
+
+### Example Question: "Tell me about a challenging bug you fixed."
+
+❌ **Bad answer:** "I had a bug once and I fixed it using console.log."
+
+✅ **Good answer:**
+
+**Situation:** While building my final project, users reported that the
+leaderboard wasn't updating in real-time.
+
+**Task:** I needed to identify why the WebSocket connection was dropping and fix
+it without affecting other features.
+
+**Action:** I added logging to track connection states, discovered the server
+was timing out idle connections after 60 seconds. I implemented a heartbeat
+ping/pong mechanism to keep connections alive.
+
+**Result:** The connection now stays stable indefinitely, and the leaderboard
+updates in real-time. I also added this to my documentation as a lesson learned.
+
+## Common Interview Questions
+
+### Behavioral Questions
+
+Prepare stories for these common questions:
+
+- "Tell me about yourself" (2-minute elevator pitch)
+- "Why do you want to work here?" (Research the company!)
+- "Describe a challenging project you worked on"
+- "How do you handle disagreement with a team member?"
+- "What's your biggest weakness?" (Be honest but show self-awareness)
+- "Where do you see yourself in 5 years?"
+
+### Technical Questions - JavaScript
+
+**Q: What are the differences between var, let and const?**
+
+A: `var` is function-scoped and hoisted, `let` and `const` are block-scoped.
+`const` cannot be reassigned but objects/arrays can be mutated.
+
+**Q: What is closure?**
+
+A: A closure is when a function remembers variables from its outer scope even
+after that scope has finished executing.
+
+```js
+function outer() {
+  const name = 'Luke'
+  return function inner() {
+    console.log(name) // Closure - inner remembers 'name'
+  }
+}
+```
+
+**Q: What is hoisting?**
+
+A: JavaScript moves variable and function declarations to the top of their scope
+during compilation. `var` declarations are hoisted and initialized to
+`undefined`, `let`/`const` are hoisted but not initialized (temporal dead zone).
+
+**Q: What are higher-order functions?**
+
+A: Functions that take other functions as arguments or return functions.
+Examples: `map`, `filter`, `reduce`.
+
+**Q: Callbacks vs Promises vs Async/Await?**
+
+A:
+- **Callbacks:** Functions passed to handle async results (can lead to callback hell)
+- **Promises:** Objects representing eventual completion/failure of async operation
+- **Async/Await:** Syntactic sugar over promises, makes async code look synchronous
+
+**Q: What happens if you assign without `var`/`let`/`const`?**
+
+A: `x = 1` creates a global variable (in non-strict mode), which is bad practice.
+In strict mode, it throws a ReferenceError.
+
+**Q: What's the output?**
+
+```js
+console.log(1 + +"2");  // 3 (unary + converts "2" to number)
+console.log("1" + 2);   // "12" (number coerced to string)
+```
+
+### Technical Questions - React
+
+- "What's the difference between state and props?"
+- "What are React hooks? Name a few."
+- "How does virtual DOM work?"
+- "What's the useEffect hook used for?"
+- "What's the difference between controlled and uncontrolled components?"
+
+### Technical Questions - General Web
+
+- "What's the difference between HTTP and HTTPS?"
+- "Explain the difference between GET and POST requests"
+- "What's CORS and why does it exist?"
+- "What's the difference between authentication and authorization?"
+- "How would you optimize a slow-loading webpage?"
 
 ## Design patterns
 
