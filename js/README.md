@@ -48,9 +48,19 @@ Master JavaScript fundamentals
 - Objects and properties
 - **Exercises:** [Arrays][ex-arrays], [Loops][ex-loops], [Objects][ex-objects]
 
+#### 5. [TypeScript Basics][typescript]
+
+Add type safety to your JavaScript code
+
+- Basic types (string, number, boolean)
+- Interfaces and type aliases
+- Generics
+- Setting up TypeScript
+- **Trial:** Build a typed task manager
+
 ### Phase 2: Padawan - Styling & React
 
-#### 5. [CSS][css]
+#### 6. [CSS][css]
 
 Learn to style beautiful and responsive webpages
 
@@ -60,7 +70,7 @@ Learn to style beautiful and responsive webpages
 - Transitions
 - **Trial:** Clone Google landing page
 
-#### 6. [React][react]
+#### 7. [React][react]
 
 Build dynamic front-end applications
 
@@ -70,7 +80,7 @@ Build dynamic front-end applications
 - Component lifecycle
 - **Projects:** Weather app and more
 
-#### 7. [Node.js & Express][node]
+#### 8. [Node.js & Express][node]
 
 Build a back-end server and REST API
 
@@ -81,7 +91,7 @@ Build a back-end server and REST API
 - Middleware and error handling
 - **Trial:** Build a Task API
 
-#### 8. [Node.js Part 2 - Databases & SQL][node-part2]
+#### 9. [Node.js Part 2 - Databases & SQL][node-part2]
 
 Persist data with databases and learn SQL
 
@@ -94,7 +104,7 @@ Persist data with databases and learn SQL
 
 ### Phase 3: Jedi - Mastery
 
-#### 9. [Final Project][final-project]
+#### 10. [Final Project][final-project]
 
 Put everything together in a complete full-stack application
 
@@ -110,6 +120,7 @@ Put everything together in a complete full-stack application
 [html-1]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/html-part1.md
 [html-2]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/html-part2.md
 [js-intro]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/introduction.md
+[typescript]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/typescript.md
 [css]: https://github.com/mihaildono/padawan-project/blob/master/js/padawan/css.md
 [react]: https://github.com/mihaildono/padawan-project/blob/master/js/padawan/react.md
 [node]: https://github.com/mihaildono/padawan-project/blob/master/js/padawan/node.md
