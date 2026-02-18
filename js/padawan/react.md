@@ -190,9 +190,9 @@ previous chapter and finally build the front-end.
 
 Complete this section to earn the badge "Reactive"
 
-When finished with the trial, head over to the [mern][mern] section for
-introduction to backend and the MERN stack.
+When finished with the trial, head over to the [Node.js][node] section for
+introduction to backend development with Express.
 
-[mern]: https://github.com/mihaildono/padawan-project/blob/master/padawan/mern.md
+[node]: https://github.com/mihaildono/padawan-project/blob/master/js/padawan/node.md
 [tutorial]: https://reactjs.org/docs/hello-world.html
 [reconciliation]: https://reactjs.org/docs/reconciliation.html

@@ -70,11 +70,33 @@ Build dynamic front-end applications
 - Component lifecycle
 - **Projects:** Weather app and more
 
+#### 7. [Node.js & Express][node]
+
+Build a back-end server and REST API
+
+- Setting up a Node.js server
+- Express framework basics
+- CRUD operations (Create, Read, Update, Delete)
+- RESTful API design
+- Middleware and error handling
+- **Trial:** Build a Task API
+
+#### 8. [Node.js Part 2 - Databases & SQL][node-part2]
+
+Persist data with databases and learn SQL
+
+- Introduction to SQL databases
+- Basic SQL commands (SELECT, INSERT, UPDATE, DELETE)
+- Setting up SQLite with Node.js
+- CRUD operations with a real database
+- Table relationships and JOIN queries
+- **Trial:** Build a Blog API with Database
+
 ### Phase 3: Jedi - Mastery
 
-#### 7. [Final Project][final-project]
+#### 9. [Final Project][final-project]
 
-Put everything together in a complete application
+Put everything together in a complete full-stack application
 
 ---
 
@@ -90,6 +112,8 @@ Put everything together in a complete application
 [js-intro]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/introduction.md
 [css]: https://github.com/mihaildono/padawan-project/blob/master/js/padawan/css.md
 [react]: https://github.com/mihaildono/padawan-project/blob/master/js/padawan/react.md
+[node]: https://github.com/mihaildono/padawan-project/blob/master/js/padawan/node.md
+[node-part2]: https://github.com/mihaildono/padawan-project/blob/master/js/padawan/node-part2.md
 [final-project]: https://github.com/mihaildono/padawan-project/blob/master/js/jedi/final-project.md
 [cheatsheet]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/basic-cheatsheet.md
 [dev-setup]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/dev-setup.md

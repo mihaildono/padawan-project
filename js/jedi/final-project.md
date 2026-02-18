@@ -23,7 +23,7 @@ User should be able to login via google/facebook and registration.
 
 Global scoreboard showing top 10 users.
 
-Should be deployed to AWS.
+Should be deployed.
 
 The whole application should have unit and integration tests.
 
