@@ -6,6 +6,8 @@ Welcome to the Front End Web Development program! This is a structured learning 
 
 Before you begin, make sure to check out the [Introduction][intro] to understand the program structure and philosophy.
 
+📛 **[View All Badges][badges]** - Track your progress and see all available achievements!
+
 ## Curriculum Overview
 
 ### Phase 1: Youngling - HTML & JavaScript Fundamentals
@@ -117,6 +119,7 @@ Put everything together in a complete full-stack application
 - [Testing][testing] - Learn about testing your code
 
 [intro]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/introduction.md
+[badges]: https://github.com/mihaildono/padawan-project/blob/master/js/badges.md
 [html-1]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/html-part1.md
 [html-2]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/html-part2.md
 [js-intro]: https://github.com/mihaildono/padawan-project/blob/master/js/youngling/introduction.md
