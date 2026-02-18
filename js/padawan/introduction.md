@@ -1,11 +1,13 @@
 # Introduction
-> “Your path you must decide.” </br>
+
+> "Your path you must decide."
 > — Yoda
 
 From this point on, the student should start doing his own research and only use
 the mentor for clarification and advice.
 
 A webpage is constructed of 3 main elements:
+
 1. CSS(Cascading Style Sheets)
 2. HTML(HyperText Markup Language)
 3. JS(Javascript)

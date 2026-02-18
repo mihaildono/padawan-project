@@ -1,19 +1,23 @@
 # HTML Part 2
-> "Your focus determines your reality." <br/>
+
+> "Your focus determines your reality."
 > ―Qui-Gon Jinn
 
 Now that you understand HTML basics, it's time to learn about forms, semantic HTML, and how to make your pages interactive with events.
 
-# Helpful links
+## Helpful links
+
 - [MDN HTML Forms][mdn-forms]
 - [Semantic HTML][semantic]
 - [HTML Events][events]
 
-# Prerequisites
-* Complete HTML Part 1
-* Have basic understanding of HTML structure and common tags
+## Prerequisites
+
+- Complete HTML Part 1
+- Have basic understanding of HTML structure and common tags
 
 ## HTML Forms
+
 Forms allow users to input data that can be sent to a server. They are essential for login pages, search bars, contact forms, and more.
 
 ### Basic Form Structure
@@ -28,12 +32,14 @@ Forms allow users to input data that can be sent to a server. They are essential
 ```
 
 Elements:
+
 - `<form>` - container for the form
 - `<label>` - label for an input (the `for` attribute should match the input's `id`)
 - `<input>` - field where user enters data
 - `<button>` - button to submit the form
 
 ### Input Types
+
 HTML provides many input types:
 
 ```html
@@ -66,6 +72,8 @@ HTML provides many input types:
 
 ### Textarea and Select
 
+Multi-line text input and dropdown menus:
+
 ```html
 <!-- Multi-line text input -->
 <textarea rows="4" cols="50" placeholder="Enter your message"></textarea>
@@ -79,6 +87,8 @@ HTML provides many input types:
 ```
 
 ### Complete Form Example
+
+Example of a complete contact form:
 
 ```html
 <form>
@@ -105,15 +115,19 @@ HTML provides many input types:
 The `required` attribute makes a field mandatory.
 
 ## Semantic HTML
+
 Semantic HTML uses tags that clearly describe their meaning and purpose. This makes code more readable and improves accessibility.
 
 ### Why Use Semantic HTML?
+
 - Makes code easier to read and maintain
 - Helps search engines understand your content
 - Improves accessibility for screen readers
 - Better structure and organization
 
 ### Common Semantic Tags
+
+Here's how to structure a page using semantic HTML:
 
 ```html
 <!-- Page structure -->
@@ -146,6 +160,7 @@ Semantic HTML uses tags that clearly describe their meaning and purpose. This ma
 ```
 
 Semantic elements:
+
 - `<header>` - introductory content or navigation
 - `<nav>` - navigation links
 - `<main>` - main content of the page
@@ -185,6 +200,7 @@ Semantic elements:
 ```
 
 ## Tables
+
 Tables display data in rows and columns:
 
 ```html
@@ -211,6 +227,8 @@ Tables display data in rows and columns:
 </table>
 ```
 
+Table elements:
+
 - `<table>` - the table container
 - `<thead>` - table header
 - `<tbody>` - table body
@@ -219,9 +237,11 @@ Tables display data in rows and columns:
 - `<td>` - table data cell
 
 ## HTML Events
+
 Events allow you to make your webpage interactive by responding to user actions. Events are connected to JavaScript.
 
 Common events:
+
 - `onclick` - when element is clicked
 - `onmouseover` - when mouse hovers over element
 - `onchange` - when input value changes
@@ -239,6 +259,7 @@ Common events:
 *Note: You'll learn more about JavaScript and events in the next sections.*
 
 ## Meta Tags
+
 Meta tags provide metadata about the HTML document. They go in the `<head>` section:
 
 ```html
@@ -252,6 +273,8 @@ Meta tags provide metadata about the HTML document. They go in the `<head>` sect
 </head>
 ```
 
+Meta tag attributes:
+
 - `charset` - character encoding (always use UTF-8)
 - `viewport` - makes page responsive on mobile devices
 - `description` - description shown in search results
@@ -259,7 +282,9 @@ Meta tags provide metadata about the HTML document. They go in the `<head>` sect
 - `author` - page author
 
 ## Trial: Create an Interactive Form Page
+
 Create a complete webpage with:
+
 1. Proper semantic HTML structure (header, nav, main, footer)
 2. A form with at least 5 different input types
 3. A table displaying information (at least 3 columns and 3 rows)
@@ -272,6 +297,7 @@ The page should be well-structured and use semantic HTML where appropriate.
 Complete this trial and earn the badge **"Form Master"**
 
 ### Bonus
+
 Create a navigation menu in the header that links to different sections of the same page using anchor links (hint: use `href="#sectionId"`). Add a contact form that includes validation (required fields, email format). You will earn the badge **"Semantic Sensei"**
 
 When finished with this trial, you're ready to dive deeper into Basic JS pt. 2 to continue building your programming skills!

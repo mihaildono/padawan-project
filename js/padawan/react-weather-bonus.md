@@ -1,12 +1,13 @@
-Whoa hey there! You found a secret! Solve the following challenges for the
-"Señor" badge.
+# BONUS TASK
+
+Whoa hey there! You found a secret! Solve the following challenges for the "Señor" badge.
 
 This is a real interview task for senior front-end developer.
 
 Related screens are in react-weather-bonus.png
 
 Requirements
-Consume the OpenWeatherMap API (https://openweathermap.org/api) to obtain current weather data and
+Consume the OpenWeatherMap API <https://openweathermap.org/api> to obtain current weather data and
 5-day forecast. Use the provided design to visualise the obtained data.
 
 Screen States

@@ -7,6 +7,7 @@ What is `Number` and `String`?
 What is `console.log` and how to use it?
 
 What is the output of the following(Obviously also explain what is going on):
+
 ```js
 console.log("Multiplication with 2 numbers: ", 5 * 6)
 

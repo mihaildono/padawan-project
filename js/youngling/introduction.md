@@ -1,39 +1,40 @@
 # Introduction
-> "Truly wonderful, the mind of a child is." <br/>
+
+> "Truly wonderful, the mind of a child is."
 > ―Yoda
 
 The computer thinks in a logical way. Humans do not. The biggest challenges for
 a developer who is just starting out is learning basic algorithmic thinking and
 the related vocabulary.There will be sample explanations, but mentors are encouraged to give their own.
 
-# Helpful links
+## Helpful links
+
 - [Vocabulary][vocabulary]
 - [Best Practices][best-practices]
 - [Basic-Cheatsheet][basic-cheatsheet]
 
-# Prerequisites
-* Make an account for [jsfiddle][jsfiddle].
+## Prerequisites
+
+- Make an account for [jsfiddle][jsfiddle].
   This is an website that makes it super easy to run JavaScript code.
 
 ## The basics
- - We will program using a language called **JavaScript**. What do you think is a programming language?
- - We will use [jsfiddle][jsfiddle] to run JavaScript code. It's a website that let's you write JavaScript code and play with it.
- - How can we see what our program does? There is a difference between telling the computer to sum `5 + 5` and to making it to show you what the result is `=> 10`. We use **console.log** to visualize something in the console.
- - What is an **error**? When the code that we write cannot be understood by the programming language, the program returns an error and stops execution.
 
-###### Exercises
- <details>
-  <summary>Write in the console the text "Hello world"</summary>
-  <p>
+- We will program using a language called **JavaScript**. What do you think is a programming language?
+- We will use [jsfiddle][jsfiddle] to run JavaScript code. It's a website that let's you write JavaScript code and play with it.
+- How can we see what our program does? There is a difference between telling the computer to sum `5 + 5` and to making it to show you what the result is `=> 10`. We use **console.log** to visualize something in the console.
+- What is an **error**? When the code that we write cannot be understood by the programming language, the program returns an error and stops execution.
 
-  ```js
-  console.log("Hello world")
-  ```
+### Exercises 1
 
-  </p>
- </details>
+Write in the console the text "Hello world":
+
+```js
+console.log("Hello world")
+```
 
 ## Types
+
 In *JavaScript* and in programming in general, the most simple piece of information is expressed
 via primitive data types. They are **String** and **Number**. Let's see some examples:
 
@@ -46,18 +47,21 @@ console.log(3)
 `3` is a number
 
 We can:
- - Sum two numbers: `3 + 4`
- - Sum many numbers: `1 + 3 + 5 + 1`
- - Difference numbers: `5 - 5 - 1`
- - Multiply, divide, ...
- - We can have a combination of all: `3 - 3 * 1 / 1`
+
+- Sum two numbers: `3 + 4`
+- Sum many numbers: `1 + 3 + 5 + 1`
+- Difference numbers: `5 - 5 - 1`
+- Multiply, divide, ...
+- We can have a combination of all: `3 - 3 * 1 / 1`
 
 ### String
+
 Strings are combinations of letters(chars), therefore it's just a text.
 
-```
+```js
 console.log("I'm a string") // => "I'm a string"
 ```
+
 `"I'm a string"` is a string
 
 We can also concatenate(join) strings:
@@ -66,10 +70,12 @@ We can also concatenate(join) strings:
 'baby ' + 'Yoda' // => baby Yoda
 ```
 
-###### Exercises
+### Exercises 2
+
 Run through the following [exercises][exTypes]
 
 ## Variable
+
 A variable is a container for storing data values.
 
 You can think of variables as "named boxes". You can put things inside the box and you can refer to them with the name of the box.
@@ -80,6 +86,7 @@ You can think of variables as "named boxes". You can put things inside the box a
 You can do the following things with a variable:
 
 - Creating it, it's called "variable declaration"
+
 ```js
 let newVariable
 ```
@@ -108,10 +115,12 @@ const newPizza = 'yummy'
 newPizza = 'cold as hell' // !!! ERROR: Uncaught TypeError: Assignment to constant variable
 ```
 
-###### Exercises
+### Exercises 3
+
 Run through the following [exercises][exVar]
 
 ## Functions
+
 Functions are a collection of code that we want to reuse.
 
 When we watch TV, we do not build the TV each time before watching something, we
@@ -132,17 +141,21 @@ const add = (a, b) => {
 
 add(5, 6) // => 11
 ```
+
 You can see that the first part `(a, b) => {...}` creates the function and assigns it to the variable `add`.
 And `add(5, 6)` executes it, which means it makes the computer run the code inside the function's body.
 Let's see what are the steps that the *computer* will do when we write `const result = add(5, 6)`:
- - `a = 5`
- - `b = 6`
- - `return a + b` => `return 5 + 6` => `11`
 
-###### Exercises
+- `a = 5`
+- `b = 6`
+- `return a + b` => `return 5 + 6` => `11`
+
+### Exercises 4
+
 Run through the following [exercises][exFunc]
 
 ## Conditional statements
+
 Conditional statements are used to change the flow of the application based on true and false statements.
 
 We make choices based on if something is a truth(true) or a lie(false). In a classroom
@@ -184,15 +197,18 @@ if (name === 'Alex' && gender === 'female') {
 }
 ```
 
-###### Exercises
+### Exercises 5
+
 Run through the following [exercises][exCond]
 
 ## Loops
+
 Loops are used to repeat a certain piece of code several times.
 
 In life we constantly need to repeat actions, whether it is to brush our teeth every morning
 or do 10 push ups at the gym. This is called a loop. In Javascript there are several types of loops.
 Initially we will use the `for` loop. The `for` loop does 2 things:
+
 1. Changes a value a certain amount of times.
 2. Executes a `block` of code, the same amount of times the value changed.
 
@@ -214,9 +230,11 @@ for (i = 0; i < 10; i++) {
 ```
 
 The construct starts with keyword `for`, then we have 3 parts:
+
 1. Start of iteration `i = 0`. This will be the first value of i.
 2. End of iteration `i < 10`. When `i` reaches 10, the loop will exit.
 3. How to increment it `i++`(this is the same as to write `i = i + 1`).
+
 This means that it will take every value from the start(0), till the end(10), and repeat the code as many times.
 
 With this, in the enclosing `block`, we get a variable `i`, which will change it's value 10 times -> 0..9
@@ -225,15 +243,18 @@ With this, in the enclosing `block`, we get a variable `i`, which will change it
   find the corresponding item. 2 things happening a `for loop`: 1. `i` is changed, code inside `{}`
   is repeated as many times as `i` is changed.
 
-###### Exercises
+### Exercises 6
+
 Run through the following [exercises][exLoop]
 
 ## Array
+
 Array is a collection of elements with varying types.
 
 Simple primitives hold information like a name or favorite number, however we often want to group several elements into a single collection.
 An array is such collection, which can hold multiple values under a single name. Array is denoted by the
 symbols `[]`. For example:
+
 - RGB color model, we have 3 colors that always go together - ['red', 'green', 'blue']
 - names of the students of a certain group: ['George', 'Maria', 'Peter']
 - numbers of a lottery: [1, 63, 23, 12]
@@ -241,6 +262,7 @@ symbols `[]`. For example:
 - array inception: [[1, 2, 3], ['dog', 'cat']]
 
 Each element stands behind a certain index in the array starting from 0. To get the element behind the index use `arr[<index>]`, like so:
+
 ```js
 const arr = [69, 31, 56, 76, 22]
 // take element with index 0
@@ -252,6 +274,7 @@ arr[100] // => undefined
 ```
 
 To add/change an element to specific index, we use the index number and `=` sign. If we want to append to the end of the array we can use the predefined `push` function for the array.
+
 ```js
 arr[100] = 666
 arr[100] // => 666
@@ -259,12 +282,14 @@ arr.push(7)
 arr[101] // => 7
 ```
 
-###### Exercises
+### Exercises 7
+
 1. Create an array with 5 values and console log each value
 2. Console log the previous array in reverse order
 3. Run through the following [exercises][exArr]
 
 ## Object
+
 Object is a collection of properties, and a property is an association between a name (or key) and a value.
 
 It is easy when we just have a collection of names for people, but what if we need to save multiple properties per person like name, gender and height?
@@ -301,53 +326,64 @@ Object.keys(person) // ['gender', 'name', 'height']
 person.values // ['male', 'George', '190']
 ```
 
-###### Exercises
+### Exercises 8
+
 1. Create an object and print all the keys and values
 2. Create an object and print the length of keys and values
 3. Run through the following [exercises][exObj]
 
 ## Development setup and final trial
+
 Go to the [development setup][dev-setup] to pick up your tools of trade
-and create your first project! When finished with the trial, head over to
+and create your first project! Then complete the [final trial][final]. When finished, head over to
 the [padawan][padawan] section to start creating real-world applications.
 
 ### Best practices
-* Use camelCase when writing names for readibility
 
-_bad_
+- Use camelCase when writing names for readibility
+
+Bad:
+
 ```js
 const somelongvariable = 5
 const anotherlongvariable = 'George'
 ```
 
-_good_
+Good:
+
 ```js
 const someLongVariable = 5
 const anotherLongVariable = 'George'
 ```
-* Write understandable names for variables, functions, etc.
 
-_bad_
+- Write understandable names for variables, functions, etc.
+
+Bad:
+
 ```js
 const e = 5
 const arXe = 'George'
 ```
 
-_good_
+Good:
+
 ```js
 const luckyNumber = 5
 const person = 'George'
 ```
-* Use 2 spaces for indentation of code blocks
-* Add spacing between operators
 
-_bad_
+- Use 2 spaces for indentation of code blocks
+- Add spacing between operators
+
+Bad:
+
 ```js
 const function=(param1)=>{
 return param1}
 ```
 
-_good_
+Good:
+
 ```js
 const function = (param1) => {
   return param1
@@ -355,27 +391,28 @@ const function = (param1) => {
 ```
 
 ### Vocabulary
-* Char
+
+- Char
   - A single letter
-* String
+- String
   - Text, also combination of chars(letters)
-* Concatenate
+- Concatenate
   - Means join
-* Declaration
+- Declaration
   - This is where you initially define a piece of code.
-* Implementation
+- Implementation
   - How a piece of code is implemented(written down)
-* Iterate
+- Iterate
   - Go through all items of a collection
-* Primitives
+- Primitives
   - Most basic piece of informational building block eg.: the number `1`, the text `'George'`
-* Parameter
+- Parameter
   - A variable which is not being defined by the function, but passed to from another piece of code
-* Argument
+- Argument
   - A variable which is not being defined by the function, but passed to from another piece of code
-* Block({})
+- Block({})
   - This encloses definitions of variables. If we have variable `const i = 10` in one block, in another it would equal `undefined`, unless redefined
-* Data structure
+- Data structure
   - A set of structured data of primitives
 
 [jsfiddle]: https://jsfiddle.net/
@@ -389,7 +426,6 @@ const function = (param1) => {
 [final]: https://github.com/mihaildono/padawan-project/blob/master/youngling/exercises/snake-task.md
 [padawan]: https://github.com/mihaildono/padawan-project/blob/master/padawan/introduction.md
 [best-practices]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#best-practices
-[pitfalls]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#common-pitfalls
 [vocabulary]: https://github.com/mihaildono/padawan-project/blob/master/youngling/introduction.md#vocabulary
 [basic-cheatsheet]: https://github.com/mihaildono/padawan-project/blob/master/youngling/basic-cheatsheet.md
 [dev-setup]: https://github.com/mihaildono/padawan-project/blob/master/youngling/dev-setup.md

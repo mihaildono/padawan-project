@@ -1,4 +1,5 @@
 Destructuring Assignment:
+
 ```js
 let [first, last] = ['first name', 'last name']
 // or
@@ -9,6 +10,7 @@ let {first, last} = {
 ```
 
 String methods:
+
 ```js
 "hello world".includes("world") // true
 "hello world".startsWith("hello") // true
@@ -17,6 +19,7 @@ parseFloat("123").toFixed(2) // "123.00"
 ```
 
 Arrow function:
+
 ```js
 const getName = user => user.name
 const funcName = name => {
@@ -26,6 +29,7 @@ const funcName = name => {
 ```
 
 Array methods:
+
 ```js
 const numbers = [1, 2, 3]
 numbers.map(n => n * 2) // [2, 4, 6]
@@ -35,6 +39,7 @@ numbers.find((n) => n > 2) // 3
 ```
 
 Array manipulation:
+
 ```js
 // Delete at index
 array.splice(index, 1)
@@ -50,9 +55,11 @@ let array3 = array1.concat(array2) // [1].concat([2]) is [1, 2]
 
 // new array
 let array4 = [1, 2, 3, 4, 5].slice(2, 4) // [3, 4]
+```
+
 Spread operator: ...
 
-const array1 = [1, 2]
+```js
 const array2 = [...array1, 3, 4] // [1, 2, 3, 4]
 
 const funcName = (x, ...params) => {
@@ -63,15 +70,18 @@ const funcName = (x, ...params) => {
 funcName(1, 2, 3, 4)
 // 1
 // [2, 3, 4]
+```
+
 Object spread:
 
-const options = {
+```js
   ...defaults,
   show: true
 }
 ```
 
 Array spread
+
 ```js
 const array3 = [
   ...array1,
@@ -81,6 +91,7 @@ const array3 = [
 ```
 
 Iterate:
+
 ```js
 for (let i of [1, 2, 3]) {
   console.log(i)
@@ -110,6 +121,7 @@ for (let [key, value] of Object.entries(obj)) {
 ```
 
 Create promise:
+
 ```js
 const funcName = params => {
   return new Promise((resolve, reject) => {
@@ -134,6 +146,7 @@ funcName('test')
 ```
 
 All promise:
+
 ```js
 let promises = []
 // func1 and func2 returns a promise
@@ -147,6 +160,7 @@ Promise.all(promises).then(allResult => {
 ```
 
 Async-await:
+
 ```js
 const funcName = async () => {
   const data = await fetchData()
@@ -166,6 +180,7 @@ funcName()
 ```
 
 Generator:
+
 ```js
 function * countdown(n) {
   for (let i = n; i > 0; --i) {
@@ -178,13 +193,18 @@ function * countdown(n) {
 let gen = countdown(3)
 gen.next() // 3
 gen.next() // 2
+```
+
 Browser:
 
+```js
 encodeURIComponent() // Encodes a URI into UTF-8
 decodeURIComponent() // Decodes
+```
+
 window:
 
-const formData = new window.FormData()
+```js
 formData.append('file', data)
 
 window.localStorage.getItem(key)

@@ -1,4 +1,5 @@
-## Plan
+# Plan
+
 To put an object onto a plane, it needs coordinates. With this in mind we are
 going to design the interactions between the individual elements. In a snake
 game we have at the most basic implementation 3 elements - Board, Snake, Apple.
@@ -7,30 +8,28 @@ point, we need the snake to move around, eat apples. The board needs to display
 itself, check for collisions, spawn apples and begin/end a game.
 
 ```js
-// example project speicification
-
 const POINTS_PER_APPLE
 
 class Board
 - attrs:
-  * snake
-  * apple
-  * score
+  - snake
+  - apple
+  - score
 -methods
-    * hasCollision
-    * print
-    * spawnApple
+    - hasCollision
+    - print
+    - spawnApple
       - hasCollision
-    * isGameOver
+    - isGameOver
       -hasCollision
-    * gameStart
+    - gameStart
 Class Apple
 - attrs:
-  * position
+  - position
 Class Snake
 - attrs:
-  * position
+  - position
 -methods:
-  * move
-  * grow
+  - move
+  - grow
 ```

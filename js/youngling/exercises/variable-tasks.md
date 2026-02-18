@@ -1,14 +1,18 @@
 # Variable exercises
 
-### Old granny
+## Old granny
+
 Create a variable with name `granny` assign to the variable some text. Print the value in the console.
+
 ```js
 const granny = "I'm not so old, m*fckaa"
 console.log(granny)
 ```
 
-### Sums and counts
+## Sums and counts
+
 Write the following in the console. What is the output?
+
 ```js
 let count = 1
 let sum = 3
@@ -16,25 +20,34 @@ sum = count + sum
 count = sum + count
 ```
 
-### Discounts
+## Discounts
+
 Write the following in the console. What is the sum after we apply the discount?
+
 ```js
 sum = 500
 discount = 0.25
 ```
 
-### Negative sum
+## Negative sum
+
 Write the following in the console. How to get the negative sum?
+
 ```js
 sum = 500
 ```
-### Names
+
+## Names
+
 Write the following in the console. Print the names with space between them.
+
 ```js
 first_name = "John"
 second_name = "Atanasov"
 ```
-### Library
+
+## Library
+
 We have the following book catalog
 
 | Book                       | Price |

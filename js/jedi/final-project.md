@@ -1,11 +1,13 @@
 # Introduction
-> "I am ready to face the Trials." <br/>
+
+> "I am ready to face the Trials."
 > ―Obi-Wan Kenobi
 
 It is time to put it all together and create a project that is worthy to be put
 in your portfolio.
 
 ## Ultimate Trial
+
 Snake game engine created in javascript. You can decide what you want to
 implement. There can be multiple apples, with special properties and different
 stats, the snake can teleport around the board when reaching a border or keep it

@@ -1,8 +1,10 @@
-## Tasks
-* Note: try to solve the problems both with `for loop` and `higher order functions` like `map`, `filter`, `reduce`.
-* Tip: look through the javascript documentation to find helper functions to assit you in the following tasks.
+# Tasks
 
-### cashRegister
+- Note: try to solve the problems both with `for loop` and `higher order functions` like `map`, `filter`, `reduce`.
+- Tip: look through the javascript documentation to find helper functions to assit you in the following tasks.
+
+## cashRegister
+
 Implement a function that sums the prices of all products.
 
 ```js
@@ -18,7 +20,8 @@ var cartForParty = {
 console.log(cashRegister(cartForParty)) // => 60.55
 ```
 
-### pluck
+## pluck
+
 Implement a function that takes an array of objects and a property (a string) and returns new array with only the selected property from all items in arr.
 
 `const pluck = (property, arr) => {}`
@@ -46,7 +49,8 @@ const students = [{
 console.log(pluck("name", students)) // => ["Elena", "Masen", "Anton", "Kamen", "George"]
 ```
 
-### wordsHistogram
+## wordsHistogram
+
 Implement a function, called wordsHistogram(str) which takes a string and returns an object, representing the histogram of the words in the given string.
 
 A histogram is the following:
@@ -66,7 +70,8 @@ var str = "A function is a function with a very functional function!"
 console.log(wordsHistogram(str)) // => {"a" : 3, "function" : 3, "is" : 1, "with" : 1, "very" : 1, "functional" : 1}
 ```
 
-### charsHistogram
+## charsHistogram
+
 Implement a function, called charsHistogram(str) which takes a string and outputs a histogram of the characters in the string.
 
 There are two very important specifications for the function:
@@ -82,6 +87,7 @@ console.log(charsHistogram(str));
 ```
 
 Will output:
+
 ```js
 { c: 4,
   o: 3,
@@ -101,7 +107,8 @@ Will output:
   d: 1 }
 ```
 
-### validateCreditCard
+## validateCreditCard
+
 Implement a function called validateCreditCard that returns true or false, whether it is valid or not.
 
 Here are the rules for a valid number:

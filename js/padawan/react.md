@@ -1,10 +1,12 @@
 # Introduction
+
 Previously, we learned about the `individual` elements that make a
 web page. Time to bring them together. Now we will learn about
 `React`. `React` is a library, that makes building SPAs(Single Page
 Application) very easy.
 
 ### Hello World
+
 ```js
 ReactDOM.render(
   <h1>Hello, world!</h1>,
@@ -16,7 +18,9 @@ What we see here is attaching HTML code to an element of an HTML page.
 But how are we able to use HTML inside JS?
 
 ### JSX
+
 This is an example React code rendering a shopping list:
+
 ```js
 class ShoppingList extends React.Component {
   render() {
@@ -62,7 +66,8 @@ const element = React.createElement(
 );
 ```
 which will end up as a simple JS object:
-```
+
+```js
 // Note: this structure is simplified
 const element = {
   type: 'h1',
@@ -107,15 +112,19 @@ algorithm, is picking just the nodes that are updated and smartly couples change
 together and updates the HTML DOM in a *smart* manner.
 
 ### Setup
+
 Now lets create our own application!
+
 ```js
 npx create-react-app my-first-padawan-app
 ```
 
 ### Props
+
 The idea behind components is that they are reusable.
 
 ### Interaction
+
 Synthetic events
 Clicking on counter
 
@@ -123,8 +132,8 @@ Clicking on counter
 
 ### Lifecycle
 
-
 ### JS in JSX
+
 - inline if
 - loops(keys)
 
@@ -133,6 +142,7 @@ Clicking on counter
 ### Composition
 
 ### Thinking in React
+
 0. Start with mock data
 1. Break UI in component hierarchy
 2. Build Static Version
@@ -151,7 +161,8 @@ possible to absorb the needed knowledge for the task.
 Complete the following [tutorial][tutorial].
 
 ## Trial
-1. TODO list
+
+1: TODO list
 List all of the created todos in a list.
 You should be able to add, remove and update a task.
 Todos can be reordered. To achieve this use a library of your liking.
@@ -159,17 +170,19 @@ Split the jsx code into 2 subfunctions - TaskList and Task.
 
 BONUS: create your own drag-n-drop reorder to earn the badge "Showoff"
 
-2. Employee list
+2: Employee list
+
 List first 10 employees from this api:
 `http://dummy.restapiexample.com/api/v1/employees`
 Create a function that sorts by random employee attribute(salary, name...) every
 10 seconds
 
-3. Routing
+3: Routing
 Combine Todo and Employee in new app with Home as a landing page - use
 ReactRouter
 
 ## Final Trial
+
 Implement the snake game with canvas and react!
 
 Continuing the previous project, we will use the same js engine from the
